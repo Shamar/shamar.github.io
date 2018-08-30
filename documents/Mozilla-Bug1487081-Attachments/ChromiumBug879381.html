@@ -1,0 +1,1044 @@
+<html lang="en"><head>
+<base href="https://bugs.chromium.org/"/>
+ <link rel="icon" type="image/vnd.microsoft.icon" href="/static/images/monorail.ico">
+ 
+ <link rel="canonical" href="https://bugs.chromium.org/p/chromium/issues/detail?id=879381">
+ 
+ <script async="" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ" src="https://storage.googleapis.com/crdx-feedback.appspot.com/feedback.js"></script><script async="" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+ 
+ var CS_env = {
+ 'absoluteBaseUrl': 'https://bugs.chromium.org',
+ 'app_version': '17182-db2fa19.412013763369880177',
+ 'token': '-8QYhGS20Jex1cBuNZNc1joxNTM1NjY5NDAw',
+ 'tokenExpiresSec': 1535676300,
+ 'loggedInUserEmail':
+ 
+ 'giacomo@tesio.it'
+ ,
+ 'login_url': 'https://accounts.google.com/AccountChooser?service\x3dah\x26passive\x3dtrue\x26continue\x3dhttps://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://bugs.chromium.org/p/chromium/issues/detail%253Fid%253D879381',
+ 'logout_url': 'https://bugs.chromium.org/_ah/logout?continue\x3dhttps://accounts.google.com/Logout%3Fcontinue%3Dhttps://appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://google.com/url%25253Fsa%25253DD%252526q%25253Dhttps://bugs.chromium.org/p/chromium/issues/detail%2525253Fid%2525253D879381%252526ust%25253D1535756335079026%252526usg%25253DAFQjCNGCPEhN3sNG1f3l0jZ8W4L5m9b5YA%26service%3Dah',
+ 'profileUrl':
+ 
+ '/u/31560463/'
+ ,
+ 'projectName': 'chromium',
+ 'is_member': '',
+ };
+ </script>
+ 
+ 
+ <title>
+ 879381 - 
+ Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery - 
+ 
+ chromium -
+ 
+ 
+ Monorail
+ </title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta name="referrer" content="no-referrer">
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+ <link type="text/css" rel="stylesheet" href="/static/css/ph_core.css?version=17182-db2fa19.412013763369880177">
+ <link type="text/css" rel="stylesheet" media="(max-width:425px)" href="/static/css/ph_mobile.css?version=17182-db2fa19.412013763369880177">
+ 
+ <link type="text/css" rel="stylesheet" href="/static/css/ph_detail.css?version=17182-db2fa19.412013763369880177">
+ 
+ 
+ 
+ 
+<style>
+    .__crdxFeedbackButton {
+      background-image: url('https://crdx-feedback.appspot.com.storage.googleapis.com/icon.png');
+      background-size: cover;
+      bottom: 32px;
+      height: 32px;
+      opacity: .4;
+      position: fixed;
+      right: 24px;
+      text-decoration: none;
+      transition: opacity .2s;
+      width: 32px;
+      z-index: 8675309; /* Jenny */
+    }
+    .__crdxFeedbackButton:hover,
+    .__crdxFeedbackButton:hover::after {
+      opacity: .75;
+    }
+    .__crdxFeedbackButton::after {
+      color: #707070;
+      content: "Feedback";
+      font-size: 12px;
+      left: 50%;
+      opacity: 0;
+      position: absolute;
+      text-decoration: none;
+      top: 28px;
+      transform: translateX(-50%);
+      transition: opacity .4s;
+      -webkit-transform: translateX(-50%);
+    }
+  </style></head>
+<body class="t2 ">
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+ function _go(url, newWindow) {
+ if (newWindow)
+ window.open(url, '_blank');
+ else
+ document.location = url;
+ }
+ function $(id) { return document.getElementById(id); }
+ var loadQueue = [];
+ function runOnLoad(fn) { loadQueue.push(fn); }
+ window.onload = function() {
+ for (var i = 0; i < loadQueue.length; i++)
+ loadQueue[i]();
+ delete loadQueue;
+ };
+</script>
+
+<table id="monobar" role="presentation" cellspacing="0" cellpadding="0" width="100%">
+ <tbody><tr>
+ 
+ <th id="thumbnail_box">
+ <a href="https://bugs.chromium.org/p/chromium/issues/" target="_blank">
+ <img src="https://00e9e64bac7a8e48b00fb3d7391c08acc351855578d79a5205-apidata.googleusercontent.com/download/storage/v1/b/monorail-prod.appspot.com/o/16%2Fattachments%2F85fcb2cb-21bb-4e68-ab6f-dc0a495941ae-thumbnail?qk=AD5uMEsWhTDEkFPo5AnpkZJs_aKKOfhPvZr4HmVprnhEFuJgGZ3l5Hfuy-w7cep11aM47FqyhXwdOYGLxgxHzjlqalXvrThTFiuygpDjSVkIBvopfjPv3-loSUIJpVRZb52P7X5Qv7uWPdeAbk0nSQwNj4_djbofenz42xuAg6mD0GbVGm5WoNV4Rh35z10CSxLd4g_T5Y2_FRTho11foaI2k8cY21LJj04SGchBPHjEp4wxcIAtRuhcagXOEHvrqBusq65XnNlgDZWQXCNUUHcuFq3f1syd-nmgM4sJ9XYCuXn2K9tY3uG5IQSvizdLZymTSiSNmQpWBXgqxSxjUaR7yF1lZwRfwIdYPpgtHe96qaGoil_C7MlQaUvXUuUcrPESwszbh4hey5oyG6hu8rj6L2xLWVBq7udglX_FxvTFq3TFF_TvZqsCB9JUmhb7SnlXDIv24zONoxcGm3yTWLDLCrYFgk4YPS3O9AQeI4bRV-L7bc509657uIN60IWYP6EhH-fYaROrwz2Uq1ZBwzcXpO0-nTTx65s2sow8D8N5O7WANfYko6S3s4rYijnZPZ-lkwAfzEl8nD0-C3vNr0PmvxcPdJSYBzZxsUTNf0aDzAqqUWFc_URTtq-Emto261C9KKVvVrk9-5pcHLFwu4nD6jX9S4-onV77JfRJ7gkObJsMgrVMvtMN8H3vZ1AjEwcH6T24SUw--TMClncExsrCPb_v8i7so6fZ31eXMbsIGq0wFVcye5GZDYoSLt8hIebQsuHMsT1nK_I86IWsyLyzdFd1gCAJWLdY5OyeIxN0wOJQEoRbEwU_xonJNQlvAa81vAwVXdcDBCwjpVSLoOeKKbkQQ3yu0g">
+ </a>
+ </th>
+ 
+ 
+ <th class="toptabs padded">
+ <a href="/p/chromium/" title="An open-source project to help move the web forward." id="projects-dropdown">Project: chromium <small>▼</small></a>
+ <a href="/p/chromium/issues/list" class="active">Issues</a>
+ <a href="/p/chromium/people/list" class="">People</a>
+ <a href="/p/chromium/adminIntro" class="">Development process</a>
+ <a href="/p/chromium/updates/list" class="">History</a>
+ 
+ </th>
+ 
+ 
+ 
+ <td id="userbar" width="100%">
+ <span style="padding: 0 1em">
+ 
+ <span id="account-menu">
+ <b><a href="#">giacomo@tesio.it</a></b>
+ <small>▼</small>
+ </span>
+ 
+</span>
+
+ </td>
+ </tr>
+</tbody></table>
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ if ($("projects-dropdown"))
+ $("projects-dropdown").addEventListener("click", function(event) {
+ event.preventDefault();
+ });
+ if ($("hotlists-dropdown"))
+ $("hotlists-dropdown").addEventListener("click", function(event) {
+ event.preventDefault();
+ });
+});
+</script>
+
+ <div class="subt">
+ 
+ <div class="issueDetail">
+<div class="isf">
+ 
+ 
+ 
+ 
+ 
+ 
+ <span class="inIssueEntry" style="margin-right:.4em">
+ <a class="buttonify" href="http://chromiumbugs.appspot.com?token=cN6ceqE0z4y85l3p7Hq4wToxNTM1NjY5NDAw&amp;role=&amp;continue=https%3A//bugs.chromium.org/p/chromium/issues/entry.do">New issue</a>
+ </span>
+ 
+ <span class="inIssueList" style="margin:0 .4em">
+ <label for="can">Search</label>
+ <form action="list" method="GET" style="display:inline">
+ <select id="can" name="can" ignore-dirty="">
+ 
+
+<option disabled="disabled">Search within:</option>
+<option value="1" title="All issues in the project">&nbsp;All issues</option>
+<option value="2" selected="selected" title="All issues except ones with a closed status">&nbsp;Open issues</option>
+
+ 
+ 
+ <option value="3" title="[Open issues] owner=giacomo@tesio.it">&nbsp;Open and owned by me</option>
+ <option value="4" title="[Open issues] reporter=giacomo@tesio.it">&nbsp;Open and reported by me</option>
+ <option value="5" title="[Open issues] starredby:giacomo@tesio.it">&nbsp;Open and starred by me</option>
+ <option value="8" title="[Open issues] commentby:giacomo@tesio.it">&nbsp;Open with comment by me</option>
+
+<option value="6" title="[Open issues] status=New">&nbsp;New issues</option>
+<option value="7" title="[All issues] status=fixed,done">&nbsp;Issues to verify</option>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <option disabled="disabled">----</option>
+ 
+ <option value="managemyqueries">&nbsp;Manage my saved queries...</option>
+ 
+
+
+
+ </select>
+ <label for="searchq">for</label>
+ <span id="qq"><input size="38" id="searchq" name="q" value="" autocomplete="off" ignore-dirty="" type="text"></span>
+ 
+ 
+ <span id="search_colspec"><input name="colspec" value="ID Pri M Stars ReleaseBlock Component Status Owner Summary OS Modified" type="hidden"></span>
+ <input name="x" value="m" type="hidden">
+ <input name="y" value="releaseblock" type="hidden">
+ 
+ <input name="cells" value="ids" type="hidden">
+ 
+ <input value="Search" type="submit">
+ </form>
+ </span>
+ <span class="inIssueAdvSearch" style="margin:0 .4em">
+ <a href="advsearch">Advanced search</a>
+ </span>
+ <span class="inIssueSearchTips" style="margin:0 .4em">
+ <a href="searchtips">Search tips</a>
+ </span>
+ 
+ <span class="inSavedQueries" style="margin:0 .4em">
+ <a href="/u/31560463/queries">Saved queries</a>
+ </span>
+ 
+</div>
+</div>
+
+
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ 
+ var oldScope = "2";
+ function scopeChange() {
+ 
+ var scopeWidget = document.getElementById('can');
+ if (scopeWidget.value == 'manageprojectqueries') {
+ scopeWidget.value = oldScope;
+ _go('../adminViews');
+ }
+ else if (scopeWidget.value == 'managemyqueries') {
+ scopeWidget.value = oldScope;
+ _go('/u/31560463/queries');
+ }
+ else {
+ oldScope = scopeWidget.value;
+ }
+ 
+ }
+ if ($("can"))
+ $("can").addEventListener("change", scopeChange);
+ if (typeof(ClientLogger) == "function") {
+ let searchq = document.querySelector("#searchq");
+ searchq.addEventListener("focus", function() {
+ let cl = new ClientLogger("issues");
+ cl.logStart("query-edit", "user-time");
+ cl.logStart("issue-search", "user-time");
+ });
+ searchq.addEventListener("blur", function() {
+ let cl = new ClientLogger("issues");
+ cl.logEnd("query-edit");
+ });
+ searchq.form.addEventListener("submit", function() {
+ let cl = new ClientLogger("issues");
+ cl.logEnd("query-edit");
+ cl.logPause("issue-search", "user-time");
+ cl.logStart("issue-search", "computer-time");
+ });
+ }
+});
+</script>
+
+
+
+
+
+ </div>
+
+
+ 
+
+
+
+
+ 
+
+
+ <script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ var dismissLinks = document.querySelectorAll(".dismiss_cue");
+ for (var i = 0; i < dismissLinks.length; ++i) {
+ var dismissCue = dismissLinks[i];
+ dismissCue.addEventListener("click", function(event) {
+ _CS_dismissCue("code_of_conduct");
+ if (this.getAttribute("href") === "#")
+ event.preventDefault();
+ });
+ }
+});
+ </script>
+
+
+
+
+
+
+<div id="maincol">
+ <table id="alert-table" style="margin-bottom: 6px;display: none" cellspacing="0" cellpadding="0" align="center" border="0">
+ <tbody><tr><td class="notice" id="notice">
+ 
+ 
+ 
+ 
+ 
+ </td></tr>
+ </tbody></table>
+
+
+
+
+ 
+
+
+ 
+
+<div id="color_control" class="closed_colors">
+<table class="issuepage" id="meta-container" cellspacing="0" cellpadding="0" width="100%" border="0">
+<tbody class="collapse"> 
+ <tr>
+ <td class="vt" style="width:12em; padding:0" rowspan="2" id="issuemeta">
+ <div id="meta-float">
+ <div class="h3 issuemetaheader">
+ 
+ 
+ 
+ 
+ <a class="star" id="star" style="color:cornflowerblue" title="Un-star this issue">
+ ★
+ </a>
+ 
+ 
+ <h1 class="not_styled_as_heading"><a href="detail?id=879381">Issue 879381</a></h1>
+ </div> 
+ <div class="issuemetaheader">
+ Starred by 1
+  user 
+ </div>
+ 
+ <div id="issue_meta_details">
+ 
+<h3 class="visually_hidden">Issue metadata</h3>
+<table cellspacing="0" cellpadding="0">
+ <tbody><tr><th style="padding-right:.3em" align="left">Status:</th>
+ <td width="100%">
+ 
+ <span title="WontFix = Cannot reproduce, works as intended, invalid, or obsolete">WontFix</span>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr><th class="vt" align="left">Owner:</th><td>
+ 
+ 
+ ----
+ 
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr><th style="padding-right:.3em" valign="top" align="left">Closed:</th>
+ <td valign="top" align="left" width="100%">
+ Today
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ 
+ <tr><th title="How many engineer days the task is estimated to take." style="padding-right:.3em" valign="top" align="left">EstimatedDays:</th>
+ <td valign="top" align="left" width="100%">
+ 
+ ----
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr><th title="Date of next expected progress update or deadline for providing requested information." style="padding-right:.3em" valign="top" align="left">NextAction:</th>
+ <td valign="top" align="left" width="100%">
+ 
+ ----
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr><th title="Operating System" style="padding-right:.3em" valign="top" align="left">OS:</th>
+ <td valign="top" align="left" width="100%">
+ 
+ 
+ 
+ <a href="list?q=OS=&quot;Linux&quot;" class="fieldvalue" title="Linux = 
+ Linux">Linux
+ </a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr><th title="Priority" style="padding-right:.3em" valign="top" align="left">Pri:</th>
+ <td valign="top" align="left" width="100%">
+ 
+ 
+ 
+ <a href="list?q=Pri=&quot;2&quot;" class="fieldvalue" title="2 = 
+ Want (for target milestone)">2
+ </a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr><th title="Issue Type" style="padding-right:.3em" valign="top" align="left">Type:</th>
+ <td valign="top" align="left" width="100%">
+ 
+ 
+ 
+ <a href="list?q=Type=&quot;Bug-Security&quot;" class="fieldvalue" title="Bug-Security = 
+ Security risk to users">Bug-Security
+ </a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <tr><td colspan="2" class="widemeta">
+ 
+ <div style="padding-top:2px">
+ 
+ <a href="list?q=label:Restrict-AddIssueComment-EditIssue" title="Restrict-AddIssueComment-EditIssue = Only project members can comment (Use this one)" class="label"><b>Restrict-</b>AddIssueComment-EditIssue</a>
+ 
+ </div>
+ 
+ <div style="padding-top:2px">
+ 
+ <a href="list?q=label:Restrict-View-SecurityTeam" title="Restrict-View-SecurityTeam " class="label"><b>Restrict-</b>View-SecurityTeam</a>
+ 
+ </div>
+ 
+ <div style="padding-top:2px">
+ 
+ <a href="list?q=label:Via-Wizard-Security" title="Via-Wizard-Security " class="label"><b>Via-</b>Wizard-Security</a>
+ 
+ </div>
+ 
+ </td></tr>
+ 
+</tbody></table>
+<div class="rel_issues widemeta">
+ 
+ 
+ 
+ <br>
+ <div class="issue_restrictions">
+ <div class="restrictions_header">
+ <div class="lock_grey goog-inline-block"></div>
+ Restricted
+ </div>
+ <ul>
+ 
+ <li>Only users with SecurityTeam permission can see this issue.</li>
+ 
+ 
+ <li>Only users with EditIssue permission may comment.</li>
+ 
+ 
+ 
+ </ul>
+ </div>
+ 
+ <br>
+ <span id="user-hotlists" style="display:none">
+ <b>Your hotlists:</b>
+ <div id="user-hotlists-list">
+ 
+ </div>
+ <br>
+ </span>
+ <a id="add-issue-to-hotlist">Update hotlists</a><br>
+ 
+<div id="update-issues-hotlists" style="display: none">
+ <div id="update-issues-hotlists-dialog">
+ <table id="js-hotlists-table">
+ 
+ 
+ </table>
+ <menu>
+ <button id="cancel-update-hotlists" type="reset">Cancel</button>
+ <button id="save-issues-hotlists">Save</button>
+ <button id="create-new-hotlist">New hotlist</button>
+ </menu>
+ </div>
+</div>
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+ 
+ window.usersHotlists = []
+ 
+ 
+ window.usersIssueHotlists = []
+ 
+ $('cancel-update-hotlists').addEventListener('click', function() {
+ $('update-issues-hotlists').style.display = 'none';
+ });
+</script>
+ 
+ 
+ 
+</div>
+
+
+ <br><br>
+ 
+ 
+ 
+ 
+ 
+
+
+<div style="padding: 0.5em 0;">
+ <a class="spamflag" id="flag_spam" style="color:#555" title="Flag issue as spam">
+ ⚐
+ Flag issue as spam
+ </a>
+ <form action="flagspam.do" method="post" id="spam_form" style="display:none">
+ <input name="token" value="Hn7rdGItsGx8Hzc5hF_bXDoxNTM1NjY5NDAw" type="hidden">
+ <input name="id" value="879381" type="hidden">
+ <input name="spam" value="true" type="hidden">
+ </form>
+</div>
+
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ if ($("addacomment")) {
+ $("addacomment").addEventListener("click", function(event) {
+ _openIssueUpdateForm();
+ event.preventDefault();
+ });
+ }
+ window.issueRef = "chromium:879381";
+ 
+ $("add-issue-to-hotlist").addEventListener("click", function(event) {
+ ShowUpdateHotlistDialog();
+ });
+ $('save-issues-hotlists').addEventListener('click', function () {
+ UpdateIssuesInHotlists(onResponseUpdateUI, ["chromium:879381"]);
+ });
+ $('create-new-hotlist').addEventListener('click', function () {
+ CreateNewHotlistWithIssues(onResponseUpdateUI, ["chromium:879381"])
+ });
+ 
+});
+</script>
+
+ 
+ </div>
+ </div> 
+ </td>
+ <td class="vt issueheader" id="summary-float" width="90%">
+ 
+ <div id="flipper-box">
+ <div>
+ <mr-flipper>
+ </mr-flipper></div>
+ <div>
+ 
+ <a href="https://bugs.chromium.org/p/chromium/issues/list?cursor=chromium%3A879381&amp;q=">Back to list</a>
+ 
+ </div>
+ </div>
+ <div>
+ <h1 class="not_styled_as_heading"><span class="h3" style="padding:4px">Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery</span></h1>
+ <div style="padding:4px">
+ 
+ Reported by
+ <a style="white-space: nowrap" href="/u/giacomo@tesio.it/" title="giacomo@tesio.it">giacomo@tesio.it</a>,
+ <span class="date" title="Thu Aug 30 22:43:31 2018 UTC">
+ Today
+ (15 minutes ago)
+ </span>
+ 
+ 
+ </div>
+ </div></td>
+ </tr>
+ <tr>
+ <td class="vt issuedescription" id="cursorarea" colspan="2" width="100%" height="100%">
+ <h3 class="visually_hidden">Issue description</h3>
+ 
+<div class="cursor_off vt issuedescription" id="hc0">
+
+<div id="all-descriptions">
+ 
+ <div id="d1">
+ <pre class="issue_text" tabindex="1">UserAgent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+
+Steps to reproduce the problem:
+Extensively described at:
+1. <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081" title="" class="" rel="nofollow">https://bugzilla.mozilla.org/show_bug.cgi?id=1487081</a>
+2. <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code" title="" class="" rel="nofollow">https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code</a>
+3. <a href="https://medium.com/@giacomo_59737/the-web-is-still-a-darpa-weapon-31e3c3b032b8#5eab" title="" class="" rel="nofollow">https://medium.com/@giacomo_59737/the-web-is-still-a-darpa-weapon-31e3c3b032b8#5eab</a>
+
+these attacks leave NO evidences into the user's machine
+
+What is the expected behavior?
+The browser should not blindly execute programs that could be customized to attack the user or a third party through the user machines.
+
+The execution of any program should be opt-in instead of opt-out.
+
+JavaScript pages should be marked as "Not Secure" just like HTTP ones.
+
+What went wrong?
+An malicious server or CDN could gain control of several victims' resources like
+
+- their IP
+- their bandwith
+- their computing power
+- their RAM
+- their disk (through browser cache)
+- potentially others resources (gained through access to system vulnerabilities, think about Spectre/Meltdown)
+
+This sort of attacks will be made even worse through the distribution of optimized WebAssembly (that will be way more obscure than obfuscated JavaScript)
+
+Did this work before? No 
+
+Chrome version: &lt;Copy from: 'about:version'&gt;  Channel: n/a
+OS Version: 
+Flash Version:
+ </pre>
+ 
+ </div>
+ 
+ 
+</div>
+
+</div>
+
+ 
+
+
+ 
+ 
+ 
+ 
+ <div class="">
+ <div class="cursor_off vt issuecomment" id="hc1">
+ <div class="issuecommentheader">
+ <span class="author">
+ 
+ <h3 class="not_styled_as_heading">
+ <a name="c1" id="c_ts1535669564" href="/p/chromium/issues/detail?id=879381#c1">Comment 1</a>
+ by
+ <a style="white-space: nowrap" href="/u/" title="A developer @chromium.org">A developer @chromium.org</a>,
+ <span class="date" title="Thu Aug 30 22:52:44 2018 UTC">
+ Today
+ (6 minutes ago)
+ </span>
+ </h3>
+ 
+ </span></div>
+ <div class="issuecommentbody" tabindex="0">
+ 
+ <div style="float:right; margin-right:.3em; text-align:right" class="ichcommands">
+ <span id="comment-action-loading-1" class="loading" style="display:none;">Processing</span>
+ 
+ 
+ <a class="spamflag flagComment" data-spam="False" data-id="33900782" data-sequence="1" style="color:gray; text-decoration:none;" title="Flag as spam">
+ ⚐
+ </a>
+ 
+ </div>
+ 
+ 
+ <table class="updates">
+ <tbody><tr><td class="box-inner">
+ 
+ <b>Labels:</b> Restrict-AddIssueComment-EditIssue<br>
+
+ 
+ <b>Status:</b> WontFix (was: Unconfirmed)<br>
+
+ 
+ 
+ </td></tr>
+ </tbody></table>
+ 
+
+<pre class="issue_text">Filing a bug here isn't the way to change web standards no matter how you feel about them.
+</pre>
+ 
+ 
+ 
+ </div>
+</div>
+
+ </div>
+ 
+ 
+
+
+ 
+
+
+ </td>
+ </tr>
+
+ 
+
+</tbody>
+</table>
+<br>
+<script type="text/javascript" defer="" src="/bower_components/chopsui/prpc-client.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/graveyard/common.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/graveyard/listen.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/graveyard/xmlhttp.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/graveyard/shapes.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/graveyard/geom.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/graveyard/popup_controller.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/framework/framework-ajax.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/externs.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/ac.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-ac.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-components.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-dd.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-display.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-editing.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-fields.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-keystrokes.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-nav.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-util.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/tracker-onload.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/tracker/predict.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" defer="" src="/static/js/framework/clientmon.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+
+
+
+ 
+
+</div> 
+<form name="delcom" action="delComment.do?q=&amp;can=2&amp;groupby=&amp;sort=&amp;colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified" method="POST">
+ <input name="sequence_num" value="" type="hidden">
+ <input name="mode" value="" type="hidden">
+ <input name="id" value="879381" type="hidden">
+ <input name="token" value="cZLmZEPtBObYIxcLVh974DoxNTM1NjY5NDAw" type="hidden">
+ <input name="hotlist_id" value="" type="hidden">
+</form>
+<form name="flagcom" action="flagspam.do" method="post">
+ <input name="comment_id" value="" type="hidden">
+ <input name="sequence_num" value="" type="hidden">
+ <input name="spam" value="" type="hidden">
+ <input name="id" value="879381" type="hidden">
+ <input name="token" value="Hn7rdGItsGx8Hzc5hF_bXDoxNTM1NjY5NDAw" type="hidden">
+</form>
+<div id="helparea"></div>
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ _fetchOptions('chromium', CS_env.token,
+ 1535647773);
+ _fetchUserProjects(false);
+ _onload();
+ function showDescription(n, changeSelect) {
+ for (var i = 1; i <= descCt; i++)
+ $('d' + i).style.display = 'none';
+ if (changeSelect)
+ $('description-select').selectedIndex = n - 1;
+ if (n) {
+ $('d' + n).style.display = '';
+ getParams.desc = n;
+ if (window.history && history.replaceState)
+ history.replaceState(
+ '', '', makeQueryString(getParams) + window.location.hash);
+ }
+ }
+ 
+ var descCt = 1;
+ 
+ 
+ function delComment(sequence_num, delete_mode) {
+ var r = true;
+ if (delete_mode == 1) {
+ r = confirm('Delete this comment?');
+ }
+ if (!r) {
+ return false;
+ }
+ var f = document.forms["delcom"];
+ f.sequence_num.value = sequence_num;
+ f.mode.value = delete_mode;
+ 
+ var loading = $('comment-action-loading-' + sequence_num);
+ loading.style.display = 'inline';
+ TKR_initialFormValues = TKR_currentFormValues();
+ f.submit();
+ return false;
+ }
+ if ($("star"))
+ $("star").addEventListener("click", function (event) {
+ _TKR_toggleStar($("star"), "chromium", 879381, null, null, "UY9yNXOcDsBfWDugx6k7QzoxNTM1NjY5NDAw");
+ _TKR_syncStarIcons($("star"), "star2");
+ });
+ var delCommentElements = document.getElementsByClassName("delComment");
+ for (var i = 0; i < delCommentElements.length; ++i) {
+ var el = delCommentElements[i];
+ el.addEventListener("click", function(event) {
+ var sequence = event.target.getAttribute("data-sequence");
+ var mode = event.target.getAttribute("data-mode");
+ delComment(sequence, mode);
+ event.preventDefault();
+ });
+ }
+ function flagComment(comment_id, sequence_num, isSpam) {
+ var f = document.forms["flagcom"];
+ f.comment_id.value = comment_id;
+ f.sequence_num.value = sequence_num;
+ f.spam.value = isSpam.toLowerCase() == "false";
+ var loading = $('comment-action-loading-' + sequence_num);
+ loading.style.display = 'inline';
+ TKR_initialFormValues = TKR_currentFormValues();
+ f.submit();
+ return false;
+ }
+ var flagCommentElements = document.getElementsByClassName("flagComment");
+ for (var i = 0; i < flagCommentElements.length; ++i) {
+ var el = flagCommentElements[i];
+ el.addEventListener("click", function(event) {
+ var id = event.target.getAttribute("data-id");
+ var sequence = event.target.getAttribute("data-sequence");
+ var isSpam = event.target.getAttribute("data-spam");
+ flagComment(id, sequence, isSpam);
+ event.preventDefault();
+ });
+ }
+ // TODO(jeffcarp): Attach this handler specifically to the issue update form.
+ window.onsubmit = function() {
+ if (typeof(ClientLogger) === "function") {
+ let l = new ClientLogger("issues");
+ l.logStart("issue-update", "computer-time");
+ }
+ TKR_initialFormValues = TKR_currentFormValues();
+ };
+ window.onbeforeunload = function() {
+ if (TKR_isDirty()) {
+ // This message is ignored in recent versions of Chrome and Firefox.
+ return "You have unsaved changes. Leave this page and discard them?";
+ }
+ };
+});
+</script>
+<script type="text/javascript" defer="" src="/static/third_party/js/kibbles-1.3.3.comp.js" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ // TODO(jeffcarp): Update prev/next URLs once flipper index has loaded.
+ _setupKibblesOnDetailPage(
+ 'https://bugs.chromium.org/p/chromium/issues/list?cursor\x3dchromium%3A879381\x26q\x3d',
+ '/p/chromium/issues/entry',
+ `/p/chromium/issues/detail/previous${location.search}`,
+ `/p/chromium/issues/detail/next${location.search}`,
+ 'chromium', 879381,
+ false, true, 'UY9yNXOcDsBfWDugx6k7QzoxNTM1NjY5NDAw');
+});
+</script>
+
+ <link rel="import" href="/elements/mr-flipper/mr-flipper.vulcanized.html?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+ <script src="/elements/mr-flipper/mr-flipper.vulcanized.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+
+<script type="text/javascript" src="/bower_components/chopsui/prpc-client.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/externs.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/env.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-ajax.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-cues.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-display.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-menu.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-myprojects.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-myhotlists.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-accountmenu.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/framework-stars.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/framework/project-name-check.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" defer="" src="/static/js/graveyard/xmlhttp.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ <script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ var toggles = document.getElementsByClassName("toggleHidden");
+ for (var i = 0; i < toggles.length; ++i) {
+ var toggle = toggles[i];
+ toggle.addEventListener("click", function (event) {
+ _toggleHidden(event.target);
+ event.preventDefault();
+ });
+ }
+ toggles = document.getElementsByClassName("toggleCollapse");
+ for (var i = 0; i < toggles.length; ++i) {
+ var toggle = toggles[i];
+ toggle.addEventListener("click", function (event) {
+ _toggleCollapse(event.target);
+ event.preventDefault();
+ });
+ }
+ 
+ var tokenFields = document.querySelectorAll("input[name=token]");
+ for (var i = 0; i < tokenFields.length; ++i) {
+ var field = tokenFields[i];
+ field.form.addEventListener("submit", function(event) {
+ refreshTokens(
+ event, "aJ3-KqNxEDxI9Fv4vkJn3zoxNTM1NjY5NDAw", "/p/chromium/issues/detail.do", 1535676300);
+ });
+ }
+ 
+});
+ </script>
+</div> 
+<div id="footer">
+ <a href="https://bugs.chromium.org/p/monorail/adminIntro" title="Monorail 17182-db2fa19.412013763369880177">About Monorail</a>
+ <a href="https://chromium.googlesource.com/infra/infra/+/master/appengine/monorail/doc/release-notes.md">Release Notes</a>
+ <a href="https://bugs.chromium.org/p/monorail/issues/entry" target="_blank">Feedback on Monorail</a>
+ <a href="https://www.google.com/policies/terms/">Terms</a>
+ <a href="https://www.google.com/policies/privacy/">Privacy</a>
+</div>
+ 
+ 
+
+
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ // CrDX Feedback Button
+ (function(i,s,o,g,r,a,m){i['CrDXObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.setAttribute('nonce','7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ');
+ a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://storage.googleapis.com/crdx-feedback.appspot.com/feedback.js','crdx');
+ crdx('setFeedbackButtonLink', 'https://bugs.chromium.org/p/monorail/issues/entry?template=Online%20Feedback');
+});
+// Google Analytics
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.setAttribute('nonce','7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ');
+a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function setupGoogleAnalytics() {
+ ga('create', 'UA-55762617-14', {'siteSpeedSampleRate': 100});
+ 
+ 
+ ga('set', 'dimension1', 'Logged in');
+ 
+ const pathname = window.location.pathname;
+ // Don't track individual issue detail pages; track them all together.
+ if (pathname.endsWith('/issues/detail')) {
+ ga('set', 'title', 'Issue Detail');
+ }
+ // Don't track individual search terms; track all lists together.
+ if (pathname.endsWith('/issues/list')) {
+ ga('set', 'title', 'Issue List');
+ }
+ ga('send', 'pageview');
+})();
+</script>
+<script type="text/javascript" defer="" src="/static/js/framework/ga.js?version=17182-db2fa19.412013763369880177" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ"></script>
+ 
+
+
+<script type="text/javascript" nonce="7AjCF5US1LYSB7OlaaNnh2iGiXoM3lHJ">
+runOnLoad(function() {
+ if (typeof(ClientLogger) === "function") {
+ let cl = new ClientLogger("issues");
+ if (cl.started("new-issue")) {
+ cl.logEnd("new-issue");
+ }
+ if (cl.started("issue-search")) {
+ cl.logEnd("issue-search");
+ }
+ if (cl.started("issue-update")) {
+ cl.logEnd("issue-update");
+ }
+ }
+});
+</script>
+<div class="menuDiv instance0" id="menuDiv-projects-dropdown" style="position: absolute; display: none; top: 23px; left: 124px;"><div class="menuCategory controls first"><hr class="menuSeparator"><a class="menuItem" style="display: block;" href="/hosting/">Find projects...</a></div></div><div class="menuDiv instance1" id="menuDiv-account-menu" style="position: absolute; display: none; top: 23px; left: 1161px;"><div class="menuCategory default first"><a class="menuItem" style="display: block;" href="https://accounts.google.com/AccountChooser?service=ah&amp;passive=true&amp;continue=https://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://bugs.chromium.org/p/chromium/issues/detail%253Fid%253D879381">Switch accounts</a><hr class="menuSeparator"><a class="menuItem" style="display: block;" href="/u/31560463/">Profile</a><a class="menuItem" style="display: block;" href="/u/31560463/updates">Updates</a><a class="menuItem" style="display: block;" href="/hosting/settings">Settings</a><a class="menuItem" style="display: block;" href="/u/31560463/queries">Saved queries</a><a class="menuItem" style="display: block;" href="/u/31560463/hotlists">Hotlists</a><hr class="menuSeparator"><a class="menuItem" style="display: block;" href="https://bugs.chromium.org/_ah/logout?continue=https://accounts.google.com/Logout%3Fcontinue%3Dhttps://appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://google.com/url%25253Fsa%25253DD%252526q%25253Dhttps://bugs.chromium.org/p/chromium/issues/detail%2525253Fid%2525253D879381%252526ust%25253D1535756335079026%252526usg%25253DAFQjCNGCPEhN3sNG1f3l0jZ8W4L5m9b5YA%26service%3Dah">Sign out</a></div></div><a class="__crdxFeedbackButton" target="_blank" href="https://bugs.chromium.org/p/monorail/issues/entry?template=Online%20Feedback"></a></body></html>
