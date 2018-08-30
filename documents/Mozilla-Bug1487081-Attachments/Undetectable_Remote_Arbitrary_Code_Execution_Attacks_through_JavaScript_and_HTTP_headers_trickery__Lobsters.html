@@ -1,0 +1,2124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<base href = "https://lobste.rs" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="always" />
+  <meta name="theme-color" content="#AC130D" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@lobsters" />
+      <meta name="twitter:title" content="Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery" />
+      <meta name="twitter:description" content="26 comments" />
+      <meta name="twitter:image" content="https://lobste.rs/apple-touch-icon-144.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+    <link rev="canonical" rel="self alternate shorter shorturl shortlink"
+      href="https://lobste.rs/s/vwcetz" />
+  <title>Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery | Lobsters</title>
+  <link rel="stylesheet" media="all" href="/assets/application-c74dd07f8220c91d5d99436a3ca20abf965fb296c3775977cf7e9e0e4a808b96.css" />
+    <script src="/assets/application-8ebf49f7d402a2d7f145417697d8a15afbd9fc2022af9264d08f5c6e4e2c3c0f.js"></script>
+    <script>
+      Lobsters.curUser = '6931';
+    </script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="MeIlTXd+59b5xcl1X+IcVdJZVKhahCNcAaYIRJmtI5bt/MchJ9e/RMs+8lsI9d/0pIHh9EbAnWCBnV8lAsMeeg==" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <div id="headerleft">
+        <a id="l_holder" style="background-color: #ff0000;"
+          href="/" title="Lobsters (Current traffic: 100)"></a>
+
+
+        <span class="headerlinks">
+            <a href="/" class="">Home</a>
+            <a href="/recent" class="">Recent</a>
+            <a href="/comments" class="">Comments</a>
+            <a href="/threads" class="">Your Threads</a>
+            <a href="/stories/new" class="">Submit Story</a>
+            <a href="/saved" class="">Saved</a>
+            <a href="/search" class="">Search</a>
+        </span>
+      </div>
+
+      <div id="headerright">
+        <span class="headerlinks">
+            <a href="/replies" class="">Replies</a>
+            <a href="/messages" class="">Messages</a>
+            <a href="/settings" class="">Shamar (1467)</a>
+        </span>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+    <div id="inside">
+
+      <ol class="stories">
+  <li id="story_vwcetz" data-shortid="vwcetz"
+class="story upvoted
+
+negative_1
+negative_3
+
+
+
+">
+<div class="story_liner">
+  <div class="voters">
+      <a class="upvoter"></a>
+    <div class="score">-3</div>
+  </div>
+  <div class="details">
+    <span class="link">
+        <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081">Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery</a>
+    </span>
+      <span class="tags">
+          <a href="/t/browsers"
+            class="tag tag_browsers"
+            title="Web browsers">browsers</a>
+          <a href="/t/javascript"
+            class="tag tag_javascript"
+            title="Javascript programming">javascript</a>
+          <a href="/t/networking"
+            class="tag tag_networking"
+            title="Networking">networking</a>
+          <a href="/t/privacy"
+            class="tag tag_privacy"
+            title="Privacy">privacy</a>
+          <a href="/t/security"
+            class="tag tag_security"
+            title="Netsec, appsec, and infosec">security</a>
+      </span>
+        <a class="domain" href="/search?order=newest&amp;q=domain:bugzilla.mozilla.org">bugzilla.mozilla.org</a>
+
+
+
+    <div class="byline">
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+          authored by
+        <a href="/u/Shamar" class="user_is_author">Shamar</a>
+
+        <span title="2018-08-29 08:37:42 -0500" class="">23 hours ago</span>
+
+            | <a class="flagger">flag</a>
+            | <a class="hider" href="/stories/vwcetz/hide">hide</a>
+            (hidden by 4 users)
+            | <a class="saver" href="/stories/vwcetz/save">save</a>
+          |
+          <a href="https://archive.is/https%3A%2F%2Fbugzilla.mozilla.org%2Fshow_bug.cgi%3Fid%3D1487081" rel="nofollow"
+            target="_blank">cached</a>
+          <span class="comments_label">
+            |
+            <a href="/s/vwcetz/undetectable_remote_arbitrary_code">
+              26
+                comments
+            </a>
+          </span>
+
+          | +7, -7 off-topic, -3 spam
+    </div>
+  </div>
+</div>
+<a href="/s/vwcetz/undetectable_remote_arbitrary_code "class="mobile_comments " style="display: none;">
+  <span>26</span>
+</a>
+</li>
+
+</ol>
+
+<div class="story_content">
+
+</div>
+
+  <ol class="comments comments1">
+      <li class="comments_subtree"><div class="comment comment_form_container"
+data-shortid="">
+<form class="new_comment" id="edit_comment_" action="/comments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UStKXJeN41JyCJ0xlV7ZWXQwEYfRzwyb2aSsLXSwZlaqrCjBr9dEozKeBnwZ+ra55w/evxGKE0Hm2NEJLPHzgg==" />
+
+  <input type="hidden" name="story_id" id="story_id" value="vwcetz" />
+
+
+  <div style="width: 100%;">
+    <textarea name="comment" id="comment" rows="5" placeholder="">
+</textarea>
+
+    <p></p>
+
+    <div class="markdown_help_toggler">
+        <div class="markdown_help_label">
+          Markdown formatting available
+        </div>
+        <div class="markdown_help_label markdown_help_label_mobile"
+        style="display: none;">
+          [M&darr;]
+        </div>
+
+      <input type="submit" name="commit" value="Post" class="comment-post" data-disable-with="Post" />
+      &nbsp;
+      <button name="button" type="button" class="comment-preview">Preview</button>
+
+        <div style="display: inline-block; margin-left: 1em;">
+        Put on hat:
+        <select name="hat_id" id="hat_id"><option value="" label=" "></option><option value="85">Jehanne Hacker</option></select>
+        </div>
+
+      <div style="clear: both;"></div>
+
+        <div class="markdown_help" style="display: none; padding-top: 0.5em;">
+  <table>
+  <tr>
+    <td width="125"><em>emphasized text</em></td>
+    <td>surround text with <tt>*asterisks*</tt></td>
+  </tr>
+  <tr>
+    <td><strong>strong text</strong></td>
+    <td>surround text with <tt>**two asterisks**</tt></td>
+  </tr>
+  <tr>
+    <td><strike>struck-through</strike></td>
+    <td>surround text with <tt>~~two tilde characters~~</tt></td>
+  </tr>
+  <tr>
+    <td><tt>fixed width</tt></td>
+    <td>surround text with <tt>`backticks`</tt></td>
+  </tr>
+  <tr>
+    <td><a href="http://example.com/"
+      style="color: inherit;">linked text</a></td>
+    <td><tt>[linked text](http://example.com/)</tt> or just a bare URL
+      to create without a title</td>
+  </tr>
+  <tr>
+    <td><blockquote> quoted text</blockquote></td>
+    <td>prefix text with <tt>&gt;</tt></td>
+  </tr>
+  <tr>
+    <td><pre style="margin: 0px;">pre
+  text</pre></td>
+    <td>prefix text with at least<tt>&nbsp;&nbsp;&nbsp;&nbsp;4 spaces</tt></td>
+  </tr>
+  </table>
+</div>
+
+    </div>
+  </div>
+
+  <p></p>
+</form></div>
+</li>
+      <script>autosize($("#comment")[0]);</script>
+
+
+        <li class="comments_subtree">
+
+        <input id="comment_folder_dlubhc"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_dlubhc"
+data-shortid="dlubhc"
+class="comment 
+  ">
+
+    <label for="comment_folder_dlubhc"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">7</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_dlubhc"></a>
+
+        <label for="comment_folder_dlubhc"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/bkircher"><img srcset="/avatars/bkircher-16.png 1x, /avatars/bkircher-32.png 2x" class="avatar" alt="bkircher avatar" src="/avatars/bkircher-16.png" width="16" height="16" /></a>
+
+      <a href="/u/bkircher"
+        class="">bkircher</a>
+
+
+        <span title="2018-08-29 09:00:34 -0500" class="">22 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_dlubhc">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Turn off JS then? Isn’t this what a modern browser is by definition? A tool that executes arbitrary code from URLs I throw at it?</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_xt0xtk"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_xt0xtk"
+data-shortid="xt0xtk"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_xt0xtk"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">6</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_xt0xtk"></a>
+
+        <label for="comment_folder_xt0xtk"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/spycrowsoft"><img srcset="/avatars/spycrowsoft-16.png 1x, /avatars/spycrowsoft-32.png 2x" class="avatar" alt="spycrowsoft avatar" src="/avatars/spycrowsoft-16.png" width="16" height="16" /></a>
+
+      <a href="/u/spycrowsoft"
+        class="">spycrowsoft</a>
+
+
+        <span title="2018-08-29 11:06:03 -0500" class="">20 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_xt0xtk">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>I am one of those developers whom surfs the web with “javascript.options.wasm = false” and NoScript to block just about 99% of all websites from running any Javascript on my home-machine unless I explicitly turn it on.
+I’ve also worked on various networks where Javascript is just plain turned off and can’t be turned on by regular users. I’ve heard some, sadly confidential, war-stories that have led to these policies. They are similar in nature to what the author states in his Medium-post.</p>
+<p>If you want to run something, run it on your servers and get off my laptop, phone, tv or even production-machines. Those are mine and if your website can’t handle it, then your website is simply terrible from a user experience viewpoint, dreadfully inefficient and doomed to come back hunting you when you are already in a bind because of an entirely different customer or issue.
+As a consequence of this way of thinking, a few web-driven systems I wrote more than a decade ago, are still live and going strong without a single security incident and without any performance issues while at the same time reaping the benefits of the better hardware they’ve been migrated to over the years.</p>
+<p>Therefore it is still my firm belief that a browser is primarily a tool to <strong>display content</strong> from random URLs I throw at it and not an application platform which executes code from the URLs thrown at it.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_rkz8mn"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_rkz8mn"
+data-shortid="rkz8mn"
+class="comment 
+  ">
+
+    <label for="comment_folder_rkz8mn"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_rkz8mn"></a>
+
+        <label for="comment_folder_rkz8mn"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/ahal"><img srcset="/avatars/ahal-16.png 1x, /avatars/ahal-32.png 2x" class="avatar" alt="ahal avatar" src="/avatars/ahal-16.png" width="16" height="16" /></a>
+
+      <a href="/u/ahal"
+        class="">ahal</a>
+
+
+        <span title="2018-08-29 12:29:33 -0500" class="">19 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_rkz8mn">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>That’s a fine and valid viewpoint to have, and you are more than welcome to disable JS. But as a person who wants to use the web as an application platform, are you suggesting that browsers should neglect people like myself? I don’t really understand what your complaint is.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_0n2lmu"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_0n2lmu"
+data-shortid="0n2lmu"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_0n2lmu"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_0n2lmu"></a>
+
+        <label for="comment_folder_0n2lmu"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 16:55:34 -0500" class="">14 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_0n2lmu">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <blockquote>
+<p>But as a person who wants to use the web as an application platform, are you suggesting that browsers should neglect people like myself?</p>
+</blockquote>
+<p>I don’t think so. <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c6" rel="nofollow">But using Web Applications should be <strong>opt-in</strong>, not opt-out</a>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_ub6ghd"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_ub6ghd"
+data-shortid="ub6ghd"
+class="comment 
+  ">
+
+    <label for="comment_folder_ub6ghd"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_ub6ghd"></a>
+
+        <label for="comment_folder_ub6ghd"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/bwasti"><img srcset="/avatars/bwasti-16.png 1x, /avatars/bwasti-32.png 2x" class="avatar" alt="bwasti avatar" src="/avatars/bwasti-16.png" width="16" height="16" /></a>
+
+      <a href="/u/bwasti"
+        class="">bwasti</a>
+
+
+        <span title="2018-08-29 14:44:22 -0500" class="">17 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_ub6ghd">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>by the same stretch of logic you could claim any limited subset of functionality is the only things computers should do in the name of varying forms of “security.”</p>
+<p>perhaps something like: “The computer is a tool for doing computation not displaying things to me and potentially warping my view of reality with incorrect information or emotionally inflammatory speech. This is why I have removed any form of internet connectivity.”</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_dfox80"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_dfox80"
+data-shortid="dfox80"
+class="comment 
+  ">
+
+    <label for="comment_folder_dfox80"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">7</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_dfox80"></a>
+
+        <label for="comment_folder_dfox80"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/craigstuntz"><img srcset="/avatars/craigstuntz-16.png 1x, /avatars/craigstuntz-32.png 2x" class="avatar" alt="craigstuntz avatar" src="/avatars/craigstuntz-16.png" width="16" height="16" /></a>
+
+      <a href="/u/craigstuntz"
+        class="">craigstuntz</a>
+
+
+        <span title="2018-08-29 09:24:59 -0500" class="">22 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_dfox80">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>This is not a bug and it’s not RCE. JavaScript and headers are red herrings here. If you request some URL from a server, you’re going to receive what that server chooses to send you, with or without a browser. There’s a risk in that to be sure, but it’s true by design.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_91yi4y"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_91yi4y"
+data-shortid="91yi4y"
+class="comment 
+  ">
+
+    <label for="comment_folder_91yi4y"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_91yi4y"></a>
+
+        <label for="comment_folder_91yi4y"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/ianloic"><img srcset="/avatars/ianloic-16.png 1x, /avatars/ianloic-32.png 2x" class="avatar" alt="ianloic avatar" src="/avatars/ianloic-16.png" width="16" height="16" /></a>
+
+      <a href="/u/ianloic"
+        class="">ianloic</a>
+
+
+        <span title="2018-08-29 09:45:21 -0500" class="">22 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_91yi4y">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Turn off your network and you should eliminate the threat. Turn your computer off completely for a safer mitigation.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_pbxsdl"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_pbxsdl"
+data-shortid="pbxsdl"
+class="comment 
+  ">
+
+    <label for="comment_folder_pbxsdl"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">7</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_pbxsdl"></a>
+
+        <label for="comment_folder_pbxsdl"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/poptart"><img srcset="/avatars/poptart-16.png 1x, /avatars/poptart-32.png 2x" class="avatar" alt="poptart avatar" src="/avatars/poptart-16.png" width="16" height="16" /></a>
+
+      <a href="/u/poptart"
+        class="">poptart</a>
+
+
+          edited
+        <span title="2018-08-29 11:49:01 -0500" class="">20 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_pbxsdl">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Welcome to browsers. This is literally a core function of how browsers work these days and is completely intended. I’m as much of a security and anti-js advocate as anyone, but this entire post brings down the quality of discussion massively. This is <em>not</em> a “Undetectable Remote Arbitrary Code Execution” by any stretch of the term, you would deservedly get laughed out of the room by every security professional if you said that. Nothing about this is arbitrary code execution, please show me where you run a system command (and please reach out to me with all V8 exploits, I need a new one for research).</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+          <ol class="comments"></ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_csbhgb"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_csbhgb"
+data-shortid="csbhgb"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_csbhgb"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_csbhgb"></a>
+
+        <label for="comment_folder_csbhgb"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/rau"><img srcset="/avatars/rau-16.png 1x, /avatars/rau-32.png 2x" class="avatar" alt="rau avatar" src="/avatars/rau-16.png" width="16" height="16" /></a>
+
+      <a href="/u/rau"
+        class="">rau</a>
+
+
+        <span title="2018-08-29 10:12:27 -0500" class="">21 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_csbhgb">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Oh, this is a bit rich: closed by Frederik Braun with a link <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c3" rel="nofollow"><em>to this discussion</em></a>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_wruwsz"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_wruwsz"
+data-shortid="wruwsz"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_wruwsz"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_wruwsz"></a>
+
+        <label for="comment_folder_wruwsz"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 10:39:24 -0500" class="">21 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_wruwsz">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>I hope <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c4" rel="nofollow">he will explain how Firefox prevents those attacks</a>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_hzhpam"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_hzhpam"
+data-shortid="hzhpam"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_hzhpam"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">7</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_hzhpam"></a>
+
+        <label for="comment_folder_hzhpam"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/freddyb"><img srcset="/avatars/freddyb-16.png 1x, /avatars/freddyb-32.png 2x" class="avatar" alt="freddyb avatar" src="/avatars/freddyb-16.png" width="16" height="16" /></a>
+
+      <a href="/u/freddyb"
+        class="">freddyb</a>
+
+        <span class="hat hat_mozilla_security" title="Granted by pushcx on 2017-11-24"><span class="crown"><a href="https://mozillians.org/en-US/u/freddyb/" target="_blank">Mozilla Security</a></span></span>
+
+          edited
+        <span title="2018-08-29 11:04:24 -0500" class="">20 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_hzhpam">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Okay, I’ll bite.</p>
+<blockquote>
+<p>it was suggested by a Mozilla developer to fill a bug here: <a href="https://wandering.shop/@callahad/100621620793416331/embed" rel="nofollow">https://wandering.shop/@callahad/100621620793416331/embed</a></p>
+</blockquote>
+<p>I agree with what @<a href="mailto:callahad@wandering.shop">callahad@wandering.shop</a> says right away: If you browse to a website. It gives you JavaScript. The browser executes it. That’s by design! Nowadays, the web is specified by W3C and WHATWG as an application platform. You have to accept that the web is not about hyper<em>text</em> anymore.</p>
+<blockquote>
+<blockquote>
+<p>This is not a bug in Firefox.
+Are you saying that these attacks are not possible?</p>
+</blockquote>
+</blockquote>
+<p>I am saying that this is not specific to Firefox, but inherent to the browser as a concept.</p>
+<blockquote>
+<blockquote>
+<p>Bugzilla is not a discussion forum.
+Indeed this is a bug report.</p>
+</blockquote>
+</blockquote>
+<p>Ah, here’s where we disagree. I understand that a bug is an ambiguous concept.
+This is why we have our <a href="https://bugzilla.mozilla.org/page.cgi?id=etiquette.html" rel="nofollow">Bugzilla etiquette</a>, which also contains a link to Mozilla’s <a href="https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines" rel="nofollow">bug writing guidelines</a>.</p>
+<blockquote>
+<blockquote>
+<p>Furthermore, what you seek to discuss is not specific to Mozilla or Firefox.
+True. Several other browsers are affected too, but:</p>
+</blockquote>
+<ol>
+<li>This doesn’t means that it’s not a bug in Firefox</li>
+<li>As a browser “built for people, not for profit” I think you are more interested about the topic.</li>
+</ol>
+</blockquote>
+<p>Please elaborate, I am not sure what you mean to imply.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_hd61dm"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_hd61dm"
+data-shortid="hd61dm"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_hd61dm"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_hd61dm"></a>
+
+        <label for="comment_folder_hd61dm"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 11:37:42 -0500" class="">20 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_hd61dm">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <blockquote>
+<p>Okay, I’ll bite.</p>
+</blockquote>
+<p>+1! I’m Italian! I’m very tasty! ;-)</p>
+<blockquote>
+<blockquote>
+<p>Bugzilla is not a discussion forum. Indeed this is a bug report.</p>
+</blockquote>
+<p>Ah, here’s where we disagree. I understand that a bug is an ambiguous concept. This is why we have our Bugzilla etiquette, which also contains a link to Mozilla’s bug writing guidelines.</p>
+</blockquote>
+<p>I’m pretty serious with netiquette, and I checked your before writing the report.<br>
+I’m <strong>very sorry</strong> if I violated one of your etiquette rule, but honestly <a href="https://bugzilla.mozilla.org/page.cgi?id=etiquette.html" rel="nofollow">I cannot see which one</a>.</p>
+<p>Even about <a href="https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines" rel="nofollow">Bug writing</a> I tried my best, what exactly I got wrong?</p>
+<p>Note that this is not a single RCE, but a whole category of them.<br>
+And the problem are not just the JavaScript attacks themselves, but the fact that <strong>they can remove all evidences</strong>.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>Furthermore, what you seek to discuss is not specific to Mozilla or Firefox.</p>
+</blockquote>
+<p>True. Several other browsers are affected too, but:</p>
+<ul>
+<li>This doesn’t means that it’s not a bug in Firefox</li>
+<li>As a browser “built for people, not for profit” I think you are more interested about the topic.</li>
+</ul>
+</blockquote>
+<p>Please elaborate, I am not sure what you mean to imply.</p>
+</blockquote>
+<p>As a Firefox user (and “evangelist”) from version 0.8 I know Mozilla as a brand that cares about people.</p>
+<p>Even the word you used, “people” instead of “users”, has always been inspirational to me.</p>
+<p>Now, the issue here is specifically dangerous because not all <strong>people</strong> live under the same law.<br>
+Thus I think (and hope) that <strong>Mozilla is more interested to the safety of such people</strong> than other browser vendors that are led by profit.</p>
+<blockquote>
+<p>I agree with what @<a href="mailto:callahad@wandering.shop">callahad@wandering.shop</a> says right away: If you browse to a website. It gives you JavaScript. The browser executes it. That’s by design! Nowadays, the web is specified by W3C and WHATWG as an application platform. You have to accept that the web is not about hyper<em>text</em> anymore.</p>
+</blockquote>
+<p>I worked (and still work) on such application platform for 20 years, I think I have understood that pretty well.</p>
+<p>The point is if such application platform is <strong>broken at design level</strong> or not.</p>
+<blockquote>
+<blockquote>
+<p>This is not a bug in Firefox. Are you saying that these attacks are not possible?</p>
+</blockquote>
+<p>I am saying that this is not specific to Firefox, but inherent to the browser as a concept.</p>
+</blockquote>
+<p>Sorry if I ask it again, but I’m pretty dumb.</p>
+<p>Are the attacks described in the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081" rel="nofollow">bug report</a> possible in Firefox, or not?</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_n0pbek"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_n0pbek"
+data-shortid="n0pbek"
+class="comment 
+  ">
+
+    <label for="comment_folder_n0pbek"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_n0pbek"></a>
+
+        <label for="comment_folder_n0pbek"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/gcupc"><img srcset="/avatars/gcupc-16.png 1x, /avatars/gcupc-32.png 2x" class="avatar" alt="gcupc avatar" src="/avatars/gcupc-16.png" width="16" height="16" /></a>
+
+      <a href="/u/gcupc"
+        class="">gcupc</a>
+
+
+        <span title="2018-08-29 12:40:45 -0500" class="">19 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_n0pbek">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Here’s the key, I think. Firefox’s implementation of the relevant standards is, as far as we know, correct. The standards themselves are buggy, and should be reported to the relevant standards bodies, not to Mozilla’s bugzilla.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_cq18hu"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_cq18hu"
+data-shortid="cq18hu"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_cq18hu"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_cq18hu"></a>
+
+        <label for="comment_folder_cq18hu"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 12:49:05 -0500" class="">19 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_cq18hu">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>As far as I know, this is not how WHATWG’s <strong>Living</strong> Standards work.</p>
+<p>Also Mozilla is part of the standard body we are talking about.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        </ol></li>
+        </ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_2wvw4r"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_2wvw4r"
+data-shortid="2wvw4r"
+class="comment 
+  ">
+
+    <label for="comment_folder_2wvw4r"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">9</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_2wvw4r"></a>
+
+        <label for="comment_folder_2wvw4r"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/A-Za-z0-9"><img srcset="/avatars/A-Za-z0-9-16.png 1x, /avatars/A-Za-z0-9-32.png 2x" class="avatar" alt="A-Za-z0-9 avatar" src="/avatars/A-Za-z0-9-16.png" width="16" height="16" /></a>
+
+      <a href="/u/A-Za-z0-9"
+        class="">A-Za-z0-9</a>
+
+
+        <span title="2018-08-29 12:28:05 -0500" class="">19 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_2wvw4r">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>This is just trolling, and I’ll assume you know it. What are you trying to achieve?</p>
+<p>Can we expect reports against the Linux kernel and bash because they facilitate inserting a USB stick given by some other party and running a shell script that’s free to read files in your home directory? Against Debian/apt for executing install scripts obtained from user specified package repositories?</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        </ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_qtjegw"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_qtjegw"
+data-shortid="qtjegw"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_qtjegw"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_qtjegw"></a>
+
+        <label for="comment_folder_qtjegw"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 08:59:19 -0500" class="">22 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_qtjegw">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>NOTE: <strong>every browser</strong> executing JavaScript and honouring HTTP cache controls headers is equally vulnerable.</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_02pv41"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_02pv41"
+data-shortid="02pv41"
+class="comment 
+  ">
+
+    <label for="comment_folder_02pv41"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_02pv41"></a>
+
+        <label for="comment_folder_02pv41"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/rain1"><img srcset="/avatars/rain1-16.png 1x, /avatars/rain1-32.png 2x" class="avatar" alt="rain1 avatar" src="/avatars/rain1-16.png" width="16" height="16" /></a>
+
+      <a href="/u/rain1"
+        class="">rain1</a>
+
+
+        <span title="2018-08-29 15:42:52 -0500" class="">16 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_02pv41">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>this isn’t a vulnerability</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_e4xjgu"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_e4xjgu"
+data-shortid="e4xjgu"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_e4xjgu"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_e4xjgu"></a>
+
+        <label for="comment_folder_e4xjgu"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 15:46:21 -0500" class="">16 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_e4xjgu">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Are the attacks described in the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081" rel="nofollow">bug report</a> possible, or not?</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_y1niwo"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_y1niwo"
+data-shortid="y1niwo"
+class="comment 
+  ">
+
+    <label for="comment_folder_y1niwo"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_y1niwo"></a>
+
+        <label for="comment_folder_y1niwo"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/rain1"><img srcset="/avatars/rain1-16.png 1x, /avatars/rain1-32.png 2x" class="avatar" alt="rain1 avatar" src="/avatars/rain1-16.png" width="16" height="16" /></a>
+
+      <a href="/u/rain1"
+        class="">rain1</a>
+
+
+        <span title="2018-08-29 16:53:34 -0500" class="">14 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_y1niwo">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>this bug report is just an attempt to get more readers for your medium article</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_22ksxd"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_22ksxd"
+data-shortid="22ksxd"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_22ksxd"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_22ksxd"></a>
+
+        <label for="comment_folder_22ksxd"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 17:12:23 -0500" class="">14 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_22ksxd">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>I’m seriously concerned by this <strong>attitude</strong> among IT people.<br>
+My question is simple and have a boolean answer.</p>
+<p>Are the <strong>attacks</strong> described in the bug report possible, or not?</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_tf21il"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_tf21il"
+data-shortid="tf21il"
+class="comment 
+  ">
+
+    <label for="comment_folder_tf21il"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_tf21il"></a>
+
+        <label for="comment_folder_tf21il"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/rain1"><img srcset="/avatars/rain1-16.png 1x, /avatars/rain1-32.png 2x" class="avatar" alt="rain1 avatar" src="/avatars/rain1-16.png" width="16" height="16" /></a>
+
+      <a href="/u/rain1"
+        class="">rain1</a>
+
+
+        <span title="2018-08-29 17:24:16 -0500" class="">14 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_tf21il">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>It’s true that if you access a website with out using tor and without javascript disabled you can be fingerprinted and served targeted content and your browser may execute the javascript. It is incorrect to report this as a bug in firefox because this is intended behavior. “Remote Arbitrary Code Execution” has a specific definition which this doesn’t fall under. The problem you identified is real but the way you are raising the topic is counterproductive. Also if you randomly make words bold it makes the tone of your post somewhat unhinged.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_v5bfqw"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_v5bfqw"
+data-shortid="v5bfqw"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_v5bfqw"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_v5bfqw"></a>
+
+        <label for="comment_folder_v5bfqw"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-29 17:53:17 -0500" class="">13 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_v5bfqw">link</a>
+
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Can you share with me the exact definition of “Remote Arbitrary Code Execution”?</p>
+<blockquote>
+<p>The problem you identified is real but the way you are raising the topic is counterproductive.</p>
+</blockquote>
+<p>I’m sorry about that.<br>
+I talked about it with a Mozilla developer <a href="https://wandering.shop/@callahad/100621620793416331/embed" rel="nofollow">that told me to fill a bug report at bugzilla.mozilla.org</a>.<br>
+An Italian lawyer specialized in IT <a href="http://server-nexa.polito.it/pipermail/nexa/2018-August/013655.html" rel="nofollow">suggested to do the same</a>.</p>
+<p>I spent <strong>two hours</strong> to write the report in the most clear and polite way (after searching for existing reports and reading the guidelines).</p>
+<p>After <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c2" rel="nofollow">30 minutes</a> it was closed as “RESOLVED INVALID” by <a href="https://lobste.rs/u/freddyb" rel="nofollow">@freddyb</a> <strong>without saying if the Firefox’s users can be target of these attacks</strong>.</p>
+<p>As of now, this thread has been flagged as spam 3 times and as off-topic 6 times.<br>
+I’ve been defined <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_2wvw4r" rel="nofollow">troll once</a> and given ironic suggestions to disable JavaScript as <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c9" rel="nofollow">if I was concerned about my own security</a>.</p>
+<p>Also, when asked how I would fix the issue <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c6" rel="nofollow">I provided plenty of suggestions</a>.</p>
+<p>And yet, nobody answered this simple question: are the attacks described there possible?<br>
+Are Firefox users around the world vulnerable to them?</p>
+<p>But yes, I’m sorry for the tone…</p>
+<pre><code>  .-'---`-.
+,'          `.
+|             \
+|              \
+\           _  \
+,\  _    ,'-,/-)\
+( * \ \,' ,' ,'-)
+ `._,)     -',-')
+   \/         ''/
+    )        / /
+   /       ,'-'
+
+</code></pre>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        </ol></li>
+        </ol></li>
+        </ol></li>
+        </ol></li>
+        </ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_eo1rgf"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_eo1rgf"
+data-shortid="eo1rgf"
+class="comment 
+  ">
+
+    <label for="comment_folder_eo1rgf"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      no_children"></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_eo1rgf"></a>
+
+        <label for="comment_folder_eo1rgf"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/unwind"><img srcset="/avatars/unwind-16.png 1x, /avatars/unwind-32.png 2x" class="avatar" alt="unwind avatar" src="/avatars/unwind-16.png" width="16" height="16" /></a>
+
+      <a href="/u/unwind"
+        class="">unwind</a>
+
+
+        <span title="2018-08-29 15:44:50 -0500" class="">16 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_eo1rgf">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Undetectable…?  You don’t have an automated packet intercept system running on your LAN, replete with fast query UIs for anomaly detection, historical payload inspection, graphical diffs, &amp; checksums?  /s</p>
+<p>I just don’t see this as a bug.  I mean, is that roughly what you think Firefox needs to be providing?  Or stop-the-web until everything is secure?  I just can’t agree.</p>
+<p>If you pull up somebody’s URL [0], you trust to run their code.  If they use a CDN, <em>they</em> are trusting the CDN.  Transitive trust.  That’s how it works.  If there are specific CDNs you distrust, specifically block them by domain.</p>
+<p>[0] with prior authorization, of course (who doesn’t?!)</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+          <ol class="comments"></ol></li>
+        <li class="comments_subtree">
+
+        <input id="comment_folder_p4qxvi"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_p4qxvi"
+data-shortid="p4qxvi"
+class="comment 
+  ">
+
+    <label for="comment_folder_p4qxvi"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_p4qxvi"></a>
+
+        <label for="comment_folder_p4qxvi"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/freddyb"><img srcset="/avatars/freddyb-16.png 1x, /avatars/freddyb-32.png 2x" class="avatar" alt="freddyb avatar" src="/avatars/freddyb-16.png" width="16" height="16" /></a>
+
+      <a href="/u/freddyb"
+        class="">freddyb</a>
+
+        <span class="hat hat_mozilla_security" title="Granted by pushcx on 2017-11-24"><span class="crown"><a href="https://mozillians.org/en-US/u/freddyb/" target="_blank">Mozilla Security</a></span></span>
+
+        <span title="2018-08-30 03:32:45 -0500" class="">4 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_p4qxvi">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Ah, I think I understand what the problem is now. Is it the word Arbitrary?
+When security people say “arbitrary code execution” they refer to code of the attacker’s liking.
+And in this case, it is far from true!
+For example, browsers do not allow web applications to remove local files or read your browser history.</p>
+<p>The features we expose to JavaScript undergo a lot of scrutiny. The right term, to describe the web APIs exposed by browsers would be <a href="https://en.wikipedia.org/wiki/Turing_completeness" rel="nofollow">“Turing complete</a>”. That means you can compute any possible mathematical algorithm that can also be described by a <a href="https://en.wikipedia.org/wiki/Turing_machine" rel="nofollow">Turing machine</a>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_i5j37u"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_i5j37u"
+data-shortid="i5j37u"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_i5j37u"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_i5j37u"></a>
+
+        <label for="comment_folder_i5j37u"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+          edited
+        <span title="2018-08-30 05:44:36 -0500" class="">2 hours ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_i5j37u">link</a>
+
+          |
+          <a tabindex="0" class="comment_editor">edit</a>
+
+          |
+            <a tabindex="0" class="comment_deletor" href="#">delete</a>
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <blockquote>
+<p>Ah, I think I understand what the problem is now. Is it the word Arbitrary?</p>
+</blockquote>
+<p><a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_v5bfqw" rel="nofollow">Maybe</a>.</p>
+<p>I’m not a native English speaker and I do not have a CS degree, so I only borrow from my experience and self-taught knowledge.</p>
+<p>According to <a href="https://en.wikipedia.org/wiki/Arbitrary_code_execution" rel="nofollow">Wikipedia</a></p>
+<blockquote>
+<p>In computer security, “arbitrary code execution” is used to describe an attacker’s ability to execute <strong>any</strong> command of the attacker’s choice on a target machine or in a target process.</p>
+</blockquote>
+<p>Let’s imagine I’m an attacker: I want to put illegal contents in the browser cache and then post them on a public forum online through the victim browser. Or I want to verify open ports in his computer or lan (this also requires a control of a DNS). Or I want to use the computers of <a href="https://www.investopedia.com/news/bitcoin-banned-china/" rel="nofollow">some Chinese people to mine BitCoins</a> to earn something while putting them in throubles.</p>
+<p>I could go on for a while…</p>
+<p>As I wrote <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c0" rel="nofollow">in the bug report</a>, an attacker can easily get control of several victim’s resources like</p>
+<ul>
+<li>their IP</li>
+<li>their bandwith</li>
+<li>their computing power</li>
+<li>their RAM</li>
+<li>their disk (through browser cache)</li>
+</ul>
+<p>Now, I’m not a security expert but to my untrained eye these seem enough resource to carry a wide range of attacks.<br>
+It should satisfy enough the <a href="https://en.oxforddictionaries.com/definition/any" rel="nofollow">“any” qualification</a> in the definition above to make the <a href="https://en.oxforddictionaries.com/definition/arbitrary" rel="nofollow">“arbitrary” qualification</a> appropriate.</p>
+<blockquote>
+<p>For example, browsers do not allow web applications to […] read your browser history.</p>
+</blockquote>
+<p>Mmm, let’s me try, just for fun.</p>
+<p>Suppose that I know you (as explained <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c0" rel="nofollow">in the bug report</a>, a precondition of the attacks is being able to identify the targets).</p>
+<p>I want to know if you visited certain pages.</p>
+<p>Can I construct a timing attack against your cache to discover if specific contents are there?</p>
+<blockquote>
+<p>That means you can compute any possible mathematical algorithm that can also be described by a Turing machine.</p>
+</blockquote>
+<p>I think I know what a Turing machine is, but thanks for the recap! ;-)</p>
+<p>The problem is that, if the attacker can control a Turing complete interpreter on the victim machine (with access to resources like the one listed above) she is able to construct several attacks that might hurt the victim or a third party. <strong>Leaving NO evidences.</strong></p>
+<p>In a way, this is an UI issue: mainstream browsers do not make the risks evident and explicit to people.<br>
+And the fact that SRI is not yet mandatory for web pages running JavaScript is a bad sign of their own understanding of the matter.</p>
+<p>So, as dumb as I am, I have to ask you again to answer <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_v5bfqw" rel="nofollow">this simple question</a>:</p>
+<blockquote>
+<p>Are the attacks described <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c0" rel="nofollow">in the bug report</a> possible in Firefox, or not?</p>
+</blockquote>
+<p><strong>Are Firefox’s users world wide vulnerable</strong> to them?</p>
+<p>Is not, please explain how Firefox prevent them.<br>
+<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081" rel="nofollow">In the bug report</a>, because this thread, despite being referenced in a <strong>Security Issue of a major browser</strong>, has been downvoted so much (-7 off-topic, -3 spam) that <strong>most interested developers will never see it</strong>.</p>
+<p>Otherwise, <strong>reopen the bug report</strong> and give it a proper priority, thinking about <strong>severity of the threat for your users world wide</strong>.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_0y21ub"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_0y21ub"
+data-shortid="0y21ub"
+class="comment 
+  ">
+
+    <label for="comment_folder_0y21ub"
+      class="comment_folder"></label>
+
+    <div class="voters">
+        <a class="upvoter"></a>
+      <div class="score">~</div>
+        <a class="downvoter"></a>
+    </div>
+    <div class="comment_parent_tree_line
+      can_downvote
+      score_shown
+      "></div>
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_0y21ub"></a>
+
+        <label for="comment_folder_0y21ub"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/pushcx"><img srcset="/avatars/pushcx-16.png 1x, /avatars/pushcx-32.png 2x" class="avatar" alt="pushcx avatar" src="/avatars/pushcx-16.png" width="16" height="16" /></a>
+
+      <a href="/u/pushcx"
+        class="">pushcx</a>
+
+        <span class="hat hat_sysop" title="Granted by pushcx on 2017-10-15"><span class="crown">Sysop</span></span>
+
+        <span title="2018-08-30 06:54:28 -0500" class="">56 minutes ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_0y21ub">link</a>
+
+
+
+            |
+            <a tabindex="0" class="comment_replier" unselectable="on">reply</a>
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p>Lobsters is not an appropriate place to troll Firefox security. Stop.</p>
+<p><a href="https://lobste.rs/u/freddyb" rel="nofollow">@freddyb</a> I’m sorry about this bizarre thread.</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments">
+        <li class="comments_subtree">
+
+        <input id="comment_folder_xfvtef"
+  class="comment_folder_button" type="checkbox"
+  >
+
+<div id="c_xfvtef"
+data-shortid="xfvtef"
+class="comment upvoted
+  ">
+
+    <label for="comment_folder_xfvtef"
+      class="comment_folder"></label>
+
+
+  <div class="details">
+    <div class="byline">
+      <a name="c_xfvtef"></a>
+
+        <label for="comment_folder_xfvtef"
+          class="comment_folder comment_folder_inline"></label>
+
+
+        <a href="/u/Shamar"><img srcset="/avatars/Shamar-16.png 1x, /avatars/Shamar-32.png 2x" class="avatar" alt="Shamar avatar" src="/avatars/Shamar-16.png" width="16" height="16" /></a>
+
+      <a href="/u/Shamar"
+        class="user_is_author">Shamar</a>
+
+
+        <span title="2018-08-30 07:20:02 -0500" class="">31 minutes ago</span>
+
+        |
+        <a href="https://lobste.rs/s/vwcetz/undetectable_remote_arbitrary_code#c_xfvtef">link</a>
+
+
+
+
+
+        <span class="reason">
+        </span>
+    </div>
+    <div class="comment_text">
+        <p><a href="https://lobste.rs/u/freddyb" rel="nofollow">@freddyb</a> would you mind to explain why <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c3" rel="nofollow">you suggested to continue the discussion about the issue here</a>?</p>
+
+    </div>
+  </div>
+</div>
+
+
+          <div class="comment_siblings_tree_line"></div>
+
+          <ol class="comments"></ol></li>
+        </ol></li>
+        </ol></li>
+        </ol></li>
+  </ol>
+
+
+      <div id="footer">
+          <a href="/moderations">Moderation Log</a>
+  <a href="/hats">Hats</a>
+<a href="https://github.com/lobsters/lobsters/wiki">Wiki</a>
+<a href="/privacy">Privacy</a>
+<a href="/about">About</a>
+
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>
