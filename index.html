@@ -1,0 +1,55 @@
+---
+layout: nil
+title: Giacomo Tesio
+---
+<html>
+	<head>
+		<title>Giacomo Tesio</title>
+		<link rel="alternate" type="application/atom+xml" title="Log"  href="/atom.xml" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="keywords" content="Giacomo Tesio, Jehanne, Operating System, Free Software, Hacking">
+		<meta name="description" content="Personal Web site of Giacomo Tesio">
+		<link href="https://use.fontawesome.com/1ff7121680.css" media="all" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/graphic/screen.css" />
+	</head>
+	<body>
+		<div id="home-contents">
+			<dl>
+				<dt>father, husband and programmer</dt>
+				<dd>
+					<a href="/pages/wip.html">resume</a>, 
+					<a href="/pages/wip.html">talks</a>,
+					<a href="/pages/wip.html">quotes</a>
+				</dd>
+				<dt>hacks</dt>
+				<dd>
+					<a href="http://jehanne.io" target="_blank">Jehanne</a>,
+					<a href="http://epic.tesio.it" target="_blank">Epic.NET</a>
+					<a href="https://github.com/Shamar" target="_blank">more...</a>
+				</dd>
+				<dt><a id="atom" href="/atom.xml" title="Logs"><i class="fa fa-rss" aria-hidden="true"></i>&laquo; readings | writings &raquo;</a></dt>
+				<dd>
+{% for post in site.posts %}
+{% if post.public %}
+{%   if post.external %}
+ <span>{{ post.date | date_to_string }}</span>
+{%   else %}
+ <span>{{ post.date | date_to_string }}</span>
+{%   endif %}
+{%   if post.author == 'giacomo' %}
+ &raquo;
+{%   else %}
+ &laquo;
+{%   endif %}
+{%   if post.external %}
+ <a href="{{ post.external }}" target="_blank" class="external">{{ post.title }}</a><br/>
+{%   else %}
+ <a href="{{ post.url }}">{{ post.title }}</a><br/>
+{%   endif %}
+{% endif %}  
+{% endfor %}
+				</dd>
+			</dl>
+		</div>
+	</body>
+</html>

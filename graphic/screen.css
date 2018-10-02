@@ -1,0 +1,125 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dt, dl, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+/*MAIN*/
+body { 
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	background: #f9f9f9;
+	color: #555;
+	padding-bottom: 30px;
+}
+
+body.page {}
+
+body.page header {
+	display: block;
+	clear: both;
+	margin: auto;
+	padding-top: 25px;
+	width: 600px;
+	height: 150px;
+}
+
+header h1 {
+	display: block;
+	padding: 0.8em;
+	font-size: 1.5em;
+	line-height: 1.8em;
+	text-align: right;
+}
+
+div.contents {
+	display: block;
+	clear: both;
+	margin: auto;
+	width: 600px;
+}
+
+div.contents dt {
+	margin: 1em;
+}
+
+div.contents dd {
+	margin-left: 3em;
+}
+
+div.contents p {
+	margin-top: 0.5em;
+}
+
+div.contents h1 {
+	font-size: 1.2em;
+	margin-top: 4em;
+}
+
+div.contents h2 {
+	margin-top: 1em;
+}
+
+div.contents ul {
+	margin:1em;
+	margin-left:2em; 
+	list-style:initial; 
+}
+div.contents ul li {
+	margin:initial; 
+	padding:initial
+}
+
+div.contents ol {
+	margin: 1em 1em 1em 2em;
+}
+
+div.contents dl {
+	margin-top:1em;
+	margin-bottom:1em; 
+}
+
+div.contents pre {margin: 20px;}
+
+
+.info, .success, .warning, .error, .validation {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('/graphic/info.png');
+}
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('/graphic/success.png');
+}
+.warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('/graphic/warning.png');
+}
+.error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('/graphic/error.png');
+}
+
+a#atom {
+	color: #555;
+	text-decoration: none;
+}
+a#atom:hover {
+	text-decoration: underline;
+}
+
+a#atom i {
+	margin-right: 5px;
+}
+
+a.external:after {
+     content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+}
