@@ -34,9 +34,9 @@ title: Giacomo Tesio
 {% for post in site.posts %}
 {% if post.public %}
 {%   if post.external %}
- <span>{{ post.date | date_to_string }}</span>
+ <span class="date">{{ post.date | date_to_string }}</span>
 {%   else %}
- <span>{{ post.date | date_to_string }}</span>
+ <span class="date">{{ post.date | date_to_string }}</span>
 {%   endif %}
 {%   if post.author == 'giacomo' %}
  &raquo;

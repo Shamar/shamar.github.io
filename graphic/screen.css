@@ -120,6 +120,9 @@ div.contents pre {margin: 20px;}
 	color: #1F305E;
 	margin-bottom: 30px;
 }
+#home-contents span.date {
+	font-family: monospace;
+}
 #home-contents dl {
 }
 #home-contents dt {
