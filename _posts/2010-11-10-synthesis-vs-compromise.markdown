@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Synthesis vs compromise.
-public: false
+public: true
 author: giacomo
 ---
 
 My job is all about complexity.
 
-
-Designing and developing an enterprise application for a big bank, is a huge challenge.  
+Designing and developing an enterprise application for a big bank, is a huge challenge.
 It's all about understanding and solving concrete problems that are complex by nature, since they mix the human habits and needs with the rigidity of a software system.
 You can't miss a word, neither when you write the code nor when you talk with customers and users.
 You have to deeply understand both.
@@ -55,10 +54,11 @@ Compromises are cheaper: all they need is to keep their voter's consensus.
 Moreover with compromises you can focus to ensure a practice of favouritism.
 They forgot (when they know) our wonderful Constitution that states:
 
+<blockquote>
     Each Member of Parliament represents the Nation and carries out his
     duties without a binding mandate.
-    Art.67 of the Constitution of the Italian Republic
-
+    <cite>Art.67 of the <a href="https://www.senato.it/documenti/repository/istituzione/costituzione.pdf" target="blank">Constitution of the Italian Republic</a></cite>
+</blockquote>
 
 They should avoid compromises.
 They should always search synthesis.
