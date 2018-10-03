@@ -9,11 +9,11 @@ body {
 	background: #f9f9f9;
 	color: #555;
 	padding-bottom: 30px;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 body.page {
-	padding-left: 1em;
-	padding-right: 1em;
 }
 
 body.page header {
