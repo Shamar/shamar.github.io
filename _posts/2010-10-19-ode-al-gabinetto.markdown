@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ode al gabinetto. [IT]
+title: Ode al gabinetto.
 public: true
 author: giacomo
 ---
