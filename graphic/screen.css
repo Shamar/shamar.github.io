@@ -110,9 +110,17 @@ div.contents pre {margin: 20px;}
 
 #home-contents {
 	display: block;
-	padding-top: 300px;
+	padding-top: 30px;
 	margin: auto;
 	width: 600px;
+}
+#home-contents h1 {
+	font-family: monospace;
+	font-size: 30px;
+	color: #1F305E;
+	margin-bottom: 30px;
+	margin-left: 150px;
+	width: 350px;
 }
 #home-contents dl {
 	margin-left: 150px;
@@ -126,6 +134,21 @@ div.contents pre {margin: 20px;}
 	padding-left: 2em;
 }
 
+a#home {
+	display: block;
+	float: left;
+	width: 125px;
+	height: 30px;
+	margin-right: 30px;
+	text-decoration: none;
+}
+a#home span {
+	font-family: monospace;
+	color: #1F305E;
+	display:block;
+	margin-top: 55px;
+	margin-left: 60px;
+}
 
 a#atom {
 	color: #555;
