@@ -108,6 +108,25 @@ div.contents pre {margin: 20px;}
 	background-image: url('/graphic/error.png');
 }
 
+#home-contents {
+	display: block;
+	padding-top: 300px;
+	margin: auto;
+	width: 600px;
+}
+#home-contents dl {
+	margin-left: 150px;
+	width: 350px;
+}
+#home-contents dt {
+	margin-top: 1em;
+	font-weight: bold;
+}
+#home-contents dd {
+	padding-left: 2em;
+}
+
+
 a#atom {
 	color: #555;
 	text-decoration: none;
