@@ -124,7 +124,7 @@ div.contents pre {margin: 20px;}
 	color: #1F305E;
 	margin-bottom: 30px;
 }
-#home-contents span.date {
+span.date {
 	font-family: monospace;
 }
 #home-contents dl {
@@ -136,7 +136,7 @@ div.contents pre {margin: 20px;}
 #home-contents dd {
 	padding-left: 2em;
 }
-#home-contents div.links {
+.links {
 	overflow-x: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -150,6 +150,7 @@ div.contents pre {margin: 20px;}
 
 a#home {
 	display: block;
+	font-weight: bold;
 	float: left;
 	width: 125px;
 	height: 30px;
@@ -177,8 +178,9 @@ a#atom i {
 	margin-right: 5px;
 }
 
-a.external:after {
-     content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+a.external:before {
+	padding-right: 5px;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
 }
 
 /* smartphones */
