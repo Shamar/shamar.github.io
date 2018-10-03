@@ -18,7 +18,7 @@ body.page header {
 	clear: both;
 	margin: auto;
 	padding-top: 25px;
-	width: 600px;
+	max-width: 600px;
 	height: 150px;
 }
 
@@ -34,7 +34,7 @@ div.contents {
 	display: block;
 	clear: both;
 	margin: auto;
-	width: 600px;
+	max-width: 600px;
 }
 
 div.contents dt {
@@ -112,7 +112,7 @@ div.contents pre {margin: 20px;}
 	display: block;
 	padding-top: 30px;
 	margin: auto;
-	width: 600px;
+	max-width: 600px;
 }
 #home-contents h1 {
 	font-family: monospace;
