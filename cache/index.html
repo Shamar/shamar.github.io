@@ -34,7 +34,17 @@ title: Giacomo Tesio
 			    min-width: 100px;
 			}
 			header {
+				display: block;
+				clear: both;
 				height: 100px !important;
+			}
+			@media screen and (min-width: 400px) {
+				.line {
+					display: block;
+				}
+				.fline {
+					padding-left: 8em;
+				}
 			}
 		</style>
 	</head>
@@ -44,14 +54,14 @@ title: Giacomo Tesio
 			<h1>Personal Web cache</h1>
 		</header>
 		<div class="contents">
-			<p style="font-style: italic; display:block; margin-bottom:40px">
-			<span style="display: block; padding-left: 8em">
+			<p style="font-style: italic; display:block; clear: both; margin-bottom:40px">
+			<span class="line fline">
 				Sapias, vina liques et spatio brevi
 			</span>
-			<span style="display: block">
+			<span class="line">
 				spem longam reseces. Dum loquimur, fugerit invida
 			</span>
-			<span style="display: block">
+			<span class="line">
 				aetas: carpe diem quam minimum credula postero.
 			</span>
 			</p>
