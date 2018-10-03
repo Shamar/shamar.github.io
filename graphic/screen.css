@@ -11,7 +11,10 @@ body {
 	padding-bottom: 30px;
 }
 
-body.page {}
+body.page {
+	padding-left: 1em;
+	padding-right: 1em;
+}
 
 body.page header {
 	display: block;
@@ -133,14 +136,15 @@ div.contents pre {margin: 20px;}
 #home-contents dd {
 	padding-left: 2em;
 }
-#home-contents dd div.links {
+#home-contents div.links {
 	overflow-x: hidden;
+	white-space: nowrap;
 	text-overflow: ellipsis;
 }
-#home-contents dd div.links span.read{
+#home-contents span.read{
 	color: green;
 }
-#home-contents dd div.links span.wrote{
+#home-contents span.wrote{
 	color: red;
 }
 
