@@ -5,6 +5,7 @@ title: Giacomo Tesio
 <html>
 	<head>
 		<title>Giacomo Tesio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="alternate" type="application/atom+xml" title="Log"  href="/atom.xml" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="keywords" content="Giacomo Tesio, Jehanne, Operating System, Free Software, Hacking">
@@ -18,8 +19,8 @@ title: Giacomo Tesio
 			<dl>
 				<dt>father, husband and programmer</dt>
 				<dd>
-					<a href="mailto:giacomo@tesio.it">contact</a>, 
-					<a href="/pages/wip.html">cv</a>, 
+					<a href="mailto:giacomo@tesio.it">contact</a>,
+					<a href="/pages/wip.html">cv</a>,
 					<a href="/pages/wip.html">talks</a>,
 					<a href="/pages/wip.html">quotes</a>
 				</dd>
@@ -27,30 +28,31 @@ title: Giacomo Tesio
 				<dd>
 					<a href="http://jehanne.io" target="_blank">Jehanne</a>,
 					<a href="http://epic.tesio.it" target="_blank">Epic.NET</a>,
+					<a href="/pages/wip.html">web cache</a>,
 					<a href="https://github.com/Shamar" target="_blank">more...</a>
 				</dd>
-				<dt title="my readings and writings">input &laquo; | &raquo; output</dt>
-				<dd>
+				<dt title="my readings and writings">input <span class="read">&laquo;</span> | <span class="wrote">&raquo;</span> output</dt>
+				<dd><div class="links">
 {% for post in site.posts %}
 {% if post.public %}
-{%   if post.external %}
- <span class="date">{{ post.date | date_to_string }}</span>
-{%   else %}
- <span class="date">{{ post.date | date_to_string }}</span>
-{%   endif %}
+
 {%   if post.author == 'giacomo' %}
- &raquo;
-{%   else %}
- &laquo;
-{%   endif %}
+	<span class="date" title="On {{ post.date | date_to_string }}, I wrote: {{ post.title | xml_escape }}">{{ post.date | date_to_string }}</span>
+	<span class="wrote">&raquo;</span>
 {%   if post.external %}
- <a href="{{ post.external }}" target="_blank" class="external">{{ post.title }}</a><br/>
+	<a href="{{ post.external }}" target="_blank" class="external">{{ post.title | xml_escape }}</a><br/>
 {%   else %}
- <a href="{{ post.url }}">{{ post.title }}</a><br/>
+	<a href="{{ post.url }}">{{ post.title }}</a><br/>
 {%   endif %}
-{% endif %}  
+{%   else %}
+	<span class="date" title="On {{ post.date | date_to_string }}, I read: {{ post.title | xml_escape }}">{{ post.date | date_to_string }}</span>
+	<span class="read">&laquo;</span>
+	<a href="{{ post.external }}" target="_blank" class="external">{{ post.title | xml_escape }}</a><br/>
+{%   endif %}
+
+{% endif %}
 {% endfor %}
-				</dd>
+				</div></dd>
 			</dl>
 		</div>
 	</body>

@@ -3,12 +3,12 @@ layout: nil
 ---
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
-  <title>Jehanne</title>
-  <link href="http://jehanne.io/"/>
-  <link type="application/atom+xml" rel="self" href="http://jehanne.io/atom.xml"/>
+
+  <title>Giacomo Tesio</title>
+  <link href="http://www.tesio.it/"/>
+  <link type="application/atom+xml" rel="self" href="http:/www.tesio.it/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://jehanne.io/</id>
+  <id>http://www.tesio.it/</id>
   <author>
     <name>Giacomo Tesio</name>
     <email>giacomo@tesio.it</email>
@@ -24,7 +24,7 @@ layout: nil
   {% endif %}
 
   <entry>
-    <id>http://jehanne.io{{ post.id }}</id>
+    <id>http://www.tesio.it{{ post.id }}</id>
 {%   if post.external %}
     <link type="text/html" rel="alternate" href="{{ post.external }}"/>
 {%   else %}
@@ -32,6 +32,7 @@ layout: nil
 {%   endif %}
     <title>{{ post.title }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
+    {% if author %}
     <author>
         <name>{{ author.name }}</name>
         {% if author.email %}
@@ -41,9 +42,14 @@ layout: nil
         <uri>{{ author.web }}</uri>
         {% endif %}
     </author>
+    {% else %}
+    <author>
+	<name>page.author</name>
+    </author>
+    {% endif %}
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
-  {% endif %}  
+  {% endif %}
   {% endfor %}
- 
+
 </feed>

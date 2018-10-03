@@ -2,7 +2,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dt, dl, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
 
 /*MAIN*/
-body { 
+body {
 	font-size: 1.05em;
 	line-height: 1.25em;
 	font-family: Helvetica Neue, Helvetica, Arial;
@@ -61,11 +61,11 @@ div.contents h2 {
 
 div.contents ul {
 	margin:1em;
-	margin-left:2em; 
-	list-style:initial; 
+	margin-left:2em;
+	list-style:initial;
 }
 div.contents ul li {
-	margin:initial; 
+	margin:initial;
 	padding:initial
 }
 
@@ -75,7 +75,7 @@ div.contents ol {
 
 div.contents dl {
 	margin-top:1em;
-	margin-bottom:1em; 
+	margin-bottom:1em;
 }
 
 div.contents pre {margin: 20px;}
@@ -133,6 +133,16 @@ div.contents pre {margin: 20px;}
 #home-contents dd {
 	padding-left: 2em;
 }
+#home-contents dd div.links {
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+#home-contents dd div.links span.read{
+	color: green;
+}
+#home-contents dd div.links span.wrote{
+	color: red;
+}
 
 a#home {
 	display: block;
@@ -165,4 +175,14 @@ a#atom i {
 
 a.external:after {
      content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+}
+
+/* smartphones */
+@media screen and (max-width: 400px) {
+
+/* reduce link's indentation */
+#home-contents dd {
+	padding-left: 1em;
+}
+
 }
