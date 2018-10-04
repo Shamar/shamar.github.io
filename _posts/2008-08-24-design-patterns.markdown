@@ -3,7 +3,7 @@ layout: post
 title: Design Patterns: Elements of Reusable Object-Oriented Software
 public: true
 external: https://en.wikipedia.org/wiki/Design_Patterns
-author: The Gang of Four
+author: GoF
 ---
 
 A classic of object-oriented design.
