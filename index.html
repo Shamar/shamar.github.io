@@ -38,17 +38,17 @@ title: Giacomo Tesio
 {% if post.public %}
 
 {%   if post.author == 'giacomo' %}
-	<span class="date" title="On {{ post.date | date_to_string }}, I wrote: {{ post.title | xml_escape }}">{{ post.date | date_to_string }}</span>
+	<span class="date" title="On {{ post.date | date_to_string }}, I wrote: {{ post.title }}">{{ post.date | date_to_string }}</span>
 	<span class="wrote">&raquo;</span>
 {%   if post.external %}
-	<a href="{{ post.external }}" target="_blank" class="external">{{ post.title | xml_escape }}</a><br/>
+	<a href="{{ post.external }}" target="_blank" class="external">{{ post.title }}</a><br/>
 {%   else %}
 	<a href="{{ post.url }}">{{ post.title }}</a><br/>
 {%   endif %}
 {%   else %}
-	<span class="date" title="On {{ post.date | date_to_string }}, I read: {{ post.title | xml_escape }}">{{ post.date | date_to_string }}</span>
+	<span class="date" title="On {{ post.date | date_to_string }}, I read: {{ post.title }}">{{ post.date | date_to_string }}</span>
 	<span class="read">&laquo;</span>
-	<a href="{{ post.external }}" target="_blank" class="external">{{ post.title | xml_escape }}</a><br/>
+	<a href="{{ post.external }}" target="_blank" class="external">{{ post.title }}</a><br/>
 {%   endif %}
 
 {% endif %}
