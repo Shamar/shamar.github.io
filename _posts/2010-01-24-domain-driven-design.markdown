@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Domain Driven Design: Tackling Complexity in the Heart of Software
+title: Domain Driven Design&#58; Tackling Complexity in the Heart of Software
 public: true
 external: http://dddcommunity.org/book/evans_2003/
 author: Eric Evans
