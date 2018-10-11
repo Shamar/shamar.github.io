@@ -24,7 +24,7 @@ Science is the process of <b>forcing the human's perceptions</b> of reality
 into the structure of Mathematics, so that it can be <b>shared</b> among humans.
 </dd>
 <dt>Technology</dt>
-<dd>from Greek <i>τέχνη-λογία</i>, "learning how to do thigs"<br/>
+<dd>from Greek <i>τέχνη-λογία</i>, "learning how to build things"<br/>
 Technology is the process of <b>forcing the human's will</b> onto reality,
 through the creative use of the knowledge acquired by Science.
 </dd>
