@@ -5,27 +5,27 @@ public: false
 author: giacomo
 ---
 
-Recently I've found myself [defining math](https://en.wikipedia.org/wiki/Definitions_of_mathematics),
+Recently I've found myself defining math,
 science and technology [a bit](https://twitter.com/giacomotesio/status/1047177795015782401)
 [too](https://mastodon.social/web/statuses/100751141447102078)
-[often](https://mastodon.social/web/statuses/100875993258441657).  
-Let's share my simple insights here to type less in the future.
+[often](https://mastodon.social/web/statuses/100875993258441657).
+I share my insights here to type less in the future.
 
 <dl>
 <dt>Mathematics</dt>
 <dd>from Greek Μαθημα τικὴ, "the art of learning"<br/>
-Mathematics studies the structure of the **constructs
-of human mind** (concepts, patterns, perceptions...) that can be
-**precisely communicated** through language.
+Mathematics studies the structure of the <b>constructs
+of human mind</b> (concepts, patterns, perceptions...) that can be
+<b>precisely communicated</b> through language.
 </dd>
 <dt>Science</dt>
 <dd>
-Science is the process of **forcing the human's perceptions** of reality
-into the structure of Mathematics, so that it can be **shared** among humans.
+Science is the process of <b>forcing the human's perceptions</b> of reality
+into the structure of Mathematics, so that it can be <b>shared</b> among humans.
 </dd>
 <dt>Technology</dt>
 <dd>
-Technology is the process of **forcing the human's will** onto reality,
+Technology is the process of <b>forcing the human's will</b> onto reality,
 through the creative use of the knowledge acquired by Science.
 </dd>
 </dl>
@@ -35,7 +35,7 @@ Mathematics is a byproduct of human evolution.
 But while in this [dark age](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 it is used to compete, for thousands years Math has been a **collaboration** tool.
 
-# First lessons
+# So what?
 
 From such simple definitions, we can infer that
 
@@ -54,9 +54,11 @@ totally different mathematics.
 
 And obviously, as our brains evolve, Math will evolve (or devolve) with them.
 
-# Funny inductions
+# Math fun...
 
 Math can study itself. To me, this recursion is fantastic! :-D
+
+[We do not need a definition](https://en.wikipedia.org/wiki/Definitions_of_mathematics) for Mathematics: its name says it all!
 
 Our perceptions are projections of reality into our minds.  
 **Projections**. Like shadows. And like with shadows, a single real object can
@@ -74,7 +76,7 @@ This also means that **Science cannot beat Mysticism**.
 Whenever you see people using Science or Math against Religion, you know they do not understand what Math and Science are.
 Science can beat bigotry, but not Faith.
 
-# Sad deductions
+# ...for small men
 
 As a programmer, I'm pretty sad about the amount of crap we see in technology.
 
