@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Math, Science and Technology
-public: false
+public: true
 author: giacomo
 ---
 
