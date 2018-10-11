@@ -13,18 +13,18 @@ I share my insights here to type less in the future.
 
 <dl>
 <dt>Mathematics</dt>
-<dd>from Greek Μαθημα τικὴ, "the art of learning"<br/>
+<dd>from Greek <i>Μαθημα-τικὴ</i>, "the art of learning"<br/>
 Mathematics studies the structure of the <b>constructs
 of human mind</b> (concepts, patterns, perceptions...) that can be
 <b>precisely communicated</b> through language.
 </dd>
 <dt>Science</dt>
-<dd>
+<dd>from Latin <i>scire</i>, "to know"<br/>
 Science is the process of <b>forcing the human's perceptions</b> of reality
 into the structure of Mathematics, so that it can be <b>shared</b> among humans.
 </dd>
 <dt>Technology</dt>
-<dd>
+<dd>from Greek <i>τέχνη-λογία</i>, "learning how to do thigs"<br/>
 Technology is the process of <b>forcing the human's will</b> onto reality,
 through the creative use of the knowledge acquired by Science.
 </dd>
@@ -40,8 +40,8 @@ it is used to compete, for thousands years Math has been a **collaboration** too
 From such simple definitions, we can infer that
 
 - Math is not about reality, just about our mind.
-- it's not Math if it cannot be learned through language: Math move knowledge out of a person mind, turning personal insight into the Culture of Humanity.
-- it's not Scince if it cannot described by Math.
+- It's not Math if it cannot be learned through language: Math move knowledge out of a person mind, turning personal insight into the Culture of Humanity.
+- It's not Science if it cannot be described by Math.
 - **Science is not about reality**, but about our perceptions of it.
 - Technology is Politics: from [wheel](https://en.wikipedia.org/wiki/Wheel) to [sail](https://en.wikipedia.org/wiki/Sail),
   from [writing](https://en.wikipedia.org/wiki/Writing#History) to [computers](https://en.wikipedia.org/wiki/Computer#History) up to [the Internet](https://medium.com/@giacomo_59737/the-web-is-still-a-darpa-weapon-31e3c3b032b8) and beyond,
