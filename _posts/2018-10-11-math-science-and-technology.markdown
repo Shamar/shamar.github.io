@@ -21,7 +21,7 @@ of human mind</b> (concepts, patterns, perceptions...) that can be
 <dt>Science</dt>
 <dd>from Latin <i>scire</i>, "to know"<br/>
 Science is the process of <b>forcing the human's perceptions</b> of reality
-into the structure of Mathematics, so that it can be <b>shared</b> among humans.
+into the structure described by Mathematics, so that it can be <b>shared</b> among humans.
 </dd>
 <dt>Technology</dt>
 <dd>from Greek <i>τέχνη-λογία</i>, "learning how to build things"<br/>
