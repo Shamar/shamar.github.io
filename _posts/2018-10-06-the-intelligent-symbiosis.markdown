@@ -47,11 +47,13 @@ But where do these data come from?
 
 To understand this I suggest you to look at this except from a wikipedia page. 
 
-![An except from wikipedia with a link in a footnote](https://thepracticaldev.s3.amazonaws.com/i/0yy5avzycma33vx2j9p1.png)
+<img title="An except from wikipedia with a link in a footnote" style="max-width: 600px"
+     src="https://thepracticaldev.s3.amazonaws.com/i/0yy5avzycma33vx2j9p1.png"/>
 
 In a footnote it has a link to a primary source.<br/>By clicking such link we spread at the very least 10 personal informations.
 
-![The minimum amount of personal informations that a single click spread](https://thepracticaldev.s3.amazonaws.com/i/4slh4mbsafi623di8iqp.png)
+<img title="The minimum amount of personal informations that a single click spread" style="max-width: 600px"
+     src="https://thepracticaldev.s3.amazonaws.com/i/4slh4mbsafi623di8iqp.png"/>
 
 Some informations are cultural, some are medical, some are geopolitical and some are economical, since if you are browsing from the last iPhone you probably have different wealth then if you browse Wikipedia from a library's PC.
 
