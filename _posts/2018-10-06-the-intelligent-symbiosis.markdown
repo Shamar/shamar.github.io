@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Intelligent Symbiosis
-public: false
+public: true
 author: giacomo
 ---
 
@@ -201,9 +201,9 @@ Audrey Jones can
 - count
 - program
 
-which are all preconditions of a true citizenship in the world we live in.
+which are all **preconditions of a true citizenship** in the world we live in.
 
-And computers are easy! A SQL injection attack is trivial: the fact that you cannot do it doesn't mean that it's difficult, just that you don't know how to do it! Audrey can do it, and she is eleven!
+And computers are easy! A SQL injection is a trivial attack: the fact that you cannot do it doesn't mean that it's difficult, just that you don't know how to do it! Audrey can do it, and she is eleven!
 
 Audrey Jones have
 
