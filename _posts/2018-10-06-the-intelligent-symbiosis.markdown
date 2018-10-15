@@ -5,7 +5,7 @@ public: true
 author: giacomo
 ---
 
-*This is a translated (and polished) transcript of [my talk](http://www.radioradicale.it/scheda/553800/iframe?i=3892905) (slides [here](http://www.tesio.it/talks/ai/2018_Milano_La-Simbiosi-Intelligente.pdf)) at the XV Congress of the Associazion Luca Coscioni about Research Freedom.*
+*This is a translated (and polished) transcript of [my talk](http://www.radioradicale.it/scheda/553800/iframe?i=3892905) (slides [here](http://www.tesio.it/talks/ai/2018_Milano_La-Simbiosi-Intelligente.pdf)) at the XV Congress of the Association Luca Coscioni about Research Freedom.*
 
 Good evening, my name Giacomo, I'm a programmer and I will try to share here a more pratical perspective on these matters. I will talk about [the symbiosis between humans and machines](http://groups.csail.mit.edu/medg/people/psz/Licklider.html), trying to envision a path that can move us forward into this direction.
 
@@ -39,7 +39,7 @@ We can thus see at least three phases:
 
 which is a little magical, it's always arbitrary, since it's up to humans.
 
-<table style="float: right;width: 100px;font-family: monospace;"><tr><td>Data are just representations of information.<br/>Information belong to human minds.</td></tr></table>
+<div style="display:block; clear: both"><table style="float: right;font-family: monospace;"><tr><td>Data are just representations of information.<br/>Information belong to human minds.</td></tr></table></div>
 
 But where do these data come from?
 
@@ -96,7 +96,7 @@ That simulator shouldn't have been driving a 2 tons car in a road open to public
 
 So Elaine wasn't killed for progress, but **for Uber's profit**!
 
-<table style="float: right;width: 100px;font-family: monospace;"><tr><td>Teaching ethics to machines is like teaching sex to condoms.<br/>I'd focus on humans, first.</td></tr></table>
+<div style="display:block; clear: both"><table style="float: right;font-family: monospace;"><tr><td>Teaching ethics to machines is like teaching sex to condoms.<br/>I'd focus on humans, first.</td></tr></table></div>
 
 And this is relevant to because Uber was invited to test a technology totally inadequated to the complexity it had to face, by an ignorant Governor.
 
