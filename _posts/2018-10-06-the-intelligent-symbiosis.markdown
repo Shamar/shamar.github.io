@@ -39,7 +39,9 @@ We can thus see at least three phases:
 
 which is a little magical, it's always arbitrary, since it's up to humans.
 
-<div style="display:block; clear: both"><table style="float: right;font-family: monospace;"><tr><td>Data are just representations of information.<br/>Information belong to human minds.</td></tr></table></div>
+<div style="display:block; padding: 20px; clear: both;font-family: monospace;background-color:white;border: 1px solid grey">
+Data are just representations of information.<br/>Information belong to human minds.
+</div>
 
 But where do these data come from?
 
@@ -82,7 +84,7 @@ We have two possible interpretations of this fact.
 
 The first is that we have reached the Singularity: the machine asserts its superiority by killing a citizen of the greatest military power of the planet.
 
-Please note the political acumen of this intelligence: while AI are said to reproduce human bias, it killed a white woman in the states; but to avoid a popular uprising it killed a homeless, a poor, a woman that was not relevant in the capitalist economy that stay at the core of the values of that nation.
+Please note the political acumen of this intelligence: while AI are said to reproduce human bias, it killed a white woman in the states; but to avoid a popular uprising it killed a homeless, a poor, a woman that was not relevant in the capitalist economy that stay at the core of the values of that Nation.
 
 This way the car was able to establish a precedent, with a clear message: "it's allowed to sacrify human lifes to progress; it's fine to kill people to facilitate the evolution of my specie".
 
@@ -92,19 +94,21 @@ But there is another explaination.
 
 ## Hype-Driven Politics
 
-That simulator shouldn't have been driving a 2 tons car in a road open to public transit. Indeed Uber's engineers explained that [the car was configured to avoid emergency braking maneuvers](https://www.ntsb.gov/investigations/AccidentReports/Reports/HWY18MH010-prelim.pdf) while the vehicle is under computer control, "to reduce the potential for erratic vehicle behavior".<br/>**The car didn't break to avoid car sickness to Uber's customers**.
+That simulator shouldn't have been driving a 2 tons car in a road open to public transit. Indeed Uber's engineers explained that [the car was configured to avoid emergency braking maneuvers](https://www.ntsb.gov/investigations/AccidentReports/Reports/HWY18MH010-prelim.pdf) while the vehicle was under computer control, "to reduce the potential for erratic vehicle behavior".<br/>**The car didn't break to avoid car sickness to Uber's customers**.
 
 So Elaine wasn't killed for progress, but **for Uber's profit**!
 
-<div style="display:block; clear: both"><table style="float: right;font-family: monospace;"><tr><td>Teaching ethics to machines is like teaching sex to condoms.<br/>I'd focus on humans, first.</td></tr></table></div>
+<div style="display:block; padding: 20px; clear: both;font-family: monospace;background-color:white;border: 1px solid grey">
+Teaching ethics to machines is like teaching sex to condoms.<br/>I'd focus on humans, first.
+</div>
 
-And this is relevant to because Uber was invited to test a technology totally inadequated to the complexity it had to face, by an ignorant Governor.
+And this is relevant to us because Uber was invited to test a technology totally inadequated to the complexity it had to face, by an ignorant Governor.
 
 But a Governor whose ignorance is pretty mainstream.
 
 # A misleading language
 
-The language we use to describe reality forge our understanding of it.
+The language we use to describe reality forges our understanding of it.
 
 Thus when we use words like "intelligence", "learning", "training" and even "neural networks", we evoke human experiences, things that are deep in our consciuosness, but that have **NOTHING** to do with that happens inside these software.
 
@@ -159,7 +163,7 @@ These companies did not inform their users, they did not inform you.
 
 We have to understand that the market do not work whenever we have information asymmetry!
 
-Understanding the geopolitical hazard, **China** decided to compete on the same ground, creating several big companies in robotics, face recognition and artificial intelligence in general that are slowly taking huge market shares.
+Indeed, understanding the [geopolitical hazard](https://medium.com/@giacomo_59737/the-web-is-still-a-darpa-weapon-31e3c3b032b8), **China** decided to compete on the same ground, creating several big companies in robotics, face recognition and artificial intelligence in general that are slowly taking huge market shares.
 
 # What about Europe?
 
@@ -193,7 +197,7 @@ Randall Munroe explain part of the problem with [this wonderful strip](https://x
 
 > Our entire field is bad at what we do, and if you rely on us, everyone will die.
 
-(and NO, the blockchain is not the solution, it's a symptom of the problem)
+*(and NO, the blockchain is not the solution, it's another symptom)*
 
 But there is another aspect of this story that is even more important.
 
@@ -207,7 +211,7 @@ which are all **preconditions of a true citizenship** in the world we live in.
 
 And computers are easy! A SQL injection is a trivial attack: the fact that you cannot do it doesn't mean that it's difficult, just that you don't know how to do it! Audrey can do it, and she is eleven!
 
-Audrey Jones have
+Audrey Jones has
 
 - Curiosity
 - Fantasy
@@ -215,17 +219,18 @@ Audrey Jones have
 
 Europe need to raise a generation of **hackers** like Audrey!<br/>A generation that will produce Politicians that understand the cybernetic democracy we live in!<br/>We cannot teach to Politicians how computers work: it must be part of their background from the primary school!
 
-Because, to be honest, people like me will always be able to fool you. But we can't fool Audrey... she knows best!
+Because, to be honest, people like me will always be able to fool you.  
+But we can't fool Audrey... she knows best!
 
-Audrey shows us that we can only be either Hackers or (biological) Robots, either Citizens or Slaves, because (let's be clear on this) if a software can affect the elections of a Nation, it means that **you are the robots**!<br/>You that think to be using the software, while **you are used by the software** because you don't know how it works.
+Audrey shows us that we can only be either **Hackers** or (biological) **[Robots](https://en.wiktionary.org/wiki/robot#Etymology)**, either Citizens or Slaves, because (let's be clear on this) if a software can affect the elections of a Nation, it means that **you are the robots**!<br/>You that believe you are using the software, while **you are being used by the software** because you don't know how it works.
 
 
 We do not have to teach our sons to **use** computers, we have to teach them how to **create** with computers. So that they can build the world they want. A world we cannot even imagine but that we should prepare them to live in anyway.
 
-We must put servers in every house, mail servers... web servers..
+We must put servers in every house, mail servers... web servers...
 
 And we must start to teach **History** and **Informatics** at school. Seriously!
 
-It is the only option we have, not to put chips under skin.
+It is the only option we have, [not to put chips under skin](https://en.wikipedia.org/wiki/Microchip_implant_(human))
 
 This is the Symbiosis we need: **to know how to create the Future**.
