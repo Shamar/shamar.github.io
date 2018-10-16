@@ -1,0 +1,103 @@
+Vademecum - Hacker's handbook
+=============================
+
+Don't panic! It's funny! ;-)
+
+Being an hacker is all about Curiosity.
+Knowledge is just the prize for Curiosity. 
+Like Ignorance, it's a fundamental step of an hacker journey. 
+It's a destination. And a starting point.
+
+This is just a minimal reference book about hackers' wisdom that you can
+use to study and teach our way to the Universe and the Human mind.
+You won't find everything. Neither here nor elsewhere.
+Here you can only read what you need to know to follow us in your way.
+
+This handbook is organized with a few small introductory texts that
+describe the invariant aspects of our culture followed by a pocket
+dictionary that provide useful definitions.
+
+The Vademecum itself is a hack to fit a whole Culture in 2^16 byte.
+
+Hackers' Ethics
+---------------
+Technology is a prosecution of Politics by other means.
+
+Hackers acknowledge this responsibility and want to serve Humanity
+through their creative Curiosity. Curiosity is our core value,
+what qualify us as hackers. But in our pursuit we also follow other
+values such as
+
+1. Freedom: we have the right to learn what we want in the way we want
+2. Condivision: the more people know, the more they can learn and share
+3. Intellectual Honesty: we can be wrong but not pretend we are not
+
+As complex persons from cultures all over the world, we often have other
+values that stem from our beliefs, religion or whatever, but these
+values do not conflict with the values above.
+
+Informatics
+-----------
+While hackers can hack anything, computers and information systems are
+our usual environment.
+
+Most hackers are polyglot programmers, master several operating systems,
+understand network topologies and properly use cryptography.
+
+Glossary
+--------
+Computer:
+An agent who calculates.
+An extremely handy device for realizing any conceivable mechanism
+by representing computations and without changing a single wire.
+
+Cryptography:
+(from κρυπτός γράφειν, "secret writing")
+The set of techniques to share secrete messages with one or more person.
+
+Curiosity:
+(from cūriōsus, "curious")
+The force that moves hackers' action. The will to learn.
+
+Hacker:
+A person deeply moved by his own curiosity. Someone who desires
+knowledge above all.
+
+Hack:
+What hackers do. An experiment. A smart solution to a problem.
+
+Language:
+(from lingua, "tongue")
+A comunication system among distinct and usually different agents.
+E.g. Programming languages are used to control computers.
+
+Man in the Middle (also MitM):
+A subversion of users' assumptions by an agent that is able to intercept
+(and modify) the contents of the comunications among them, just by
+lurking on the path crossed by the messages.
+
+Mathematics:
+(from Μαθημα τικὴ, "the art of learning")
+The study of the structure of the constructs of human mind (concepts,
+patterns, perceptions...) that can be precisely communicated through 
+language.
+
+Network:
+A group of agents that comunicates.
+E.g. A computer network.
+
+Program:
+(from programma, "a public notice")
+A sequence of instructions that a agent can perform.
+E.g. A computer program. A diet program.
+
+Science:
+(from scire, "to know")
+Science is the process of forcing the human's perceptions of reality 
+into the structure described by Mathematics, so that it can be shared
+among humans.
+
+Technology:
+(from τέχνη λογία, "learning how to build things")
+Technology is the process of forcing the human's will onto reality,
+through the creative use of the knowledge acquired by Science. 
