@@ -7,7 +7,7 @@ author: giacomo
 
 *This is a translated (and polished) transcript of [my talk](http://www.radioradicale.it/scheda/553800/iframe?i=3892905) (slides [here](http://www.tesio.it/talks/ai/2018_Milano_La-Simbiosi-Intelligente.pdf)) at the XV Congress of the Association Luca Coscioni about Research Freedom.*
 
-Good evening, my name Giacomo, I'm a programmer and I will try to share here a more pratical perspective on these matters. I will talk about [the symbiosis between humans and machines](http://groups.csail.mit.edu/medg/people/psz/Licklider.html), trying to envision a path that can move us forward into this direction.
+Good evening, my name Giacomo, I'm a programmer and I will try to share here a more practical perspective on these matters. I will talk about [the symbiosis between humans and machines](http://groups.csail.mit.edu/medg/people/psz/Licklider.html), trying to envision a path that can move us forward into this direction.
 
 # A new specie
 
@@ -17,10 +17,10 @@ Let's start with a definition of Artificial Intellingence [from the University o
 
 Now, if we introduce a new specie into an ecosystem, be it artificial or not, we break its dynamic equilibrium with few possible outcomes:
 
-1. the extintion of the new specie, refused by the ecosystem
+1. the extinction of the new specie, refused by the ecosystem
 2. an articulation of the [food web](https://en.wikipedia.org/wiki/Food_web)
-3. the distruction of the ecosystem itself
-4. the instauration of a [symbiotic relationship](https://en.wikipedia.org/wiki/Symbiosis) among the new specie and a resident one.
+3. the destruction of the ecosystem itself
+4. the establishment of a [symbiotic relationship](https://en.wikipedia.org/wiki/Symbiosis) among the new specie and a resident one.
 
 We can surely exclude the first outcome, since we are here talking about Artificial Intelligences that are taking off. But we can also exclude the articulation of the food web by looking at the metabolism of Artificial Intellicences that is based on data:
 
@@ -65,7 +65,7 @@ However this data are what AI eat, every day, without any interaction with the [
 
 Thus we are left with two possible outcomes:
 
-* the distruction of the ecosystem
+* the destruction of the ecosystem
 * the symbiosis
 
 That is: we can either go to [Terminator](https://en.wikipedia.org/wiki/The_Terminator)... or to [WALL-E](https://en.wikipedia.org/wiki/WALL-E).
@@ -90,7 +90,7 @@ This way the car was able to establish a precedent, with a clear message: "it's 
 
 A [super intelligence](https://medium.com/@giacomo_59737/yet-another-definition-of-intelligence-9bbaaa73086d), as you can see.
 
-But there is another explaination.
+But there is another explanation.
 
 ## Hype-Driven Politics
 
