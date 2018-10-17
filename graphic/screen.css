@@ -82,6 +82,11 @@ div.contents dl {
 
 div.contents pre {margin: 20px;}
 
+blockquote {
+	border-left: 2px solid black;
+	padding-left: 1em;
+	margin-left: 2em;
+}
 
 .info, .success, .warning, .error, .validation {
 	border: 1px solid;
