@@ -3,10 +3,10 @@ Vademecum - Hacker's handbook
 
 Don't panic! It's funny! ;-)
 
-Being an hacker is all about Curiosity.
+Being a hacker is all about Curiosity.
 Knowledge is just the prize for Curiosity. 
-Like Ignorance, it's a fundamental step of an hacker journey. 
-It's a destination. And a starting point.
+Like Ignorance, it's a fundamental step of our journey. But just a step.
+It's a destination. And a new starting point.
 
 This is just a minimal reference book about hackers' wisdom that you can
 use to study and teach our way to the Universe and the Human mind.
@@ -46,28 +46,47 @@ understand network topologies and properly use cryptography.
 
 Glossary
 --------
+Being an international movement, hackers are used to adopt the most
+widely used lingua franca of their period. In the past, such language
+has been Greek, Latin, Arabic, Franch, Chinese (and actually many others
+depending on the latitude and age).
+After the second World War, the Marshall Plan exported the U.S.A. market
+and culture worldwide and English (that was already spoken in several
+U.K. colonies) became the the common means of communication among people
+of different linguistic backgrounds. This obviously affected science and
+tecnology too, in particular due to the huge U.S.A. investments during
+the Cold War.
+As a product of its times, this Vademecum is in English, but we want to
+acknowledge the contribution of all the different cultures that over
+the history of mankind stratified into our own language through the
+known etimology of each word.
+
 Computer:
 An agent who calculates.
 An extremely handy device for realizing any conceivable mechanism
 by representing computations and without changing a single wire.
 
 Cryptography:
-(from κρυπτός γράφειν, "secret writing")
+(Greek: κρυπτός γράφειν, "secret writing")
 The set of techniques to share secrete messages with one or more person.
 
 Curiosity:
-(from cūriōsus, "curious")
-The force that moves hackers' action. The will to learn.
+(Latin: cūriōsus, "curious")
+The force that moves hackers' action. The will to learn, to understand.
 
 Hacker:
-A person deeply moved by his own curiosity. Someone who desires
-knowledge above all.
+A person deeply moved by Curiosity. Someone who struggle for knowledge.
 
 Hack:
 What hackers do. An experiment. A smart solution to a problem.
 
+Kludge:
+(German: klug, "cleaver", "canny" or "ingenious")
+A workaround or quick-and-dirty solution that is clumsy, inelegant,
+inefficient, difficult to extend and hard to maintain.
+
 Language:
-(from lingua, "tongue")
+(Latin: lingua, "tongue")
 A comunication system among distinct and usually different agents.
 E.g. Programming languages are used to control computers.
 
@@ -77,7 +96,7 @@ A subversion of users' assumptions by an agent that is able to intercept
 lurking on the path crossed by the messages.
 
 Mathematics:
-(from Μαθημα τικὴ, "the art of learning")
+(Greek: Μαθημα τικὴ, "the art of learning")
 The study of the structure of the constructs of human mind (concepts,
 patterns, perceptions...) that can be precisely communicated through 
 language.
@@ -87,17 +106,17 @@ A group of agents that comunicates.
 E.g. A computer network.
 
 Program:
-(from programma, "a public notice")
+(Latin: programma, "a public notice")
 A sequence of instructions that a agent can perform.
 E.g. A computer program. A diet program.
 
 Science:
-(from scire, "to know")
+(Latin: scire, "to know")
 Science is the process of forcing the human's perceptions of reality 
 into the structure described by Mathematics, so that it can be shared
 among humans.
 
 Technology:
-(from τέχνη λογία, "learning how to build things")
+(Greek: τέχνη λογία, "learning how to build things")
 Technology is the process of forcing the human's will onto reality,
 through the creative use of the knowledge acquired by Science. 
