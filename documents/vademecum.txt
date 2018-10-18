@@ -4,14 +4,13 @@ Vademecum - Hacker's handbook
 Don't panic! It's funny! ;-)
 
 Being a hacker is all about Curiosity.
-Knowledge is just the prize for Curiosity. 
-Like Ignorance, it's a fundamental step of our journey. But just a step.
-It's a destination. And a new starting point.
+Knowledge, like Ignorance, is a fundamental step of our journey.
+They're steps: both destinations and new starting points.
 
 This is just a minimal reference book about hackers' wisdom that you can
 use to study and teach our way to the Universe and the Human mind.
 You won't find everything. Neither here nor elsewhere.
-Here you can only read what you need to know to follow us in your way.
+But here you can read what you need to follow us in your way.
 
 This handbook is organized with a few small introductory texts that
 describe the invariant aspects of our culture followed by a pocket
@@ -19,14 +18,14 @@ dictionary that provide useful definitions.
 
 The Vademecum itself is a hack to fit a whole Culture in 2^16 byte.
 
+
 Hackers' Ethics
 ---------------
 Technology is a prosecution of Politics by other means.
 
-Hackers acknowledge this responsibility and want to serve Humanity
-through their creative Curiosity. Curiosity is our core value,
-what qualify us as hackers. But in our pursuit we also follow other
-values such as
+Hackers acknowledge this responsibility and serve Humanity through their
+creative Curiosity. Curiosity is our core value, what qualify us as
+hackers. But in our pursuit we also follow other values such as
 
 1. Freedom: we have the right to learn what we want in the way we want
 2. Condivision: the more people know, the more they can learn and share
@@ -36,13 +35,49 @@ As complex persons from cultures all over the world, we often have other
 values that stem from our beliefs, religion or whatever, but these
 values do not conflict with the values above.
 
+
+Are you an hacker?
+------------------
+With a strong commitment to the values above, everybody can hack.
+More: soon everybody will hack. Just like everybody can write now.
+
+However some people have an innate talent to hack.
+Natural hackers are often easy to identify because they often challenge
+common assumptions, ask stupid questions and question dumb answers.
+Young natural hackers might even look weird to their peers because
+they do not share common interests and they have different priorities.
+Often they are oblivious to standard social norms such as subordination
+to authorities and status symbols.
+
+Such strange behaviour depends on their powerful innate Curiosity that
+slowly makes them see the world in a different way. A non conventional
+sense of humor and a strong habit to critical thinking are common
+expressions of this internal force at work.
+
+If you see yourself into this description, there are good chances that
+you are a natural hacker. This doesn't grant you anything. Nobody care.
+But you might have a good time hacking and lurking with hackers.
+
+
 Informatics
 -----------
-While hackers can hack anything, computers and information systems are
-our usual environment.
+Hackers can hack anything but often computers are our favorite toys.
 
-Most hackers are polyglot programmers, master several operating systems,
-understand network topologies and properly use cryptography.
+Several hackers are polyglot programmers, master several operating
+systems, understand network topologies and properly use cryptography.
+Some venerable hackers also build new hardware devices from scratch.
+
+While hackers have always been present among humans, the term "hacker"
+was coined around 1960, in the A.I. department at M.I.T.
+mainly because of the peculiar nature of Computers, whose constraints
+are pretty different from the physical ones.
+
+When you talk about hacking, most people will think of computers,
+while hackers will deduce from context if you are talking about food,
+parenting or whatever.
+
+This Vademecum uses Informatics to convey our wisdom. But there's more.
+
 
 Glossary
 --------
@@ -52,23 +87,23 @@ has been Greek, Latin, Arabic, Franch, Chinese (and actually many others
 depending on the latitude and age).
 After the second World War, the Marshall Plan exported the U.S.A. market
 and culture worldwide and English (that was already spoken in several
-U.K. colonies) became the the common means of communication among people
+U.K. colonies) became the usual means of communication among people
 of different linguistic backgrounds. This obviously affected science and
-tecnology too, in particular due to the huge U.S.A. investments during
-the Cold War.
+tecnology, thanks to the huge U.S.A. investments during the Cold War.
 As a product of its times, this Vademecum is in English, but we want to
 acknowledge the contribution of all the different cultures that over
-the history of mankind stratified into our own language through the
-known etimology of each word.
+the history of mankind stratified into our language.
+Thus each term is followed by the known etimology.
 
 Computer:
-An agent who calculates.
+(Latin: computāre, "calculate")
+Who (or what) calculates.
 An extremely handy device for realizing any conceivable mechanism
 by representing computations and without changing a single wire.
 
 Cryptography:
 (Greek: κρυπτός γράφειν, "secret writing")
-The set of techniques to share secrete messages with one or more person.
+The set of techniques to share secret messages with one or more persons.
 
 Curiosity:
 (Latin: cūriōsus, "curious")
@@ -115,6 +150,11 @@ Science:
 Science is the process of forcing the human's perceptions of reality 
 into the structure described by Mathematics, so that it can be shared
 among humans.
+
+Stupid:
+(Latin: stupor, "to surprise")
+Who surprises. Who challenges our assumptions, forcing us to learn more.
+E.g. Holy shit, I wasn't able to answer such a stupid question!
 
 Technology:
 (Greek: τέχνη λογία, "learning how to build things")
