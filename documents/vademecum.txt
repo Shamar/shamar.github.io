@@ -114,6 +114,7 @@ The set of techniques to share secret messages with one or more persons.
 Curiosity:
 (Latin: cūriōsus, "curious")
 The force that moves hackers' action. The will to learn, to understand.
+E.g. Their only crime was Curiosity.
 
 Hacker:
 A person deeply moved by Curiosity. Someone who struggle for knowledge.
