@@ -16,7 +16,7 @@ This handbook is organized with a few small introductory texts that
 describe the invariant aspects of our culture followed by a pocket
 dictionary that provide useful definitions.
 
-The Vademecum itself is a hack to fit a whole Culture in 2^16 byte.
+The Vademecum itself is a hack to teach a whole Culture in 2^16 byte.
 
 
 Hackers' Ethics
@@ -81,7 +81,7 @@ This Vademecum uses Informatics to convey our wisdom. But there's more.
 
 Glossary
 --------
-Being an international movement, hackers are used to adopt the most
+As an international movement, hackers are used to adopt the most
 widely used lingua franca of their period. In the past, such language
 has been Greek, Latin, Arabic, Franch, Chinese (and actually many others
 depending on the latitude and age).
@@ -115,6 +115,11 @@ A person deeply moved by Curiosity. Someone who struggle for knowledge.
 Hack:
 What hackers do. An experiment. A smart solution to a problem.
 
+Interpreter:
+(Latin: interpretor, "I explain" or "I understand")
+Someone or something who translate, on the fly, between languages.
+A program that executes another program (see Script).
+
 Kludge:
 (German: klug, "cleaver", "canny" or "ingenious")
 A workaround or quick-and-dirty solution that is clumsy, inelegant,
@@ -140,9 +145,18 @@ Network:
 A group of agents that comunicates.
 E.g. A computer network.
 
+Operating System (also OS):
+(Greek: σύστημα, "a whole from parts"; Latin: operārī, "to work")
+A set of programs that enable humans to work with a computer.
+Such programs provide foundational services to the users such as access
+to the underlying hardware through high level abstractions, basic 
+security (authentication, authorization, permission control) and often
+the possibility to install/execute/control new programs.
+
 Program:
 (Latin: programma, "a public notice")
 A sequence of instructions that a agent can perform.
+As a verb, to write such sequence of instructions.
 E.g. A computer program. A diet program.
 
 Science:
@@ -151,12 +165,27 @@ Science is the process of forcing the human's perceptions of reality
 into the structure described by Mathematics, so that it can be shared
 among humans.
 
+Script:
+(Latin: scrīptum, "anything written")
+A human-readable program performed by an interpreter.
+
 Stupid:
-(Latin: stupor, "to surprise")
+(Latin: stupeō, "I'm amazed")
 Who surprises. Who challenges our assumptions, forcing us to learn more.
-E.g. Holy shit, I wasn't able to answer such a stupid question!
+E.g. Holy shit, I cannot answer such a stupid question!
 
 Technology:
 (Greek: τέχνη λογία, "learning how to build things")
 Technology is the process of forcing the human's will onto reality,
 through the creative use of the knowledge acquired by Science. 
+
+User:
+(Latin: ūtor, "I use")
+A human using a program (as seen from the programmer's perspective).
+Users and programmers are humans collaborating asynchronously, even when
+both use automated proxies (e.g. the user is scripting the program).
+Such collaboration produces a feedback loop in both directions, to the
+extent that the programmers can manipulate the users' beliefs and the
+user can subvert the programmers assumptions.
+Hackers are aware of such collaboration and consider the persons on the
+other side in their complexity, beyond the limited scope of the program.
