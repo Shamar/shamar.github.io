@@ -178,7 +178,7 @@ A human-readable program performed by an interpreter.
 Stupid:
 (Latin: stupeō, "I'm amazed")
 Who surprises. Who challenges our assumptions, forcing us to learn more.
-E.g. Holy shit, I cannot answer such a stupid question!
+E.g. This is a stupid definition!
 
 Technology:
 (Greek: τέχνη λογία, "learning how to build things")
