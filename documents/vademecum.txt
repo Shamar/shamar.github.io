@@ -95,6 +95,12 @@ acknowledge the contribution of all the different cultures that over
 the history of mankind stratified into our language.
 Thus each term is followed by the known etimology.
 
+Application (also App):
+(Latin: applicō, "I attach" and "I apply")
+A set of programs that let humans apply computers to a specific goal.
+By constraining the users' access to the underlying hardware, an 
+application turns a computer into a specialized (but more useful) tool.
+
 Computer:
 (Latin: computāre, "calculate")
 Who (or what) calculates.
@@ -149,15 +155,15 @@ Operating System (also OS):
 (Greek: σύστημα, "a whole from parts"; Latin: operārī, "to work")
 A set of programs that enable humans to work with a computer.
 Such programs provide foundational services to the users such as access
-to the underlying hardware through high level abstractions, basic 
-security (authentication, authorization, permission control) and often
-the possibility to install/execute/control new programs.
+to the underlying hardware through high level abstractions, a user
+interface, basic security (authentication, authorization) and often
+the possibility to create/install/execute/control new programs.
 
 Program:
 (Latin: programma, "a public notice")
 A sequence of instructions that a agent can perform.
 As a verb, to write such sequence of instructions.
-E.g. A computer program. A diet program.
+E.g. A computer program. A diet program. She is programming.
 
 Science:
 (Latin: scire, "to know")
@@ -186,6 +192,15 @@ Users and programmers are humans collaborating asynchronously, even when
 both use automated proxies (e.g. the user is scripting the program).
 Such collaboration produces a feedback loop in both directions, to the
 extent that the programmers can manipulate the users' beliefs and the
-user can subvert the programmers assumptions.
+user can subvert the programmers' assumptions.
 Hackers are aware of such collaboration and consider the persons on the
 other side in their complexity, beyond the limited scope of the program.
+
+User Interface (also UI):
+(Latin: ūtor, "I use"; Latin: inter-faciō, "I build between")
+One or more programs (or parts of programs) that constitute the
+perceptible surface of an interactive application. It collects the human
+messages to the application and represent the application feedbacks to
+the user. A UI can educate users or fool them, can be intuitive or
+deceptive, beautiful or ugly, usable or cumbersome.
+E.g. Firefox fosters Insecurity through UI Obscurity: see about:config.
