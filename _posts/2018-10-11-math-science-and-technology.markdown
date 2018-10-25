@@ -56,6 +56,8 @@ And obviously, as our brains evolve, Math will evolve (or devolve) with them.
 
 # Math fun...
 
+![Math is everywhere... in our minds!](/graphic/math-everywhere.jpg)
+
 Math can study itself. To me, this recursion is fantastic! :-D
 
 [We do not need a definition](https://en.wikipedia.org/wiki/Definitions_of_mathematics) for Mathematics: its name says it all!
