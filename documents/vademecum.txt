@@ -99,6 +99,10 @@ Agent:
 (Latin: ago, "I do")
 An identifiable entity that is modifying the state of a system.
 
+Algorithm:
+(Persian:  خوارزمی‎, Muḥammad ibn Mūsā al-Khwārizmī, mathematician)
+An unambiguous specification of how to solve a class of problems.
+
 Application (also App):
 (Latin: applicō, "I attach" and "I apply")
 A set of programs that let humans apply computers to a specific goal.
