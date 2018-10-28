@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interview to Richard Stallman: TALKING TO THE MAILMAN
+title: Interview to Richard Stallman&#58; TALKING TO THE MAILMAN
 public: true
 external: https://newleftreview.org/II/113/richard-stallman-talking-to-the-mailman
 author: Rob Lucas
