@@ -2,7 +2,7 @@
 layout: post
 title: The Hacking License
 public: true
-external: https://www.tesio.it/documents/HACK.txt
+external: http://www.tesio.it/documents/HACK.txt
 author: GoF
 ---
 
