@@ -3,7 +3,7 @@ layout: post
 title: The Hacking License
 public: true
 external: http://www.tesio.it/documents/HACK.txt
-author: GoF
+author: giacomo
 ---
 
 The terms and conditions of this license give you the rights and norms
