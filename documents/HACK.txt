@@ -114,7 +114,7 @@ The grants provided by this License are subject to the following conditions:
    indirectly infringes a patent shall be initialized by the User.
 7. The User has never violated any of the previous conditions.
 8. All of these conditions shall be valid and enforceable under the
-   giurisdiction of the User.
+   jurisdiction of the User.
 
 
 4. Termination
