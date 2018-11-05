@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Hacking License
+title: Hacking License
 public: true
 external: http://www.tesio.it/documents/HACK.txt
 author: giacomo
