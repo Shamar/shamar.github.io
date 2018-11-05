@@ -95,6 +95,14 @@ acknowledge the contribution of all the different cultures that over
 the history of mankind stratified into our language.
 Thus each term is followed by the known etymology.
 
+Agent:
+(Latin: ago, "I do")
+An identifiable entity that is modifying the state of a system.
+
+Algorithm:
+(Persian:  خوارزمی‎, Muḥammad ibn Mūsā al-Khwārizmī, mathematician)
+An unambiguous specification of how to solve a class of problems.
+
 Application (also App):
 (Latin: applicō, "I attach" and "I apply")
 A set of programs that let humans apply computers to a specific goal.
@@ -114,7 +122,7 @@ The set of techniques to share secret messages with one or more persons.
 Curiosity:
 (Latin: cūriōsus, "curious")
 The force that moves hackers' action. The will to learn, to understand.
-E.g. Their only crime was Curiosity.
+E.g. Yes, I am a criminal. My crime is that of curiosity.
 
 Hacker:
 A person deeply moved by Curiosity. Someone who struggle for knowledge.
@@ -126,6 +134,11 @@ Interpreter:
 (Latin: interpretor, "I explain" or "I understand")
 Someone or something who translate, on the fly, between languages.
 A program that executes another program (see Script).
+
+Kernel:
+(Proto-Germanic: *kurnilo, "seed" or "grain")
+A program that constitutes the central core of a computer operating
+system with complete control over everything that occurs in the system.
 
 Kludge:
 (German: klug, "cleaver", "canny" or "ingenious")
