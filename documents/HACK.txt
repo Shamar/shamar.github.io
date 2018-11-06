@@ -76,8 +76,9 @@ Finally, a patent License to perform any of the actions permitted above
 is granted to any User under the Hackers' essential patent claims.
 
 These grants are free of charge, non-exclusive, valid everywhere in the
-Universe, royalty-free and can be transferred to third parties with
-the Hack, its Source or any Derived Work but for no charge.
+Universe, irrevocable (provided the stated conditions are met),
+royalty-free and can be transferred to third parties with the Hack,
+its Source or any Derived Work but for no charge.
 
 This License does not grant any rights in the names, trade names,
 trademarks, service marks, or logos of the Hackers, except as required
