@@ -109,6 +109,16 @@ A set of programs that let humans apply computers to a specific goal.
 By constraining the users' access to the underlying hardware, an 
 application turns a computer into a specialized (but more useful) tool.
 
+Bit:
+(English: bita, "a bite")
+Smallest possibile size of a datum, usually rappresented as 0 or 1.
+E.g. Please, flip that bit.
+
+Byte:
+(English: bite)
+A sequence of 8 adjacent bits that can be stored or operated on as a
+unit by a computer. It can represent one of 256 alternative information. 
+
 Computer:
 (Latin: computāre, "calculate")
 Who (or what) calculates.
@@ -124,11 +134,27 @@ Curiosity:
 The force that moves hackers' action. The will to learn, to understand.
 E.g. Yes, I am a criminal. My crime is that of curiosity.
 
+Datum, pl. Data:
+(Latin: datum, "given")
+One of the possibile rappresentations of an information that can be
+transferred and interpreted as informations by humans.
+E.g. We will build a model of the climate change from the recorded data.  
+
 Hacker:
 A person deeply moved by Curiosity. Someone who struggle for knowledge.
 
 Hack:
 What hackers do. An experiment. A smart solution to a problem.
+
+Informatics:
+(French: informatique, "information électronique ou automatique")
+The field of human knowledge that study how informations can be
+transferred, stored, represented, interpreted and transformed and the set
+of techniques that apply such knowledge.
+
+Information:
+(Latin: informo, "I build in my mind")
+An idea, a construct of a human mind that can be shared with other humans.
 
 Interpreter:
 (Latin: interpretor, "I explain" or "I understand")
