@@ -1,7 +1,7 @@
 /*MAIN*/
 body {
-	background: #555;
-	color: #f9f9f9;
+	background: #0d0208;
+	color: #008f11;
 }
 
 .info {
@@ -25,15 +25,22 @@ body {
 	background-image: url('/graphic/error.png');
 }
 
+a {
+	color: #003b00;
+}
+a:visited {
+	color: #008f11;
+}
+
 #home-contents h1 {
-	color: antiquewhite;
+	color: #008f11;
 }
 a#home span {
 	color: #1F305E;
 }
 
 a#atom {
-	color: #555;
+	color: #008f11;
 }
 a.external:before {
 	padding-right: 5px;
@@ -42,6 +49,7 @@ a.external:before {
 
 a.setcss.light {
 	color: antiquewhite;
+	display: inline;
 }
 a.setcss.dark {
 	display: none;
