@@ -28,7 +28,7 @@ layout: nil
 {%   if post.external %}
     <link type="text/html" rel="alternate" href="{{ post.external }}"/>
 {%   else %}
-    <link type="text/html" rel="alternate" href="http://jehanne.io{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="http://www.tesio.it{{ post.url }}"/>
 {%   endif %}
     <title>{{ post.title }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
