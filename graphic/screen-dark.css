@@ -1,0 +1,45 @@
+/*MAIN*/
+body {
+	background: #555;
+	color: #f9f9f9;
+}
+
+.info {
+	color: #BDE5F8;
+	background-color: #00529B;
+	background-image: url('/graphic/info.png');
+}
+.success {
+	color: #DFF2BF;
+	background-color: #4F8A10;
+	background-image:url('/graphic/success.png');
+}
+.warning {
+	color: #FEEFB3;
+	background-color: #9F6000;
+	background-image: url('/graphic/warning.png');
+}
+.error {
+	color: #FFBABA;
+	background-color: #D8000C;
+	background-image: url('/graphic/error.png');
+}
+
+#home-contents h1 {
+	color: antiquewhite;
+}
+a#home span {
+	color: #1F305E;
+}
+
+a#atom {
+	color: #555;
+}
+a.external:before {
+	padding-right: 5px;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+}
+
+a.setcss.dark {
+	display: none;
+}
