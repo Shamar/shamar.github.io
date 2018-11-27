@@ -193,6 +193,9 @@ a.setcss{
 a.setcss.light {
 	display: none;
 }
+a.setcss.dark {
+	color: black;
+}
 
 /* smartphones */
 @media screen and (max-width: 400px) {
