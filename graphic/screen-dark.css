@@ -26,17 +26,20 @@ body {
 }
 
 a {
-	color: #003b00;
+	color: #00ff41;
 }
 a:visited {
 	color: #008f11;
 }
 
 #home-contents h1 {
-	color: #008f11;
+	color: #00ff41;
 }
 a#home span {
-	color: #1F305E;
+	color: #00ff41;
+}
+a#home:visited  span {
+	color: #00ff41;
 }
 
 a#atom {
