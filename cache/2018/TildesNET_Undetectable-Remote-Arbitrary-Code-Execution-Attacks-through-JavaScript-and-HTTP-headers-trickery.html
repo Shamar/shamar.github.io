@@ -1,0 +1,2772 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<base href = "https://tildes.net" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="intercoolerjs:use-data-prefix" content="true">
+  <meta name="csrftoken" content="339bd8f8d4cdef8dc9fb8cb3748c3808b50000490506a63d92eb61e686b5368d">
+
+
+  <link rel="stylesheet" href="/css/tildes.css?fe1d6134">
+  <link rel="stylesheet" href="/css/site-icons.css?b789bfaf">
+
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#002b36">
+  <meta name="apple-mobile-web-app-title" content="Tildes">
+  <meta name="application-name" content="Tildes">
+  <meta name="msapplication-TileColor" content="#002b36">
+
+  <title>Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery - ~comp - Tildes</title>
+</head>
+
+  <body>
+
+<header id="site-header" data-js-hide-sidebar-if-open="">
+  <a class="site-header-logo" href="/">Tildes</a>
+<a class="site-header-context" href="/~comp">~comp</a>
+
+    <div class="logged-in-user-info">
+    <a class="logged-in-user-username" href="/user/Shamar">Shamar</a>
+
+
+  </div>
+
+
+  <button class="btn btn-sm btn-link site-header-sidebar-button
+    " data-js-sidebar-toggle="">Sidebar</button>
+
+</header>
+
+<main data-js-hide-sidebar-if-open="">
+
+
+<article class="topic-full">
+<header>
+      <div class="topic-voting">
+
+    <span class="topic-voting-votes">5</span>
+    <span class="topic-voting-label">
+    votes
+    </span>
+
+    </div>
+
+  <h1>Undetectable Remote Arbitrary Code Execution Attacks through JavaScript and HTTP headers trickery</h1>
+  <div class="topic-full-byline">Posted <time class="time-responsive" datetime="2018-11-22T09:18:07Z" title="2018-11-22 09:18:07 UTC" data-abbreviated="8h 33m ago"><span class="time-responsive-full">8 hours, 33 minutes ago</span></time> by
+      <a href="/user/Shamar" class="link-user">Shamar</a>
+
+  </div>
+</header>
+
+
+    <div class="topic-full-link">
+      <div class="topic-icon topic-icon-mozilla_org"></div>
+      <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081">https://bugzilla.mozilla.org/show_bug.cgi?id=1487081</a>
+    </div>
+
+
+  <menu class="post-buttons">
+
+      <li><a class="post-button" name="tag" data-ic-get-from="https://tildes.net/api/web/topics/8os/tags" data-ic-swap-style="replace" data-ic-target=".topic-full .post-buttons:first + .post-buttons-settings" data-ic-src="https://tildes.net/api/web/topics/8os/tags" data-ic-trigger-on="default" data-ic-deps="ignore">Tag</a></li>
+
+      <li><a class="post-button" name="delete" data-ic-delete-from="https://tildes.net/api/web/topics/8os" data-ic-confirm="Delete this topic? This cannot be undone." data-ic-src="https://tildes.net/api/web/topics/8os" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore" data-ic-id="2">Delete</a></li>
+
+
+
+
+      <li>
+        <a class="post-button" data-ic-put-to="https://tildes.net/api/web/topics/8os/bookmark" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/topics/8os/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore" data-ic-id="3">Bookmark</a>
+      </li>
+
+  </menu>
+  <div class="post-buttons-settings" data-ic-id="1"></div>
+
+
+<section class="topic-comments">
+    <header class="topic-comments-header">
+      <h2>
+      43 comments
+      </h2>
+
+      <button class="btn btn-comment-collapse" title="Collapse reply comments" data-js-comment-collapse-all-button="">−</button>
+      <button class="btn btn-comment-collapse" title="Expand all comments" data-js-comment-expand-all-button="">+</button>
+
+      <form class="form-listing-options" method="get">
+        <div class="form-group">
+          <label for="comment_order">Comments sorted by</label>
+          <select id="comment_order" name="comment_order" class="form-select" data-js-autosubmit-on-change="">
+              <option value="votes">most votes</option>
+              <option value="newest">newest first</option>
+              <option value="posted">order posted</option>
+              <option value="relevance" selected="">relevance</option>
+          </select>
+          <noscript>
+            <button type="submit" class="btn btn-primary btn-sm">OK</button>
+          </noscript>
+        </div>
+      </form>
+    </header>
+
+  <ol class="comment-tree" id="comments" data-ic-id="67">
+    <li class="comment-tree-item">    <article id="comment-29nz" class="comment" data-comment-id36="29nz" data-comment-depth="0">
+        <div class="comment-itself" data-ic-id="4">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[10]</div>
+
+        <a href="/user/Diff" class="link-user">Diff</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T13:12:54Z" title="2018-11-22 13:12:54 UTC" data-abbreviated="4h 38m ago"><span class="time-responsive-full">4 hours, 38 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29nz">Link</a>
+
+        <div class="comment-excerpt">Oh it's you again. Dude, you're not gonna win anyone over like this, there's a reason you were banned from Lobsters. This kinda crap is best left in like a blog article where you can have your M...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>Oh it's you again. Dude, you're not gonna win anyone over like this, there's a <em>reason</em> you were banned from Lobsters.</p>
+<p>This kinda crap is best left in like a blog article where you can have your M Night twist ending that "the bug was inside us all along." When you're dealing with people on an allegedly serious issue it's disingenuous to be introducing the issue like this. It's not a bug. The web is working as intended. It has consequences and yes, people should be more aware of those consequences and there should be additional mechanisms to prevent them.</p>
+<p>But you are shooting yourself in the foot when you behave this way. Everyone who figures out what you're actually getting at will immediately dismiss you when things click into place. Cut the dramatics, come at the issue from a sane angle. Please. I like the idea but you are killing it. You're working against your own cause here by being obnoxious like this.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29nz/vote" data-ic-target="#comment-29nz .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29nz/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (18)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29nz/bookmark" data-ic-target="#comment-29nz .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29nz/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29og" class="comment is-comment-mine" data-comment-id36="29og" data-comment-depth="1">
+        <div class="comment-itself" data-ic-id="6">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[9]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T14:15:18Z" title="2018-11-22 14:15:18 UTC" data-abbreviated="3h 36m ago"><span class="time-responsive-full">3 hours, 36 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29og">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29nz" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Hi Diff, did we talked before? Yes, there is: "Constant antagonstic behavior and no hope for improvement". You are welcome to read my posts and comments there to see how antagonistic I was (some...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="5">
+
+        <blockquote>
+<p>Oh it's you again.</p>
+</blockquote>
+<p>Hi Diff, did we talked before?</p>
+<blockquote>
+<p>Dude, you're not gonna win anyone over like this, there's a reason you were banned from Lobsters.</p>
+</blockquote>
+<p>Yes, <a href="https://lobste.rs/u/Shamar">there is</a>: "Constant antagonstic behavior and no hope for improvement".<br>
+You are welcome to read my posts and comments there to see <a href="https://lobste.rs/threads/Shamar">how antagonistic I was</a> (some of the censored comments are <a href="https://dev.to/shamar/i-have-been-banned-from-lobsters-ask-me-anything-5041">readable here</a>).</p>
+<p>But note: blaming me for this attacks is a bit pointless.</p>
+<blockquote>
+<p>Cut the dramatics, come at the issue from a sane angle.</p>
+</blockquote>
+<p>Hum... to me, the bug report was clear, descriptive and only mention technical stuffs that can be verified.<br>
+If you think the reactions were insane, why you tell <strong>me</strong> to change angle?</p>
+<blockquote>
+<p>Please. I like the idea but you are killing it.</p>
+</blockquote>
+<p>If so, please: help informing people.<br>
+If you agree that these attacks are possible, informing people can't harm.<br>
+If you think I did a bad work with the bug report, feel free to integrate it. Or to create a new one. Or...</p>
+<p>To my eye is not a matter of how (or who). All it count is</p>
+<ul>
+<li>informing people, organizations, companies and governments about the attacks they are vulnerable to</li>
+<li>mitigate such attacks.</li>
+</ul>
+<p>Really: if you can do better than I did, you are welcome!</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29og" data-ic-target="#comment-29og .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29og" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29og" data-ic-target="#comment-29og .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29og" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29og/bookmark" data-ic-target="#comment-29og .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29og/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pi" class="comment" data-comment-id36="29pi" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="7">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[4]</div>
+
+        <a href="/user/Diff" class="link-user">Diff</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:10:44Z" title="2018-11-22 17:10:44 UTC" data-abbreviated="40m ago"><span class="time-responsive-full">40 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pi">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29og" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Probably not enough to make an impression but I've seen you around the net quite a bit now. That's the thing. You're not technically wrong, you're just disingenuous. Purposefully misrepresenting...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>Hi Diff, did we talked before?</p>
+</blockquote>
+<p>Probably not enough to make an impression but I've seen you around the net quite a bit now.</p>
+<blockquote>
+<p>Hum... to me, the bug report was clear, descriptive and only mention technical stuffs that can be verified.</p>
+</blockquote>
+<p>That's the thing. You're not <em>technically wrong</em>, you're just disingenuous. Purposefully misrepresenting things. For example instead of saying "There's a vulnerability with a handful of headers and some remote code execution and yep big browser doesn't want you to know," just come out and say what you mean off the bat instead of obfuscating it. "Javascript can be used to stab users in the back. How do we fix it without breaking it?" And that last bit is important. The solutions you propose will break the internet as it exists today. That's never going to get off the ground. Nobody will accept any solution that has that kind of cost. <strong>If you actually want anything fixed</strong> like you say you do, you need to work in ways that go with the grain.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29pi/vote" data-ic-target="#comment-29pi .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pi/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (8)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pi/bookmark" data-ic-target="#comment-29pi .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pi/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pl" class="comment is-comment-mine" data-comment-id36="29pl" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="9">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[3]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:34:10Z" title="2018-11-22 17:34:10 UTC" data-abbreviated="17m ago"><span class="time-responsive-full">17 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pl">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pi" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">This is the kind of arguments that people debating the qualities of JavaScript as a language would propose. I'm talking about a severe security issue that you say exists! In the number of people...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="8">
+
+        <blockquote>
+<p>"Javascript can be used to stab users in the back. How do we fix it without breaking it?"</p>
+</blockquote>
+<p>This is the kind of arguments that people debating the qualities of JavaScript as a language would propose.<br>
+I'm talking about a severe security issue that you say exists!<br>
+In the number of people affected, it's equivalent to Meltdown.<br>
+But not being an hardware issue, it could have been already fixed.</p>
+<blockquote>
+<p>The solutions you propose will break the internet as it exists today.</p>
+</blockquote>
+<p>Diff, please note that I didn't proposed any mitigation until asked for solutions.<br>
+I just reported the vulnerability describing the attacks.<br>
+If you (or Mozilla) have other effective mitigations to propose (or implement) you are totally welcome to!</p>
+<p>The only thing that I cannot understand as a developer myself is closing the issue pointing to a forum and never tring to address the attacks! They didn't dared to negate the attacks, they are just leaving users vulnerable!</p>
+<blockquote>
+<p>If you actually want anything fixed like you say you do, you need to work in ways that go with the grain.</p>
+</blockquote>
+<p>I'm just trying to <strong>inform people</strong>.<br>
+The fact that informing people is fought (here like elsewhere) is not a good sign about our field, don't you think?</p>
+<p>If the bug report is "not <em>technically wrong</em>", if people are vulnerable to these attacks, those who write that broken code (and those broken Standards) should find the proper way to mitigate the risks.</p>
+<p>Not me.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29pl" data-ic-target="#comment-29pl .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29pl" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29pl" data-ic-target="#comment-29pl .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29pl" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pl/bookmark" data-ic-target="#comment-29pl .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pl/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pm" class="comment" data-comment-id36="29pm" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="10">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/Diff" class="link-user">Diff</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:38:03Z" title="2018-11-22 17:38:03 UTC" data-abbreviated="13m ago"><span class="time-responsive-full">13 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pm">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pl" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">I'm really sorry I don't know how to explain this to you, but the reason for this isn't because of anything to do with the issues themselves, it's the way you present the issues and yourself.</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>The fact that informing people is fought (here like elsewhere) is not a good sign about our field, don't you think?</p>
+</blockquote>
+<p>I'm really sorry I don't know how to explain this to you, but the reason for this isn't because of anything to do with the issues themselves, it's the way you present the issues and yourself.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29pm/vote" data-ic-target="#comment-29pm .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pm/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (1)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pm/bookmark" data-ic-target="#comment-29pm .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pm/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pp" class="comment is-comment-mine" data-comment-id36="29pp" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="12">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:45:11Z" title="2018-11-22 17:45:11 UTC" data-abbreviated="6m ago"><span class="time-responsive-full">6 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pp">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pm" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Mm... I appreciate the frankness. I think there is some language barrier here or something, as I carefully try to stay polite and focused on the matter. Fine. Can you please open another report...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="11">
+
+        <p>Mm... I appreciate the frankness.</p>
+<p>I think there is some language barrier here or something, as I carefully try to stay polite and focused on the matter.</p>
+<p>Fine.<br>
+Can you please open another report where this issue can be discussed in a more effective way?<br>
+Use your words and style. Really... I don't know how to write it more clearly so it's pointless to try again.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29pp" data-ic-target="#comment-29pp .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29pp" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29pp" data-ic-target="#comment-29pp .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29pp" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pp/bookmark" data-ic-target="#comment-29pp .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pp/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29p7" class="comment" data-comment-id36="29p7" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="13">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[4]</div>
+
+        <a href="/user/Emerald_Knight" class="link-user">Emerald_Knight</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:33:59Z" title="2018-11-22 16:33:59 UTC" data-abbreviated="1h 17m ago"><span class="time-responsive-full">1 hour, 17 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p7">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29og" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Then you're going to run into a lot of problems and push people away from your cause. Whether you like it or not, diplomacy matters. I mean, ffs, even Linus Torvalds apologized for shitty behavior...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>To my eye is not a matter of how.</p>
+</blockquote>
+<p>Then you're going to run into a lot of problems and push people away from your cause. Whether you like it or not, diplomacy matters. I mean, ffs, even Linus Torvalds <a href="https://tildes.net/~comp/6gc/linus_torvalds_apologizes_for_personal_attacks_in_emails_and_announces_hes_taking_time_off_from">apologized for shitty behavior</a> despite being notorious for it, because even he realized its importance.</p>
+<p>Methods matter just as much, if not more, as the end goal. You need to either accept that or accept that this will forever be an uphill battle for you.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29p7/vote" data-ic-target="#comment-29p7 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p7/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (4)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29p7/bookmark" data-ic-target="#comment-29p7 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p7/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29p8" class="comment is-comment-mine" data-comment-id36="29p8" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="15">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[3]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:41:23Z" title="2018-11-22 16:41:23 UTC" data-abbreviated="1h 10m ago"><span class="time-responsive-full">1 hour, 10 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p8">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p7" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Thanks for your suggestion, but it's not an uphill battle. It's not a battle at all. Not for me. I just want to inform people they are vulnerable to these undetectable attacks. And that the...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="14">
+
+        <p>Thanks for your suggestion, but it's not an uphill battle.<br>
+It's not a battle at all. Not for me.</p>
+<p>I just want to inform people they are vulnerable to these <strong>undetectable</strong> attacks.<br>
+And that <strong>the organizations they trust omit to inform them about such attacks</strong>.<br>
+And that such organizations don't want to mitigate the risks.<br>
+Despite the mitigations are relatively simple and cheap.</p>
+<p>Simply stating the Truth is not a battle.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29p8" data-ic-target="#comment-29p8 .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29p8" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29p8" data-ic-target="#comment-29p8 .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29p8" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29p8/bookmark" data-ic-target="#comment-29p8 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p8/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pb" class="comment" data-comment-id36="29pb" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="16">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/Emerald_Knight" class="link-user">Emerald_Knight</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:48:36Z" title="2018-11-22 16:48:36 UTC" data-abbreviated="1h 2m ago"><span class="time-responsive-full">1 hour, 2 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pb">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p8" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">You're intentionally twisting my words here. You know perfectly well what I mean by "uphill battle". At this point it's clear that you have no intention of engaging in a good faith discussion of...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>You're intentionally twisting my words here. You know perfectly well what I mean by "uphill battle". At this point it's clear that you have no intention of engaging in a good faith discussion of this issue and, quite frankly, I'm less inclined to listen to any criticism about JavaScript purely because of this sort of antagonistic behavior that seems to be the norm among anti-JavaScript advocates. Less so than ever because of how extreme your antagonism is.</p>
+<p>Good luck with your cause. You're going to need a lot of it.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29pb/vote" data-ic-target="#comment-29pb .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pb/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (5)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pb/bookmark" data-ic-target="#comment-29pb .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pb/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pe" class="comment is-comment-mine" data-comment-id36="29pe" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="18">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:59:19Z" title="2018-11-22 16:59:19 UTC" data-abbreviated="52m ago"><span class="time-responsive-full">52 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T17:09:23Z" title="2018-11-22 17:09:23 UTC" data-abbreviated="42m ago"><span class="time-responsive-full">42 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pe">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pb" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">You didn't say anything about the issue, you just talked about "methods" and how "diplomacy matters". If you have any question on how these attacks can be performed, I'm glad to help. Fun fact:...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="17">
+
+        <blockquote>
+<p>you have no intention of engaging in a good faith discussion of this issue  [...]</p>
+</blockquote>
+<p>You didn't say anything about the issue, you just talked about "methods" and how "diplomacy matters".<br>
+If you have any question on how these attacks can be performed, I'm glad to help.</p>
+<blockquote>
+<p>this sort of antagonistic behavior that seems to be the norm among anti-JavaScript advocates</p>
+</blockquote>
+<p>Fun fact: I'm a JavaScript programmer myself.<br>
+And this issue is not only about JavaScript: any Rust program compiled to WebAssembly and distributed over the Web would expose the visitors to the exact same attacks (but made worse by the compiler's optimization).</p>
+<blockquote>
+<p>Good luck with your cause.</p>
+</blockquote>
+<p>Thanks, but it's not "my cause". Really!<br>
+It's just a <strong>severe security vulnerability</strong> affecting <strong>billions of people</strong> and organizations.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29pe" data-ic-target="#comment-29pe .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29pe" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29pe" data-ic-target="#comment-29pe .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29pe" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pe/bookmark" data-ic-target="#comment-29pe .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pe/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29o6" class="comment" data-comment-id36="29o6" data-comment-depth="0">
+        <div class="comment-itself" data-ic-id="19">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[7]</div>
+
+        <a href="/user/Kat" class="link-user">Kat</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T13:43:28Z" title="2018-11-22 13:43:28 UTC" data-abbreviated="4h 8m ago"><span class="time-responsive-full">4 hours, 8 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29o6">Link</a>
+
+        <div class="comment-excerpt">It was closed on Bugzilla because you cannot change wide‐reaching internet standards with a bug report. This “vulnerability” is the equivalent of a Windows user filing a bug report with Microsoft...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>It was closed on Bugzilla because you cannot change wide‐reaching internet standards with a bug report.</p>
+<p>This “vulnerability” is the equivalent of a Windows user filing a bug report with Microsoft because they allow people to write and run arbitrary code on the operating system. That’s not a problem—it’s how modern computing works.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29o6/vote" data-ic-target="#comment-29o6 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29o6/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (15)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29o6/bookmark" data-ic-target="#comment-29o6 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29o6/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29oi" class="comment is-comment-mine" data-comment-id36="29oi" data-comment-depth="1">
+        <div class="comment-itself" data-ic-id="21">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[6]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T14:23:08Z" title="2018-11-22 14:23:08 UTC" data-abbreviated="3h 28m ago"><span class="time-responsive-full">3 hours, 28 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T14:29:37Z" title="2018-11-22 14:29:37 UTC" data-abbreviated="3h 21m ago"><span class="time-responsive-full">3 hours, 21 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oi">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29o6" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">I guess you don't know much about the "wide-reaching internet standards" you are talking about. I opened a bug report because these are Living Standards that follow the implementations. To fix...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="20">
+
+        <p>I guess you don't know much about the "wide-reaching internet standards" you are talking about.</p>
+<p>I opened a bug report because <strong>these are <a href="https://whatwg.org/working-mode">Living Standards</a> that follow the implementations</strong>.<br>
+To fix <em>these</em> "Standards" you need to fix at least one implementation before.</p>
+<p>Also, I challenge you to find a line in the Standards we are talking about stating that JavaScript cannot be OPT-IN on a per website basis.</p>
+<p>Guess what?<br>
+You don't need to violate any WHATWG's standard to <a href="https://tildes.net/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n8">implement these mitigations</a>.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29oi" data-ic-target="#comment-29oi .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29oi" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29oi" data-ic-target="#comment-29oi .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29oi" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29oi/bookmark" data-ic-target="#comment-29oi .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29oi/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29on" class="comment is-comment-exemplary" data-comment-id36="29on" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="22">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[5]</div>
+
+        <a href="/user/Nephrited" class="link-user">Nephrited</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:02:32Z" title="2018-11-22 15:02:32 UTC" data-abbreviated="2h 49m ago"><span class="time-responsive-full">2 hours, 49 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29on">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oi" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Different person, hello! I'm a web developer by profession, including JS. You are correct that there is no line in the web standard that requires a browser to enable JS execution by default....</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>Different person, hello! I'm a web developer by profession, including JS.</p>
+<p>You are correct that there is no line in the web standard that requires a browser to enable JS execution by default. However, there is also no line that requires any browser to <em>disable</em> JS execution by default. This is, by definition, not a bug!</p>
+<p>What you have here is a <em>change request</em>, or perhaps a web standards proposal. The correct channels to go through for this are detailed quite helpfully <a href="https://www.chromium.org/developers/how-tos/make-a-web-standards-proposal">here</a> for Chrome, and to a degree <a href="https://tools.ietf.org/html/rfc7127">here</a>. I'm afraid I don't know the Mozilla process but Bugzilla isn't the place for it, as, again, it's not a bug, and issues will be correctly closed as some variation of "Working as Intended".</p>
+<p>I would recommend not framing it as a bug at all, as currently the entire thing can be summed up as "Javascript can perform code execution", to which the response is, quite rightly, "Yeah. It's meant to."</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29on/vote" data-ic-target="#comment-29on .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29on/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (20)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29on/bookmark" data-ic-target="#comment-29on .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29on/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29oq" class="comment is-comment-mine" data-comment-id36="29oq" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="24">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[4]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:18:18Z" title="2018-11-22 15:18:18 UTC" data-abbreviated="2h 33m ago"><span class="time-responsive-full">2 hours, 33 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oq">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29on" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Hi Nephrited, web developer by profession (including JS) here too. To me, if the people using my software are vulnerable to such wide class of undetectable attacks, it's a bug. Would you leave...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="23">
+
+        <blockquote>
+<p>Different person, hello!</p>
+</blockquote>
+<p>Hi Nephrited, web developer by profession (including JS) here too.</p>
+<blockquote>
+<p>You are correct that there is no line in the web standard that requires a browser to enable JS execution by default. However, there is also no line that requires any browser to disable JS execution by default. This is, by definition, not a bug!</p>
+</blockquote>
+<p>To me, if the people using my software are vulnerable to such wide class of <strong>undetectable</strong> attacks, it's a bug.</p>
+<p>Would you leave your users vulnerable just because no line in the "standards" you (<strong>wrote</strong> and) implemented say that you have to protect them?</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29oq" data-ic-target="#comment-29oq .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29oq" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29oq" data-ic-target="#comment-29oq .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29oq" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29oq/bookmark" data-ic-target="#comment-29oq .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29oq/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29ou" class="comment" data-comment-id36="29ou" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="25">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[3]</div>
+
+        <a href="/user/Nephrited" class="link-user">Nephrited</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:26:42Z" title="2018-11-22 15:26:42 UTC" data-abbreviated="2h 24m ago"><span class="time-responsive-full">2 hours, 24 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ou">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oq" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">As a software developer you should then be aware that a risk is not a bug. They are distinct issue types, and are tracked separately. A bug is a problem with software not performing as expected...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>To me, if the people using my software are vulnerable to such wide class of undetectable attacks, it's a bug.</p>
+</blockquote>
+<p>As a software developer you should then be aware that a <em>risk</em> is not a <em>bug</em>. They are distinct issue types, and are tracked separately. A bug is a problem with software not performing as expected when compared with the specification.</p>
+<p>What you have is a problem with the specification itself. Concepts cannot have "bugs", but they <em>can</em> be flawed.</p>
+<blockquote>
+<p>Would you leave your users vulnerable just because no line in the "standards" you (wrote and) implemented say that you have to protect them?</p>
+</blockquote>
+<p>No, I would not. I would go through the correct channels, noting the risk and filing a change request, pointing out the issues. You can do the same, and I strongly encourage it!</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29ou/vote" data-ic-target="#comment-29ou .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ou/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (11)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ou/bookmark" data-ic-target="#comment-29ou .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ou/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29ox" class="comment is-comment-mine" data-comment-id36="29ox" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="27">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:37:47Z" title="2018-11-22 15:37:47 UTC" data-abbreviated="2h 13m ago"><span class="time-responsive-full">2 hours, 13 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ox">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ou" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Out of curiosity, do you think a dangling pointer is a risk or a bug? That's true for the specified parts. Do you really think that bugs happen only in the parts covered by a specification? :-)...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="26">
+
+        <blockquote>
+<p>As a software developer you should then be aware that a risk is not a bug.</p>
+</blockquote>
+<p>Out of curiosity, do you think a <a href="https://www.blackhat.com/presentations/bh-usa-07/Afek/Whitepaper/bh-usa-07-afek-WP.pdf">dangling pointer</a> is a <strong>risk</strong> or a <strong>bug</strong>?</p>
+<blockquote>
+<p>A bug is a problem with software not performing as expected when compared to the specification.</p>
+</blockquote>
+<p>That's true for the specified parts.<br>
+Do you really think that bugs happen only in the parts covered by a specification? :-)</p>
+<blockquote>
+<blockquote>
+<p>Would you leave your users vulnerable just because no line in the "standards" you (wrote and) implemented say that you have to protect them?</p>
+</blockquote>
+<p>No, I would not. I would go through the correct channels, noting the risk and filing a change request, pointing out the issues.</p>
+</blockquote>
+<p>And <strong>meanwhile</strong> you leave your user vulnerable to these attacks.</p>
+<p>Do you have an idea of the time required to get a new standard approved by W3C?<br>
+And, again, you cannot get a standard approved by WHATWG without an implementation working.</p>
+<blockquote>
+<p>You can do the same, and I strongly encourage it!</p>
+</blockquote>
+<p>I'd say it's a bit naive of an expectation, but I'm very happy if you are going to try it yourself!</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29ox" data-ic-target="#comment-29ox .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29ox" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29ox" data-ic-target="#comment-29ox .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29ox" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ox/bookmark" data-ic-target="#comment-29ox .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ox/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29oy" class="comment" data-comment-id36="29oy" data-comment-depth="6">
+        <div class="comment-itself" data-ic-id="28">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Nephrited" class="link-user">Nephrited</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:41:41Z" title="2018-11-22 15:41:41 UTC" data-abbreviated="2h 9m ago"><span class="time-responsive-full">2 hours, 9 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oy">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ox" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Yes, the process was detailed clearly in the links I provided. I'm afraid it doesn't matter what your opinion of the process is. If you wish to make a change, you have to follow the correct...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>Yes, the process was detailed clearly in the links I provided. I'm afraid it doesn't matter what your opinion of the process is. If you wish to make a change, you have to follow the correct procedures.</p>
+<p>Good luck!</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29oy/vote" data-ic-target="#comment-29oy .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29oy/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (10)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29oy/bookmark" data-ic-target="#comment-29oy .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29oy/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29ms" class="comment is-comment-mine" data-comment-id36="29ms" data-comment-depth="0">
+        <div class="comment-itself" data-ic-id="30">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[17]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T09:18:07Z" title="2018-11-22 09:18:07 UTC" data-abbreviated="8h 33m ago"><span class="time-responsive-full">8 hours, 33 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ms">Link</a>
+
+        <div class="comment-excerpt">This security report, closed by Mozilla without saying wherther Firefox's users are vulnerable to the wide class of undetectable attacks described, was issued on September 29, 2018. It was cross...</div>
+    </header>
+
+        <div class="comment-votes">2
+          votes
+        </div>
+
+
+
+      <div class="comment-text" data-ic-id="29">
+
+        <p>This security report, closed by Mozilla without saying wherther Firefox's users are vulnerable to the wide class of <strong>undetectable attacks</strong> described, was issued on September 29, 2018. It was cross posted to the Chromium team roughly 24 hours later (<a href="http://www.tesio.it/documents/Mozilla-Bug1487081-Attachments/ChromiumBug879381.html">publicly visible here</a>)</p>
+<p>The <a href="http://Lobste.rs">Lobste.rs</a>' thread suggested <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c3">by Frederik Braun</a> to continue the discussion <a href="https://dev.to/shamar/i-have-been-banned-from-lobsters-ask-me-anything-5041">has now been censored</a>, but <a href="http://www.tesio.it/documents/Mozilla-Bug1487081-Attachments/Undetectable_Remote_Arbitrary_Code_Execution_Attacks_through_JavaScript_and_HTTP_headers_trickery__Lobsters.html">it has been cached here</a></p>
+<p>Neither Mozilla nor Google have yet confirmed or denied the vulnerabilities, but two PoC attacks have been published already (<a href="https://rain-1.github.io/in-browser-localhostdiscovery">here</a> and <a href="https://dev.to/shamar/the-meltdown-of-the-web-4p1m">here</a>), showing at least one more severe vulnerability: the trust of people in Mozilla.</p>
+<p>All browsers from the other WHATWG members are likely vulnerable to these attacks as well.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29ms" data-ic-target="#comment-29ms .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29ms" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29ms" data-ic-target="#comment-29ms .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29ms" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ms/bookmark" data-ic-target="#comment-29ms .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ms/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29mx" class="comment" data-comment-id36="29mx" data-comment-depth="1">
+        <div class="comment-itself" data-ic-id="31">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[9]</div>
+
+        <a href="/user/Greg" class="link-user">Greg</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T09:51:13Z" title="2018-11-22 09:51:13 UTC" data-abbreviated="8h ago"><span class="time-responsive-full">8 hours ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29mx">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ms" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">I don't think you're framing this in a way that helps your case at all. It's not an attack, it's not a bug, it's the way that we have agreed for the the web to work. Starting a conversation about...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>I don't think you're framing this in a way that helps your case at all. It's not an attack, it's not a bug, it's the way that we have agreed for the the web to work.</p>
+<p>Starting a conversation about flaws in that agreement and pointing out that the tradeoffs made might have harmful consequences is a reasonable thing to do. Looking at the consensus behaviour, declaring it's a bug, and refusing to accept that the vast majority disagrees with you, is not going to get anyone on your side.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29mx/vote" data-ic-target="#comment-29mx .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29mx/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (14)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29mx/bookmark" data-ic-target="#comment-29mx .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29mx/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29n2" class="comment" data-comment-id36="29n2" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="32">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[7]</div>
+
+        <a href="/user/cfabbro" class="link-user">cfabbro</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T10:32:11Z" title="2018-11-22 10:32:11 UTC" data-abbreviated="7h 19m ago"><span class="time-responsive-full">7 hours, 19 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T10:38:54Z" title="2018-11-22 10:38:54 UTC" data-abbreviated="7h 12m ago"><span class="time-responsive-full">7 hours, 12 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n2">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29mx" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Nor is attempting to put this blame on any particular browsers when literally all of them that adhere to the web standards are "vulnerable" to the same "bug". Not only that, but like one of the...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>is not going to get anyone on your side.</p>
+</blockquote>
+<p>Nor is attempting to put this blame on any particular browsers when literally <em>all of them</em> that adhere to the web standards are "vulnerable" to the same "bug".  Not only that, but like one of the commenters in bugzilla stated, this "vulnerability" is exactly why the <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity">subresource integrity specification</a> exists.</p>
+<p>And furthermore, what exactly is the proposed "solution" to this "problem"?  Prevent any code from executing on browsers without explicit permission, essentially forcing every user to use a uMatrix/NoScript like system?  Yeah, I can surely see the vast majority of users on the web figuring out how to do that. /s</p>
+<p>The fearmongering tone of the bugzilla post certainly doesn't help either.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29n2/vote" data-ic-target="#comment-29n2 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29n2/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (10)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29n2/bookmark" data-ic-target="#comment-29n2 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29n2/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29n8" class="comment is-comment-mine" data-comment-id36="29n8" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="34">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[6]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T10:59:39Z" title="2018-11-22 10:59:39 UTC" data-abbreviated="6h 51m ago"><span class="time-responsive-full">6 hours, 51 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T11:10:28Z" title="2018-11-22 11:10:28 UTC" data-abbreviated="6h 41m ago"><span class="time-responsive-full">6 hours, 41 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n8">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n2" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">I opened the issue to Mozilla because I trusted them to put their users' security before their profit. As an advocate of Firefox from version 0.8, I believed in their twitter tag line "Made for...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="33">
+
+        <p>I opened the issue to Mozilla because I trusted them to put their users' security before their profit.<br>
+As an advocate of Firefox from version 0.8, I believed in their <a href="https://twitter.com/firefox">twitter tag line</a> "Made for people, not profit."<br>
+I was naive, actually. But I was suggested to open such issue by <a href="https://wandering.shop/@callahad/100621620793416331/embed">a Mozilla developer</a>.</p>
+<p>But it's not a matter of blame. It's just trying to spread the word.<br>
+They are responsible for their own brand. If they feel shame for their actions they can easily fix it.</p>
+<blockquote>
+<p>And furthermore, what exactly is the proposed "solution" to this "problem"?</p>
+</blockquote>
+<p>When requested, I proposed a few <strong>mitigations</strong> (not solutions):</p>
+<ul>
+<li>Page Refresh though META tag and JavaScript are disabled by default</li>
+<li>Both can be enabled on a per website basis, but
+<ul>
+<li>No script or CSS is requested with Cookies or other HTTP headers;</li>
+<li>Each script and CSS is requested <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c12">through a dedicated TCP connection</a> ;</li>
+<li><a href="https://www.w3.org/TR/SRI/">SubResource Integrity</a> is made mandatory (at least for JavaScript);</li>
+<li>For  each URI, record the SRI of last downloaded contents and warn the user  if a page propose a different SRI for that same URI ;</li>
+<li> Warn the user about scripts served with suspect HTTP headers;</li>
+</ul>
+</li>
+<li>On browser exit, remove from the cache all resources downloaded by pages that have Meta Refresh and/or JavaScript enabled.</li>
+<li><strong>View Page Source</strong> should <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c13">never fetch new versions of the page from the server</a> (whatever the HTTP Headers provided with the page are)</li>
+</ul>
+<p>Obviously all this leaves the door open for pages that:</p>
+<ul>
+<li>are visited only once</li>
+<li>are visited for the first time</li>
+</ul>
+<p>thus <a href="https://www.blog.google/products/chrome/milestone-chrome-security-marking-http-not-secure/">I would also mark as “Not Secure”</a> web pages visited for the first time that require JavaScript.</p>
+<p>The one that scares so many JavaScript developers, is battle tested for near 20 years: both Java applets and Flash were opt-in without much drama.</p>
+<blockquote>
+<p>this "vulnerability" is exactly why the subresource integrity specification exists.</p>
+</blockquote>
+<p>Except that it is NOT mandatory on scripts, so it's basically useless.</p>
+<blockquote>
+<p>The fearmongering tone of the bugzilla post certainly doesn't help either.</p>
+</blockquote>
+<p>Did you tried the exploits?<br>
+Did you tried to tunnel into a properly firewalled and proxied private network?</p>
+<p>I might suggest you to try with your bank. You will understand the risks, then.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29n8" data-ic-target="#comment-29n8 .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29n8" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29n8" data-ic-target="#comment-29n8 .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29n8" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29n8/bookmark" data-ic-target="#comment-29n8 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29n8/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29nb" class="comment" data-comment-id36="29nb" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="35">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[3]</div>
+
+        <a href="/user/cfabbro" class="link-user">cfabbro</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T11:16:28Z" title="2018-11-22 11:16:28 UTC" data-abbreviated="6h 35m ago"><span class="time-responsive-full">6 hours, 35 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T11:34:53Z" title="2018-11-22 11:34:53 UTC" data-abbreviated="6h 16m ago"><span class="time-responsive-full">6 hours, 16 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29nb">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n8" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Look, I largely agree with you in that more can be done and most of your proposals are not bad (e.g. mandatory SRI is a decent standard which should probably be adopted eventually), however IMO...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>Look, I largely agree with you in that more can be done and most of your proposals are not bad (e.g. mandatory SRI is a decent standard which should probably be adopted eventually), however IMO you are hopelessly naive if you think Javascript can suddenly be made opt-in without completely breaking the web.  The vast majority of internet users are not technically literate enough to handle script micro-management on all the websites they visit and so would very likely just find a way to permanently enable javascript immediately again anyways, so then what would you have gained by making it opt-in other than annoying people?</p>
+<p>And as I said previously, it certainly doesn't help that you are going about this by intentionally fearmongering.  Cool it on the anti-government, anti-weborgs rhetoric and maybe then you can actually win some people to your side instead of constantly getting your posts removed and getting banned from places.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29nb/vote" data-ic-target="#comment-29nb .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29nb/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (12)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29nb/bookmark" data-ic-target="#comment-29nb .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29nb/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29nw" class="comment is-comment-mine" data-comment-id36="29nw" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="37">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T12:57:16Z" title="2018-11-22 12:57:16 UTC" data-abbreviated="4h 54m ago"><span class="time-responsive-full">4 hours, 54 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T13:16:52Z" title="2018-11-22 13:16:52 UTC" data-abbreviated="4h 34m ago"><span class="time-responsive-full">4 hours, 34 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29nw">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29nb" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">You mean the way they do with push notifications? ;-) First you raised awareness about the topic, instantly improving the security of users and organisations. Then in less than a year you will get...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="36">
+
+        <blockquote>
+<p>The vast majority of internet users are not technically literate enough to handle script micro-management on all the websites they visit</p>
+</blockquote>
+<p>You mean the way they do with push notifications? ;-)</p>
+<blockquote>
+<p>what would you have gained by making it opt-in</p>
+</blockquote>
+<p>First you raised awareness about the topic, instantly improving the security of users and organisations.</p>
+<p>Then in less than a year you will get a faster and more accessible Web, since the site owners will stop using JavaScript when they don't need to.</p>
+<p>You will also see faster progress on declarative alternatives to JS, such as CSS and new HTML elements.</p>
+<p>Finally, fine grained user interaction wont be so easy to track.</p>
+<blockquote>
+<p>Cool it on the anti-government, anti-weborgs rhetoric</p>
+</blockquote>
+<p>Government agencies are affected by these attacks like any other users.</p>
+<p>As for web organisations, I was surprised by Mozilla reactions until somebody pointed me that the vast majority of their budget comes from Google.</p>
+<p>Google that people would probably trust in a opt-in JavaScript world but that would lose precious data collected through Analytics.</p>
+<blockquote>
+<p>maybe then you can actually win some people to your side</p>
+</blockquote>
+<p>To be fair, the fact that we need marketing or politics to get such a wide variety of attacks <strong>mitigated</strong> is dangerous by itself.</p>
+<p>I don’t want to play this game. It is a burden on the credibility of our whole sector.</p>
+<p>And I don't want to win allies, I just want to inform people.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29nw" data-ic-target="#comment-29nw .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29nw" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29nw" data-ic-target="#comment-29nw .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29nw" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29nw/bookmark" data-ic-target="#comment-29nw .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29nw/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29ob" class="comment" data-comment-id36="29ob" data-comment-depth="6">
+        <div class="comment-itself" data-ic-id="38">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/cfabbro" class="link-user">cfabbro</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T14:04:39Z" title="2018-11-22 14:04:39 UTC" data-abbreviated="3h 46m ago"><span class="time-responsive-full">3 hours, 46 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T14:59:48Z" title="2018-11-22 14:59:48 UTC" data-abbreviated="2h 51m ago"><span class="time-responsive-full">2 hours, 51 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ob">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29nw" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Yes, exactly the same. Which is the point of the very next part of that same sentence, "and so would very likely just find a way to permanently enable JavaScript immediately again anyways", which...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<blockquote>
+<p>The vast majority of internet users are not technically literate enough to handle script micro-management on all the websites they visit</p>
+</blockquote>
+<p>You mean the way they do with push notifications? ;-)</p>
+</blockquote>
+<p>Yes, exactly the same.  Which is the point of the very next part of that same sentence, "and so would very likely just find a way to permanently enable JavaScript immediately again anyways", which you <em>conveniently</em> avoided addressing by quoting only the immediately preceding and proceeding parts.  People would treat having to explicitly enable JavaScipt on every site exactly the same as they do push notifications, which is to say they will see it as an annoyance, set it once and then forget it... unless you continue to annoy them every time the JavaScript changes in which case they will simply find a way to permanently enable it or migrate to browsers that don't constantly annoy them with explicit permission requests and don't artificially limit functionality for no good reason, and then you're right back to square one.  <a href="https://en.wikipedia.org/wiki/Don%27t_throw_the_baby_out_with_the_bathwater">"Don't throw the baby out with the bathwater."</a></p>
+<blockquote>
+<p>You will also see faster progress on declarative alternatives to JS, such as CSS and new HTML elements.</p>
+</blockquote>
+<p>Without JavaScript any new alternatives would likely wind up having the <em>exact same</em> "vulnerability" as you are falsely attributing to JavaScript since code execution is a fundamental part of the functionality of the web.  You can argue about how browsers should make more of an effort to limit the abuse potential (which I would argue they already are) and do a better job of informing the users of said potential abuses, but demanding that all browsers cease allowing code execution without explicit permission is incredibly impractical.</p>
+<blockquote>
+<p>As for web organisations, I was surprised by Mozilla reactions until somebody pointed me that the vast majority of their budget comes from Google.</p>
+</blockquote>
+<p>Following my criticism of your anti-weborgs rhetoric with <em>even more</em> anti-weborgs rhetoric isn't helping you at all.  Their (and everyone else's) response to your "bug" report likely has nothing to do with their source of funding and <em>everything</em> to do with the hyperbolic language you keep using and way in which you are behaving.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29ob/vote" data-ic-target="#comment-29ob .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ob/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (9)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ob/bookmark" data-ic-target="#comment-29ob .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ob/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29ov" class="comment" data-comment-id36="29ov" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="39">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/calcifer" class="link-user">calcifer</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:32:25Z" title="2018-11-22 15:32:25 UTC" data-abbreviated="2h 19m ago"><span class="time-responsive-full">2 hours, 19 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ov">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n8" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">The changes you are "suggesting" here would break such a significant percentage of the web the idea is not even worth entertaining. When TLS 1.3 was in draft stage and it turned out that 1-1.5% of...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>The changes you are "suggesting" here would break such a significant percentage of the web the idea is not even worth entertaining. When TLS 1.3 was in draft stage and it turned out that 1-1.5% of users were having trouble with it, IETF abandoned their approach and added tons of compatibility stuff with TLS 1.2, because <em>everyone</em> agreed breaking 1% of requests was <em>huge</em>.</p>
+<p>So I believe you know nobody is going to pick you up on this, and you are not really seeking change, just grandstanding.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29ov/vote" data-ic-target="#comment-29ov .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ov/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (8)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ov/bookmark" data-ic-target="#comment-29ov .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ov/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29p2" class="comment is-comment-mine" data-comment-id36="29p2" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="41">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:01:30Z" title="2018-11-22 16:01:30 UTC" data-abbreviated="1h 50m ago"><span class="time-responsive-full">1 hour, 50 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p2">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ov" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Yes, but TLS 1.3 was not a bug fix. What I proposed would fix a severe security vulnerability that affects 90% of users. Maybe there are better fix, but it's something that fix not break. Well......</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="40">
+
+        <blockquote>
+<p>everyone agreed breaking 1% of requests was huge</p>
+</blockquote>
+<p>Yes, but TLS 1.3 was not a bug fix.<br>
+What I proposed would fix a severe security vulnerability that affects 90% of users.<br>
+Maybe there are better fix, but it's something that <strong>fix</strong> not <strong>break</strong>.</p>
+<blockquote>
+<p>you know nobody is going to pick you up on this</p>
+</blockquote>
+<p>Well... actually a few people are moving in the underground... ;-)</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29p2" data-ic-target="#comment-29p2 .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29p2" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29p2" data-ic-target="#comment-29p2 .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29p2" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29p2/bookmark" data-ic-target="#comment-29p2 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p2/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29n1" class="comment is-comment-mine" data-comment-id36="29n1" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="43">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T10:24:51Z" title="2018-11-22 10:24:51 UTC" data-abbreviated="7h 26m ago"><span class="time-responsive-full">7 hours, 26 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29n1">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29mx" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">You are right, as explained in the report, it's not one single attack, but a whole class of them. It is a bug in the architecture of the web as designed and distributed by WHATWG's members. Even...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="42">
+
+        <blockquote>
+<p>It's not an attack</p>
+</blockquote>
+<p>You are right, as explained in the report, it's not one single attack, but a whole class of them.</p>
+<blockquote>
+<p>it's not a bug</p>
+</blockquote>
+<p>It <strong>is</strong> a bug in the architecture of the web as designed and distributed by WHATWG's members.</p>
+<blockquote>
+<p>it's the way that we have agreed for the the web to work.</p>
+</blockquote>
+<p>Even if you were right on this, it wouldn't make these attacks less dangerous or the users less vulnerable.</p>
+<p>However, the responsibility is <strong>not</strong> on everybody.<br>
+It's on those organizations who turned the Semantic Web into what it is today.<br>
+Fortunately, they could easily fix it with trivial changes to the browsers that would <a href="https://whatwg.org/working-mode">then been adopted as Living Standard</a>. Unfortunately they don't want to. So they should be held accountable for any breach done through one of this attacks.</p>
+<p>The fact is that while when you play a 3D game in the browser you might suspect that you are executing a custom program that can compromise your machine and your network, when you read an article in an online magazine or look a video, there's no <strong>need</strong> to execute custom programs provided by strangers, thus most people are not aware of the risks.</p>
+<p>Also, due to the HTTP Cache-Control headers, all evidences of these attacks can be easily removed: do you really think that everybody understand and agree to take this risks?</p>
+<blockquote>
+<p>pointing out that the tradeoffs</p>
+</blockquote>
+<p>Given the variety and the severity of these attacks, I don't think there is much to trade off.</p>
+<p>The <a href="https://www.reddit.com/r/firefox/comments/9v5qst/1487081_undetectable_remote_arbitrary_code/e99ln2x/">suggested mitigations</a> are fast and cheap to implement and would not affect much the user experience while increasing their security a lot.</p>
+<blockquote>
+<p>is not going to get anyone on your side</p>
+</blockquote>
+<p>It's not a war to me. It's not me against them.<br>
+It's just a matter of time: when an hospital or a bank network will be hacked this way, they will have to respond for having covered up these attacks to their users.</p>
+<p>Meanwhile, I just try to inform the users to let them understand the risks and improve their security.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29n1" data-ic-target="#comment-29n1 .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29n1" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29n1" data-ic-target="#comment-29n1 .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29n1" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29n1/bookmark" data-ic-target="#comment-29n1 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29n1/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29om" class="comment" data-comment-id36="29om" data-comment-depth="1">
+        <div class="comment-itself" data-ic-id="44">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[7]</div>
+
+        <a href="/user/alyaza" class="link-user">alyaza</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T14:51:28Z" title="2018-11-22 14:51:28 UTC" data-abbreviated="3h ago"><span class="time-responsive-full">3 hours ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29om">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ms" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">i have no stake in this and computer security is not my thing but i think it's a bit laughable to call the lobste.rs thread here censored. having taken a gander through that thread and others you...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>The <a href="http://Lobste.rs">Lobste.rs</a>' thread suggested by Frederik Braun to continue the discussion has now been censored, but it has been cached here</p>
+</blockquote>
+<p>i have no stake in this and computer security is not my thing but i think it's a bit laughable to call the <a href="http://lobste.rs">lobste.rs</a> thread here censored. having taken a gander through that thread and others you shared on <a href="http://lobste.rs">lobste.rs</a>, i can absolutely see why they would remove you from the premises. you seem to take a very fire-and-brimstone, bible thumping attitude to this issue which, while understandable i suppose, gets really fucking annoying if it's basically all you ever do and the bulk of what you ever talk about, especially when people have repeatedly reiterated to you that while your claims are <em>valid</em>, this is ultimately a trade-off that people made which would be bordering on impossible to fix without a radical upending of the system that will almost certainly never happen.</p>
+<p>at some point, it is not productive to have a conversation with you if you're never willing to see the other side, never willing to take a step back, never willing to cede ground, and ultimately never willing to stop preaching fire-and-brimstone when people repeatedly tell you why things are this way. that is seemingly why the <a href="http://lobste.rs">lobste.rs</a> thread was removed, that is seemingly why you got banned, and in my judgement that's not censorship, that's just people getting tired of you not being willing to productively contribute to any potential conversations on the subjects you've brought up.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29om/vote" data-ic-target="#comment-29om .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29om/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (13)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29om/bookmark" data-ic-target="#comment-29om .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29om/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29op" class="comment is-comment-mine" data-comment-id36="29op" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="46">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[6]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:13:54Z" title="2018-11-22 15:13:54 UTC" data-abbreviated="2h 37m ago"><span class="time-responsive-full">2 hours, 37 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29op">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29om" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Well... thanks for your opinion! :-D I hope others will go through the comments to see if you are right or not. Anyway you are wrong on something: nobody from Mozilla said "Firefox users are...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="45">
+
+        <p>Well... thanks for your opinion! :-D<br>
+I hope others will go through the comments to see if you are right or not.</p>
+<p>Anyway you are wrong on something: nobody from Mozilla said "<strong>Firefox users are vulnerable to these attacks</strong>, but there are trade-offs that we value more than their security".</p>
+<p>Ultimately I just asked: "Are Firefox users vulnerable to this wide class of undetectable attacks?".<br>
+Is this "antagonistic behaviour" to you?</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29op" data-ic-target="#comment-29op .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29op" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29op" data-ic-target="#comment-29op .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29op" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29op/bookmark" data-ic-target="#comment-29op .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29op/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29or" class="comment" data-comment-id36="29or" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="47">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[5]</div>
+
+        <a href="/user/alyaza" class="link-user">alyaza</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:19:27Z" title="2018-11-22 15:19:27 UTC" data-abbreviated="2h 32m ago"><span class="time-responsive-full">2 hours, 32 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29or">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29op" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">yes, if you literally never stop talking about it after continually being told the same things over and over and over again by both familiar and unfamiliar faces alike. at some point if you are...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>Ultimately I just asked: "Are Firefox users vulnerable to this wide class of undetectable attacks?".<br>
+Is this "antagonistic behaviour" to you?</p>
+</blockquote>
+<p>yes, if you literally never stop talking about it after continually being told the same things over and over and over again by both familiar and unfamiliar faces alike. at some point if you are either unwilling or unable to take the hint people have been laying pretty thick on you, you're basically doing nothing but concern trolling by continually bringing things like this up and expecting people to have any more answers than what they've already given. that is antagonistic, and absolutely a cause for people telling you to fuck off from their website, whether you like it or not or think it's censorship or not.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29or/vote" data-ic-target="#comment-29or .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29or/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (9)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29or/bookmark" data-ic-target="#comment-29or .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29or/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29ot" class="comment is-comment-mine" data-comment-id36="29ot" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="49">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[4]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:22:22Z" title="2018-11-22 15:22:22 UTC" data-abbreviated="2h 29m ago"><span class="time-responsive-full">2 hours, 29 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ot">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29or" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">So, according to you the problem is me asking 3 or 4 times this question, not Mozilla Security NOT responding. (in the thread they suggested to discuss the issue)</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="48">
+
+        <p>So, according to you the problem is me asking 3 or 4 times this question, not Mozilla <strong>Security</strong> NOT responding.<br>
+(in the thread they suggested to discuss the issue)</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29ot" data-ic-target="#comment-29ot .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29ot" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29ot" data-ic-target="#comment-29ot .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29ot" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ot/bookmark" data-ic-target="#comment-29ot .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ot/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29ow" class="comment" data-comment-id36="29ow" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="50">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[3]</div>
+
+        <a href="/user/alyaza" class="link-user">alyaza</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:36:09Z" title="2018-11-22 15:36:09 UTC" data-abbreviated="2h 15m ago"><span class="time-responsive-full">2 hours, 15 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ow">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ot" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">yeah. take the fucking hint. from your AMA on dev.to to lobste.rs to your bug report on mozilla to here and no doubt other places, people have all given you the exact same answer. this is a...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>So, according to you the problem is me asking 3 or 4 times this question, not Mozilla Security NOT responding. (in the thread they suggested to discuss the issue)</p>
+</blockquote>
+<p>yeah. take the fucking hint. from your AMA on <a href="http://dev.to">dev.to</a> to <a href="http://lobste.rs">lobste.rs</a> to your bug report on mozilla to here and no doubt other places, people have all given you the exact same answer. this is a trade-off that has been made, fixing it is a highly impractical measure at this stage in the game and would most likely only occur in circumstances that are basically unprecedented, and your fire-and-brimstone attitude toward this issue and the people who respond to you comes off as obnoxious, asshole-ish, and concern troll-y.</p>
+<p>you have a point, yes, and people recognize that. but it's really not difficult to see why people would deplatform you and consider you antagonistic, willfully ignorant, and somewhat of a troll, because even now you give that vibe off to me, and i'm trying giving you the benefit of the doubt here and assuming you're operating in good faith.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29ow/vote" data-ic-target="#comment-29ow .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ow/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (13)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ow/bookmark" data-ic-target="#comment-29ow .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ow/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pa" class="comment is-comment-mine" data-comment-id36="29pa" data-comment-depth="6">
+        <div class="comment-itself" data-ic-id="52">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:45:22Z" title="2018-11-22 16:45:22 UTC" data-abbreviated="1h 6m ago"><span class="time-responsive-full">1 hour, 6 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pa">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ow" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Just like I don't care about being defined a troll on internet, I don't care about having a point. I just care about these issues been fixed and people being informed. From the very beginning....</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="51">
+
+        <blockquote>
+<p>you have a point, yes, and people recognize that</p>
+</blockquote>
+<p>Just like I don't care about being defined a troll on internet, I don't care about having a point.</p>
+<p>I just care about these issues been fixed and people being informed. <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c15">From the very beginning</a>.</p>
+<blockquote>
+<p>assuming you're operating in good faith</p>
+</blockquote>
+<p>What could I gain from this?<br>
+What could Mozilla lose from this?<br>
+What JS developers (<strong>like I am</strong>) are afraid to lose from this?</p>
+<p>I think the answers to these questions explain pretty well who is in good faith and who is not.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29pa" data-ic-target="#comment-29pa .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29pa" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29pa" data-ic-target="#comment-29pa .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29pa" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pa/bookmark" data-ic-target="#comment-29pa .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pa/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pg" class="comment" data-comment-id36="29pg" data-comment-depth="7">
+        <div class="comment-itself" data-ic-id="53">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/alyaza" class="link-user">alyaza</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:01:45Z" title="2018-11-22 17:01:45 UTC" data-abbreviated="49m ago"><span class="time-responsive-full">49 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pg">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pa" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">i'm not really interested in repeating my points since i've already made them, but i think this conversation demonstrates exactly why you are something of an internet vagabond when it comes to...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>i'm not really interested in repeating my points since i've already made them, but i think this conversation demonstrates exactly why you are something of an internet vagabond when it comes to proselytizing about this subject and will probably continue to be for the foreseeable future. i <em>would</em> ordinarily ask that you self-reflect on why absolutely nobody is supporting you on this in any capacity (to the point where your comments in this topic have garnered no votes at all when literally any other response might have garnered just as many as my comments), but realistically i doubt self-reflection will work any better than <a href="http://lobste.rs">lobste.rs</a> banning you, mozilla all but ignoring you, and countless people demonstrating to you why you are barking up the wrong tree and why what you are suggesting is impractical. all i can offer is hope that at some point in the future you will recognize that what support and sympathy you may have otherwise garnered on this subject has evaporated because of the manner in which you participate in discussions like this.</p>
+<p>i do wish you luck in your endeavors but, judging by your demeanor, i suspect that you will continue to be unsuccessful in pursuing them.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29pg/vote" data-ic-target="#comment-29pg .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pg/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (1)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pg/bookmark" data-ic-target="#comment-29pg .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pg/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29oe" class="comment" data-comment-id36="29oe" data-comment-depth="0">
+        <div class="comment-itself" data-ic-id="54">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[9]</div>
+
+        <a href="/user/jlpoole" class="link-user">jlpoole</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T14:09:37Z" title="2018-11-22 14:09:37 UTC" data-abbreviated="3h 41m ago"><span class="time-responsive-full">3 hours, 41 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oe">Link</a>
+
+        <div class="comment-excerpt">The complainant's point resonates with me. Is having all these wonderful technologies that let remote sites manipulate my experience worth the risk of my computer being compromised? I'm starting...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>The complainant's point resonates with me.  Is having all these wonderful technologies that let remote sites manipulate my experience worth the risk of my computer being compromised?  I'm starting to think: no, they are not and harken back to the day when web sites were very simple: text and binary images without the threat of someone compromising your computer.  (My statement does not take into account possible security issues in JPEG files.)</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button post-button-used" name="unvote" data-ic-delete-from="https://tildes.net/api/web/comments/29oe/vote" data-ic-target="#comment-29oe .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29oe/vote" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Voted
+            (1)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29oe/bookmark" data-ic-target="#comment-29oe .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29oe/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29p1" class="comment" data-comment-id36="29p1" data-comment-depth="1">
+        <div class="comment-itself" data-ic-id="55">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[8]</div>
+
+        <a href="/user/cfabbro" class="link-user">cfabbro</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T15:52:30Z" title="2018-11-22 15:52:30 UTC" data-abbreviated="1h 59m ago"><span class="time-responsive-full">1 hour, 59 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p1">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29oe" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">IMO, yes... unequivocally yes. And if your answer to that is "no", then you can always install uMatrix or NoScipt and block all remote script execution, or use Lynx or a Lynx-based browser which...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <blockquote>
+<p>Is having all these wonderful technologies that let remote sites manipulate my experience worth the risk of my computer being compromised?</p>
+</blockquote>
+<p>IMO, yes... unequivocally yes.  And if your answer to that is "no", then you can always install uMatrix or NoScipt and block all remote script execution, or use Lynx or a Lynx-based browser which doesn't support that to begin with.  Voilà, you have now effectively opted out of all "remote sites manipulation" of your computer... and also opted out of the vast, vast majority of web functionality, including being able to participate on Tildes.  But expecting/demanding that be the default browser behavior, like OP is doing, is incredibly unrealistic and naive (again, merely IMO).</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29p1/vote" data-ic-target="#comment-29p1 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p1/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (8)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29p1/bookmark" data-ic-target="#comment-29p1 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p1/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29p6" class="comment is-comment-mine" data-comment-id36="29p6" data-comment-depth="2">
+        <div class="comment-itself" data-ic-id="57">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[7]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:31:24Z" title="2018-11-22 16:31:24 UTC" data-abbreviated="1h 20m ago"><span class="time-responsive-full">1 hour, 20 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p6">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p1" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Fine. But is having all these wonderful technologies that let remote sites manipulate any user experience worth the risk of your private banker's computer being compromised? What about your doctor?</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="56">
+
+        <blockquote>
+<blockquote>
+<p>Is having all these wonderful technologies that let remote sites manipulate my experience worth the risk of my computer being compromised?</p>
+</blockquote>
+<p>IMO, yes... unequivocally yes.</p>
+</blockquote>
+<p>Fine.<br>
+But is having all these wonderful technologies that let remote sites manipulate <strong>any user</strong> experience worth the risk of <strong>your private banker's computer</strong> being compromised? What about your doctor?</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29p6" data-ic-target="#comment-29p6 .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29p6" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29p6" data-ic-target="#comment-29p6 .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29p6" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29p6/bookmark" data-ic-target="#comment-29p6 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p6/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29p9" class="comment" data-comment-id36="29p9" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="58">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[4]</div>
+
+        <a href="/user/deingottapophis" class="link-user">deingottapophis</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:45:04Z" title="2018-11-22 16:45:04 UTC" data-abbreviated="1h 6m ago"><span class="time-responsive-full">1 hour, 6 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p9">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p6" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">If they follow any security practices, my doctor or banker don't use a PC with sensitive data for just browsing the web, but instead, for example, an semi-air-gapped system. Doing otherwise would...</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>If they follow any security practices, my doctor or banker don't use a PC with sensitive data for <em>just browsing the web</em>, but instead, for example, an semi-air-gapped system.<br>
+Doing otherwise would be neglegient in this age of cryptolockers and spyware.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29p9/vote" data-ic-target="#comment-29p9 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p9/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (5)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29p9/bookmark" data-ic-target="#comment-29p9 .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29p9/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pc" class="comment is-comment-mine" data-comment-id36="29pc" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="60">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[3]</div>
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T16:50:57Z" title="2018-11-22 16:50:57 UTC" data-abbreviated="1h ago"><span class="time-responsive-full">1 hour ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pc">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p9" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">For these specific attacks, the sensitive data in their browsing PC are totally irrelevant. They just need to connect through their DMZ network with their smartphone.</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="59">
+
+        <p>For these specific attacks, the sensitive data in their browsing PC are totally irrelevant.</p>
+<p>They just need to connect through their DMZ network with their smartphone.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29pc" data-ic-target="#comment-29pc .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29pc" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29pc" data-ic-target="#comment-29pc .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29pc" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pc/bookmark" data-ic-target="#comment-29pc .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pc/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29pj" class="comment" data-comment-id36="29pj" data-comment-depth="5">
+        <div class="comment-itself" data-ic-id="61">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/Nephrited" class="link-user">Nephrited</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:15:37Z" title="2018-11-22 17:15:37 UTC" data-abbreviated="35m ago"><span class="time-responsive-full">35 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pj">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pc" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Could you clarify that second statement, please? It sounds like you just said "If a user willingly breaches security protocols, a security breach will occur".</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>Could you clarify that second statement, please?</p>
+<p>It sounds like you just said "If a user willingly breaches security protocols, a security breach will occur".</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29pj/vote" data-ic-target="#comment-29pj .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pj/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (7)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pj/bookmark" data-ic-target="#comment-29pj .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pj/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29po" class="comment is-comment-mine" data-comment-id36="29po" data-comment-depth="6">
+        <div class="comment-itself" data-ic-id="63">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:41:54Z" title="2018-11-22 17:41:54 UTC" data-abbreviated="9m ago"><span class="time-responsive-full">9 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T17:50:34Z" title="2018-11-22 17:50:34 UTC" data-abbreviated="58s ago"><span class="time-responsive-full">58 seconds ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29po">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pj" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">A doctor is not a security expert. Nor is a private banker. Do you really think all companies, all over the world, spent the money required to train all of their emplyees about the risks for their...</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="62">
+
+        <p>A doctor is not a security expert. Nor is a private banker.<br>
+Do you really think all companies, all over the world, spent the money required to train all of their emplyees about the risks for their customers when they read an apparently harmless text article over the Web?</p>
+<p>In any case, these are just some of the possible attacks.</p>
+<p>Do you like to stay vulnerable? Fine!</p>
+<p>Do you want other people to stay unaware AND vulnerable? Be honest and tell them.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29po" data-ic-target="#comment-29po .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29po" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29po" data-ic-target="#comment-29po .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29po" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29po/bookmark" data-ic-target="#comment-29po .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29po/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li><li class="comment-tree-item">    <article id="comment-29pf" class="comment" data-comment-id36="29pf" data-comment-depth="3">
+        <div class="comment-itself" data-ic-id="64">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+        <div class="comment-branch-counter">[2]</div>
+
+        <a href="/user/cfabbro" class="link-user">cfabbro</a>
+
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:00:29Z" title="2018-11-22 17:00:29 UTC" data-abbreviated="51m ago"><span class="time-responsive-full">51 minutes ago</span></time>
+
+          <span class="comment-edited-time">
+            (edited <time class="time-responsive" datetime="2018-11-22T17:13:01Z" title="2018-11-22 17:13:01 UTC" data-abbreviated="38m ago"><span class="time-responsive-full">38 minutes ago</span></time>)
+          </span>
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pf">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29p6" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">Jesus, dude give it up already with the hyperbolic, fearmongering bullshit. All that it and your scaaaaary bold text does is make you that much harder to take seriously.</div>
+    </header>
+
+
+
+
+      <div class="comment-text">
+
+        <p>Jesus, dude give it up already with the hyperbolic, fearmongering bullshit.  All that it and your <strong>sc<sup>a<sup>aaa</sup>a</sup>ry bold text</strong> does is make you that much harder to take seriously.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+            <li><a class="post-button" name="vote" data-ic-put-to="https://tildes.net/api/web/comments/29pf/vote" data-ic-target="#comment-29pf .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pf/vote" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Vote
+            (5)
+          </a></li>
+
+
+
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29pf/bookmark" data-ic-target="#comment-29pf .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29pf/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+        <ol class="comment-tree comment-tree-replies">
+          <li class="comment-tree-item">    <article id="comment-29ph" class="comment is-comment-mine" data-comment-id36="29ph" data-comment-depth="4">
+        <div class="comment-itself" data-ic-id="66">
+    <header>
+      <button class="btn btn-comment-collapse" data-js-comment-collapse-button="">
+        −
+      </button>
+
+
+        <a href="/user/Shamar" class="link-user">Shamar</a>
+
+          <span class="comment-user-info">
+            (<abbr title="Original Poster (of the topic)">OP</abbr>)
+          </span>
+
+        <time class="time-responsive comment-posted-time" datetime="2018-11-22T17:05:37Z" title="2018-11-22 17:05:37 UTC" data-abbreviated="45m ago"><span class="time-responsive-full">45 minutes ago</span></time>
+
+
+      <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29ph">Link</a>
+        <a class="comment-nav-link" href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pf" data-js-comment-parent-button="">Parent</a>
+
+        <div class="comment-excerpt">You didn't answer.</div>
+    </header>
+
+
+
+
+      <div class="comment-text" data-ic-id="65">
+
+        <p>You didn't answer.</p>
+
+      </div>
+
+      <menu class="post-buttons">
+
+
+          <li><a class="post-button" name="edit" data-ic-get-from="https://tildes.net/api/web/comments/29ph" data-ic-target="#comment-29ph .comment-itself:first .comment-text" data-ic-scroll-to-target="true" data-ic-src="https://tildes.net/api/web/comments/29ph" data-ic-trigger-on="default" data-ic-deps="ignore">Edit</a></li>
+
+          <li><a class="post-button" data-ic-delete-from="https://tildes.net/api/web/comments/29ph" data-ic-target="#comment-29ph .comment-itself:first" data-ic-replace-target="true" data-ic-confirm="Delete this comment? This cannot be undone." data-ic-src="https://tildes.net/api/web/comments/29ph" data-ic-verb="DELETE" data-ic-trigger-on="default" data-ic-deps="ignore">Delete</a></li>
+
+            <li><a class="post-button" name="bookmark" data-ic-put-to="https://tildes.net/api/web/comments/29ph/bookmark" data-ic-target="#comment-29ph .comment-itself:first" data-ic-replace-target="true" data-ic-src="https://tildes.net/api/web/comments/29ph/bookmark" data-ic-verb="PUT" data-ic-trigger-on="default" data-ic-deps="ignore">Bookmark
+          </a></li>
+
+
+          <li><a class="post-button" name="reply" data-js-comment-reply-button="">Reply</a></li>
+      </menu>
+  </div>
+
+
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+        </ol>
+    </article>
+</li>
+  </ol>
+</section>
+
+  <section data-js-remove-on-success="">
+    <h2>Post a comment</h2>
+    <form method="post" data-ic-post-to="https://tildes.net/api/web/topics/8os/comments" data-ic-swap-style="append" data-ic-target="#comments" autocomplete="off" data-js-prevent-double-submit="" data-js-confirm-leave-page-unsaved="" data-ic-src="https://tildes.net/api/web/topics/8os/comments" data-ic-verb="POST" data-ic-trigger-on="default" data-ic-deps="ignore">
+      <input type="hidden" name="csrf_token" value="339bd8f8d4cdef8dc9fb8cb3748c3808b50000490506a63d92eb61e686b5368d">
+
+        <label class="form-label" for="markdown">
+    <span>New top-level comment</span>
+    <a href="https://docs.tildes.net/text-formatting" target="_blank" tabindex="-1">Formatting help</a>
+  </label>
+  <textarea class="form-input" id="markdown" name="markdown" placeholder="Text (Markdown)" data-js-ctrl-enter-submit-form=""></textarea>
+
+
+      <div class="form-buttons">
+        <button class="btn btn-primary" type="submit">Post comment</button>
+      </div>
+    </form>
+  </section>
+
+</article>
+
+  <template id="comment-label-options">
+    <menu class="comment-label-buttons">
+        <li>
+          <a class="btn-comment-label btn-comment-label-exemplary" data-js-label-name="exemplary" data-js-reason-prompt="Write a short message to say thanks or explain why you appreciated this comment (required, visible to the comment's author anonymously)
+
+You will not be able to use this label again for 8 hours.">exemplary...</a>
+        </li>
+        <li>
+          <a class="btn-comment-label btn-comment-label-offtopic" data-js-label-name="offtopic">offtopic</a>
+        </li>
+        <li>
+          <a class="btn-comment-label btn-comment-label-joke" data-js-label-name="joke">joke</a>
+        </li>
+        <li>
+          <a class="btn-comment-label btn-comment-label-noise" data-js-label-name="noise">noise</a>
+        </li>
+        <li>
+          <a class="btn-comment-label btn-comment-label-malice" data-js-label-name="malice" data-js-reason-prompt="Why is this malicious? (required, will only be visible to admins)">malice...</a>
+        </li>
+    </menu>
+  </template>
+
+</main>
+
+<aside id="sidebar">
+  <div class="sidebar-controls">
+      <div class="logged-in-user-info">
+    <a class="logged-in-user-username" href="/user/Shamar">Shamar</a>
+
+
+  </div>
+
+
+    <button class="btn btn-sm btn-link" data-js-sidebar-toggle="">Close sidebar</button>
+  </div>
+<h2>Topic info</h2>
+<dl>
+  <dt>Tags</dt>
+  <dd>
+
+<ul class="topic-tags">
+    <li class="label label-topic-tag label-topic-tag-javascript">
+      <a href="/~comp?tag=javascript">javascript</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-worldwide">
+      <a href="/~comp?tag=worldwide">worldwide</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-firefox">
+      <a href="/~comp?tag=firefox">firefox</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-mozilla">
+      <a href="/~comp?tag=mozilla">mozilla</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-google_chrome">
+      <a href="/~comp?tag=google_chrome">google chrome</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-chromium">
+      <a href="/~comp?tag=chromium">chromium</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-infosec">
+      <a href="/~comp?tag=infosec">infosec</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-cyber.security">
+      <a href="/~comp?tag=cyber.security">cyber.security</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-web">
+      <a href="/~comp?tag=web">web</a>
+    </li>
+    <li class="label label-topic-tag label-topic-tag-browser">
+      <a href="/~comp?tag=browser">browser</a>
+    </li>
+</ul>  </dd>
+
+  <dt>Comments</dt>
+    <dd>
+    43 comments
+
+    (4 threads)
+    </dd>
+
+    <dt>Last comment posted</dt>
+    <dd>
+      <a href="/~comp/8os/undetectable_remote_arbitrary_code_execution_attacks_through_javascript_and_http_headers_trickery#comment-29pp" data-js-hide-sidebar-no-preventdefault="">
+        <time datetime="2018-11-22T17:45:11Z" title="2018-11-22 17:45:11 UTC">6 minutes ago</time>
+      </a>
+    </dd>
+
+</dl>
+</aside>
+
+<footer id="site-footer" data-js-hide-sidebar-if-open="">
+  <p>Tildes is a non-profit site that respects its users and prioritizes quality content.</p>
+  <p>It has no advertising, no investors, and is supported by <a href="https://docs.tildes.net/donate">your donations</a>.</p>
+  <ul class="site-footer-links">
+    <li class="site-footer-link"><a href="https://docs.tildes.net">Docs</a></li>
+    <li class="site-footer-link"><a href="https://blog.tildes.net">Blog</a></li>
+    <li class="site-footer-link"><a href="https://docs.tildes.net/contact">Contact</a></li>
+    <li class="site-footer-link"><a href="https://gitlab.com/tildes/tildes">Source code</a></li>
+    <li class="site-footer-link"><a href="https://gitlab.com/tildes/tildes/issues">Issues</a> / <a href="https://gitlab.com/tildes/tildes/boards">Roadmap</a></li>
+    <li class="site-footer-link"><a href="https://docs.tildes.net/privacy-policy">Privacy policy</a></li>
+    <li class="site-footer-link"><a href="https://docs.tildes.net/terms-of-use">Terms of use</a></li>
+  </ul>
+</footer>
+
+<script type="text/javascript" src="/js/third_party.js?03b43099"></script>
+
+<script type="text/javascript" src="/js/tildes.js?e6d30c54"></script>
+
+
+</body></html>
