@@ -51,7 +51,7 @@ a.external:before {
 }
 
 a.setcss.light {
-	color: antiquewhite;
+	color: white;
 	display: inline;
 }
 a.setcss.dark {
