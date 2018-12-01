@@ -3,9 +3,8 @@ Hacking License
 
 Our Curiosity serves Humanity through Freedom, Candor and Communion.
 
-The terms and conditions of this license give you the rights and norms
-you need to become a hacker, to learn what we ignore and to challenge
-our assumptions by teaching us what you'll learn.
+This license grants you the right to hack with us, to learn what we ignore
+and to challenge our assumptions by teaching us what you will learn.
 
 
 1. Definitions
