@@ -1,7 +1,7 @@
 Hacking License
 ===============
 
-Our Curiosity serves Humanity through Freedom and Communion.
+Our Curiosity serves Humanity through Freedom, Candor and Communion.
 
 The terms and conditions of this license give you the rights and norms
 you need to become a hacker, to learn what we ignore and to challenge
@@ -20,11 +20,13 @@ For the purpose of this License:
 - "Hacker" refers to any Copyright holder of the Hack.
 - "Human" is every live being with humans among its genetic ancestors.
 - "Application" refers to a set of software exchanging data.
-- "User" refers to any human receiving a copy of the Hack or performing
-  any action permitted by this License.
+- "Runtime" refers to any runtime system, any operating system, any
+  virtual machine and/or any interpreter that is required to run the Hack.
 - "Source" refers to the human-readable form of a software which is the
   most convenient for people to study and modify, and that can be used
   to generate a new identical copy of the software itself.
+- "User" refers to any human receiving a copy of the Hack or its source
+  and/or performing any action permitted by this License.
 - To "study" a software means to perform any activity that could help
   the User to deeply understand it, to understand how to modify it or to
   explain its usage and inner working to other Users.
@@ -43,14 +45,13 @@ For the purpose of this License:
   The programs that collect, store, transform and/or transfer data
   for the User or between the User and the Hack are called "Wrappers".
   Wrappers do not include any program or library that Users can find in
-  off-the-shelf distributions of the operating system/runtime that the
-  software is based upon, but include any modified version of such
-  programs, libraries, operating system and/or runtime that contribute
-  to the services provided by the Application.
+  off-the-shelf distributions of the required Runtime, but include any
+  modified version of such programs, libraries, Runtime that are required
+  to run the Application.
   The license of a Wrapper is compatible with this License if it grants
   to the Users access to its source and the right to study, copy, use,
   wrap, modify and/or distribute the Wrapper and/or the Application
-  (or any modified version of them) in any form.
+  and/or any modified version of them, in any form.
 - To "modify" a software means to perform any action that would require
   Copyright permission, except for studying, copying, using, wrapping
   and distributing the software, including, but not limited to, to adapt
@@ -78,7 +79,7 @@ is granted to any User under the Hackers' essential patent claims.
 These grants are free of charge, non-exclusive, valid everywhere in the
 Universe, irrevocable (provided the stated conditions are met),
 royalty-free and can be transferred to third parties with the Hack,
-its Source or any Derived Work but for no charge.
+its source or any Derived Work but for no charge.
 
 This License does not grant any rights in the names, trade names,
 trademarks, service marks, or logos of the Hackers, except as required
@@ -105,11 +106,12 @@ The grants provided by this License are subject to the following conditions:
    activities permitted by this License shall be made available to the
    User with the source of the Hack (except for those tools and
    dependencies that are already available to every User either free of
-   charge or in off-the-shelf distributions of the operating
-   system/runtime that the Hack is based upon).
+   charge or in off-the-shelf distributions of the Runtime) and without
+   additional constraints or requirements, such as further agreements, any
+   royalty or other fee.
 5. No restriction or impediment, neither technical, legal or otherwise,
    shall prevent, hinder or inhibit the fruition of the rights provided
-   by this License to any User.
+   by this License to any User of both the Hack and any Derived Work.
 6. No patent infringement litigation claim (excluding counterclaims and
    cross-claims) alleging that all or part of the Hack directly or
    indirectly infringes a patent shall be initialized by the User.
@@ -150,7 +152,7 @@ DEALINGS IN THE SOFTWARE.
 7. Use and distribution of the Hacking License
 ----------------------------------------------
 
-This version of the Hacking License was written on November 2018.
+This version of the Hacking License was written on December 01, 2018.
 
 Everyone is permitted to copy and distribute verbatim copies of this 
 document, but changing it is not allowed.
