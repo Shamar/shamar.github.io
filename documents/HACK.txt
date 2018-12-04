@@ -3,8 +3,8 @@ Hacking License
 
 Our Curiosity serves Humanity through Freedom, Candor and Communion.
 
-This license grants you the right to hack with us, to learn what we ignore
-and to challenge our assumptions by teaching us what you will learn.
+This license grants you the right to hack with us, to explore ways we
+ignore and to challenge our assumptions by teaching us what you will learn.
 
 
 1. Definitions
@@ -33,13 +33,13 @@ For the purpose of this License:
   purpose and on any medium, even after applying one or more lossless
   transformations to the software, including, but not limited to,
   compression or encryption.
-- To "distribute" means any action that enable a human or organization
-  to perform any of the activities permitted by this License.
+- To "distribute" means any action that enables a human to perform any of
+  the activities permitted by this License.
 - To "use" a software means to generate a new copy of the software from
   its source, to run it for any purpose, to install it, to interact with
   it through any medium or proxy (even asynchronously), to provide data
-  for its input or to consume its output (or any part of it), and/or to
-  store and use a Derived Work in place of the software itself.
+  used for its input or to consume its output (or any part of it), and/or
+  to store and use a Derived Work in place of the software itself.
 - To "wrap" a software means to integrate it into an Application.
   The programs that collect, store, transform and/or transfer data
   for the User or between the User and the Hack are called "Wrappers".
@@ -66,7 +66,7 @@ For the purpose of this License:
 
 Permission is hereby granted to any User of the Hack to study, copy,
 use, wrap, modify and/or distribute the Hack, and to distribute any
-Derived Work under this License but with a different name and logo.
+Derived Work under this License but with a different name.
 
 Furthermore, if the Hack is a Derived Work, the Hackers grant to the
 copyright holders of the Inspiring Hack all rights, title and interests
@@ -75,10 +75,13 @@ in any copyright the Hackers have in the Hack.
 Finally, a patent License to perform any of the actions permitted above
 is granted to any User under the Hackers' essential patent claims.
 
-These grants are free of charge, non-exclusive, valid everywhere in the
-Universe, irrevocable (provided the stated conditions are met),
-royalty-free and can be transferred to third parties with the Hack,
-its source or any Derived Work but for no charge.
+These grants are subject to the Conditions below, free of charge,
+non-exclusive, valid everywhere in the Universe, irrevocable (provided the
+stated Conditions are met), royalty-free and can be transferred to third
+parties with the Hack, its source or any Derived Work but for no charge.
+
+Organizations may copy and/or distribute the Hack on behalf and under the
+responsibility of their members and according to this License.
 
 This License does not grant any rights in the names, trade names,
 trademarks, service marks, or logos of the Hackers, except as required
@@ -124,7 +127,7 @@ The grants provided by this License are subject to the following conditions:
 
 Failing to comply to the conditions of this License shall automatically
 terminate the grants provided, without affecting other parties who have
-received copies or rights from the User under this License.
+received copies or rights under this License.
 
 
 5. Severability
@@ -151,7 +154,7 @@ DEALINGS IN THE SOFTWARE.
 7. Use and distribution of the Hacking License
 ----------------------------------------------
 
-This version of the Hacking License was written on December 01, 2018.
+This version of the Hacking License was written on December 03, 2018.
 
 Everyone is permitted to copy and distribute verbatim copies of this 
 document, but changing it is not allowed.
