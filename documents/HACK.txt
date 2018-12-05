@@ -29,12 +29,13 @@ For the purpose of this License:
 - To "study" a software means to perform any activity that could help
   the User to deeply understand it, to understand how to modify it or to
   explain its usage and inner working to other Users.
-- To "copy" means to create an new exact copy of a software, for any
-  purpose and on any medium, even after applying one or more lossless
-  transformations to the software, including, but not limited to,
-  compression or encryption.
-- To "distribute" means any action that enables a human to perform any of
-  the activities permitted by this License.
+- To "copy" means to create an new exact copy of a work, for any purpose
+  and on any medium, even after applying any lossless transformation to it,
+  including, but not limited to, compression or encryption.
+- To "convey" means to perform any action that might enable other humans
+  to copy a work or receive copies of it.
+- To "distribute" means any action that enables any other human to perform
+  any of the activities permitted by this License.
 - To "use" a software means to generate a new copy of the software from
   its source, to run it for any purpose, to install it, to interact with
   it through any medium or proxy (even asynchronously), to provide data
@@ -64,24 +65,26 @@ For the purpose of this License:
 2. Grants
 ---------
 
-Permission is hereby granted to any User of the Hack to study, copy,
-use, wrap, modify and/or distribute the Hack, and to distribute any
-Derived Work under this License but with a different name.
+Permission is hereby granted to any User of the Hack to study, copy, use,
+wrap, modify and/or distribute the Hack, and to distribute any Derived Work
+under this License but clearly informing recipients about the differences
+with the Hack.
 
 Furthermore, if the Hack is a Derived Work, the Hackers grant to the
 copyright holders of the Inspiring Hack all rights, title and interests
-in any copyright the Hackers have in the Hack.
+in any copyright the Hackers have in the Hack, to the extent permitted
+by Law.
 
 Finally, a patent License to perform any of the actions permitted above
 is granted to any User under the Hackers' essential patent claims.
 
-These grants are subject to the Conditions below, free of charge,
+All of these grants are subject to the Conditions below, free of charge,
 non-exclusive, valid everywhere in the Universe, irrevocable (provided the
 stated Conditions are met), royalty-free and can be transferred to third
 parties with the Hack, its source or any Derived Work but for no charge.
 
-Organizations may copy and/or distribute the Hack on behalf and under the
-responsibility of their members and according to this License.
+Organizations may copy and/or convey the Hack on behalf of their members
+and under this License. No other permission is granted to organizations.
 
 This License does not grant any rights in the names, trade names,
 trademarks, service marks, or logos of the Hackers, except as required
@@ -118,8 +121,8 @@ The grants provided by this License are subject to the following conditions:
    cross-claims) alleging that all or part of the Hack directly or
    indirectly infringes a patent shall be initialized by the User.
 7. The User has never violated any of the previous conditions.
-8. All of these conditions shall be valid and enforceable under the
-   jurisdiction of the User.
+8. All of the Definitions, the Grants and the Conditions of this License
+   shall be valid and enforceable under the jurisdiction of the User.
 
 
 4. Termination
@@ -154,7 +157,7 @@ DEALINGS IN THE SOFTWARE.
 7. Use and distribution of the Hacking License
 ----------------------------------------------
 
-This version of the Hacking License was written on December 03, 2018.
+This version of the Hacking License was written on December 04, 2018.
 
 Everyone is permitted to copy and distribute verbatim copies of this 
 document, but changing it is not allowed.
