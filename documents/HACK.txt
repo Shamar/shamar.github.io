@@ -23,8 +23,8 @@ For the purpose of this License:
 - "Source" refers to the human-readable form of a software which is the
   most convenient for people to study and modify, and that can be used
   to generate a new identical copy of the software itself.
-- "User" refers to any human receiving a copy of the Hack, its source or
-  a Derived Work, and/or performing any action permitted by this License.
+- "User" refers to any human receiving a copy of the Hack and/or its
+  source, and/or performing any action permitted by this License.
 - To "study" a software means to perform any activity that could help
   the User to deeply understand it, to understand how to modify it or to
   explain its usage and inner working to other Users.
@@ -114,12 +114,16 @@ The grants provided by this License are subject to the following conditions:
    royalty or other fee.
 5. No expedient, restriction or impediment, neither technical, legal or
    otherwise, shall prevent, hinder or inhibit the fruition of the rights
-   granted by this License to any User, or enable third parties to do so.
-6. No patent infringement litigation claim (excluding counterclaims and
+   granted by this License to any User.
+6. No expedient, restriction or impediment, neither technical, legal or
+   otherwise, shall enable any third party to prevent, hinder or inhibit
+   the fruition of the rights granted by this License to any User of 
+   the Hack or to any User of any Derived Work.
+7. No patent infringement litigation claim (excluding counterclaims and
    cross-claims) alleging that all or part of the Hack directly or
    indirectly infringes a patent shall be initialized by the User.
-7. The User has never violated any of the previous conditions.
-8. All of the Definitions, the Grants and the Conditions of this License
+8. The User has never violated any of the previous conditions.
+9. All of the Definitions, the Grants and the Conditions of this License
    shall be valid and enforceable under the jurisdiction of the User.
 
 
@@ -127,7 +131,7 @@ The grants provided by this License are subject to the following conditions:
 --------------
 Failing to comply to the conditions of this License shall automatically
 terminate the grants provided, without affecting other parties who have
-received copies, permissions or rights under this License.
+received copies, permissions, patent Licenses or rights under this License.
 
 
 5. Severability
