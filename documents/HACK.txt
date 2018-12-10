@@ -83,13 +83,13 @@ Subject to the Conditions below:
    Users of the Hack, and all rights, title and interests in any copyright
    the Hackers have in the Hack to the extent permitted by Law.
 
+4. Organizations may copy and/or convey the Hack on behalf of their members
+   and under this License. No other permission is granted to organizations.
+
 All of these grants are free of charge, non-exclusive, valid everywhere
 in the Universe, irrevocable (provided the stated Conditions are met),
 royalty-free and can be transferred to third parties with the Hack,
 its Source or any Derived Work for no charge.
-
-Organizations may copy and/or convey the Hack on behalf of their members
-and under this License. No other permission is granted to organizations.
 
 This License does not grant any rights in the names, trade names,
 trademarks, service marks, or logos of the Hackers, except as required
