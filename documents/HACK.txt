@@ -12,7 +12,7 @@ ignore and to challenge our assumptions by teaching us what you will learn.
 For the purpose of this License:
 
 - "License" refers to this License.
-- "Copyright" refers to all transferable rights that copyright-like
+- "Copyright" refers to the transferable rights that copyright-like
   laws assign to the authors of a literary work.
 - "Hack" refers to the software, the documentation and the contents
   distributed under this License.
