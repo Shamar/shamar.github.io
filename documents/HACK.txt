@@ -78,9 +78,9 @@ Subject to the Conditions below:
 2. A patent license to perform each and every of the actions permitted
    above is granted to any User under the Hackers' essential patent claims.
 
-3. If the Hack is a Derived Work, the Hackers grant to the copyright holders
-   of the Inspiring Hacks all permissions and patent Licenses granted to the
-   Users of the Hack, and all rights, title and interests in any copyright
+3. If the Hack is a Derived Work, the Hackers grant to the Copyright holders
+   of the Inspiring Hacks all permissions and patent licenses granted to the
+   Users of the Hack, and all rights, title and interests in any Copyright
    the Hackers have in the Hack to the extent permitted by Law.
 
 4. Organizations may copy and/or convey the Hack on behalf of their members
@@ -123,7 +123,7 @@ following conditions:
    the Hack or to any User of any Derived Work.
 7. No patent infringement litigation claim (excluding counterclaims and
    cross-claims) alleging that all or part of the Hack directly or indirectly
-   infringes a patent shall be initialized by the User or on his behalf.
+   infringes a patent shall be initialized by the User or on User's behalf.
 8. The User has never violated any of the previous conditions.
 9. All of the Definitions, the Grants and the Conditions of this License
    shall be valid and enforceable under the jurisdiction of the User.
@@ -133,7 +133,7 @@ following conditions:
 --------------
 Failing to comply to the conditions of this License shall automatically
 terminate the grants provided, without affecting other parties who have
-received copies, permissions, patent Licenses or rights under this License.
+received copies, permissions, patent licenses or rights under this License.
 
 
 5. Severability
@@ -157,7 +157,7 @@ DEALINGS IN THE SOFTWARE.
 
 7. Use and distribution of the Hacking License
 ----------------------------------------------
-This version of the Hacking License was written on December 10, 2018.
+This version of the Hacking License was written on December 11, 2018.
 
 Everyone is permitted to copy and distribute verbatim copies of this 
 document, but changing it is not allowed.
