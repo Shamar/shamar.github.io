@@ -3,8 +3,8 @@ Hacking License
 
 Our Curiosity serves Humanity through Freedom, Candor and Communion.
 
-This license grants you the right to hack with us, to explore ways we
-ignore and to challenge our assumptions by teaching us what you will learn.
+This license grants you the right to hack with us, to explore ways we ignore
+and to challenge our assumptions by teaching us what you will learn.
 
 
 1. Definitions
