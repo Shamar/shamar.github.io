@@ -125,7 +125,8 @@ following conditions:
 7. No patent infringement litigation claim (excluding counterclaims and
    cross-claims) alleging that all or part of the Hack directly or indirectly
    infringes a patent shall be initialized by the User or on User's behalf.
-8. The User has never violated any of the previous conditions.
+8. No infringement of the Hackers' Copyright on the Hack can be attributed to
+   the User or to any organization operating on his behalf.
 9. All of the Definitions, the Grants and the Conditions of this License
    shall be valid and enforceable under the jurisdiction of the User.
 
