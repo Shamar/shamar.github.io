@@ -162,4 +162,4 @@ This version of the Hacking License was written on January 01, 2019.
 Everyone is permitted to copy and distribute verbatim copies of this 
 document, but changing it is not allowed.
 
-Copyright (C) 2018 Giacomo Tesio
+Copyright (C) 2018-2019 Giacomo Tesio
