@@ -146,6 +146,18 @@ A person deeply moved by Curiosity. Someone who struggle for knowledge.
 Hack:
 What hackers do. An experiment. A smart solution to a problem.
 
+HyperText:
+(Greek: ὑπερ, "beyond"; Latin: textus, "something woven")
+A computer representation of interrelated informations as a graph of
+textual documents interconnected through user's clicks on one or more
+relevant and easily identifiable words.
+E.g. A scientific hypertext.
+
+Hypermedia:
+(Greek: ὑπερ, "beyond"; Latin: medium, "in the middle", "between")
+An extended HyperText that can also represent images, audio or video.
+E.g. An artistic hypermedia.
+
 Informatics:
 (French: informatique, "information électronique ou automatique")
 The field of human knowledge that study how informations can be
@@ -205,6 +217,12 @@ A sequence of instructions that a agent can perform.
 As a verb, to write such sequence of instructions.
 E.g. A computer program. A diet program. She is programming.
 
+Protocol:
+(Latin: protocollum, "the first sheet of a volume")
+An Algorithm that address a comunication problem by specifying how to
+exchange (represent and interpret) a certain kind of informations as data.
+E.g. Internet Protocol. HyperText Transfer Protocol. Network Time Protocol.
+
 Science:
 (Latin: scire, "to know")
 Science is the process of forcing the human's perceptions of reality 
@@ -214,6 +232,11 @@ among humans.
 Script:
 (Latin: scrīptum, "anything written")
 A human-readable program performed by an interpreter.
+
+Steganography:
+(Greek: στεγανός γράφειν, "covered writing")
+The practice of concealing a message within another message.
+E.g. Humans achieved cool knowledge employing risible steganography.
 
 Stupid:
 (Latin: stupeō, "I'm amazed")
