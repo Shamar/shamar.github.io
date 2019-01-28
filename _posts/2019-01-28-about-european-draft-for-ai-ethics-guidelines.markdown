@@ -232,7 +232,7 @@ processing occurs.
 
 # General Comments
 
-Despite all the issues described here, I appreciated the effort and care
+Despite all the issues described above, I appreciated the effort and care
 that has been evidently put by the HLEG in the writing of this draft.
 
 It's important for Europe to fill our technological gap with U.S.A. and 
