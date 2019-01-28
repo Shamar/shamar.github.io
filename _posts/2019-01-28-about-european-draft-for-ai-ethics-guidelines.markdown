@@ -14,7 +14,7 @@ Artificial Intelligence and Machine Learning and to read the
 
 # Introduction: Rationale and Foresight of the Guidelines
 
-The first lines of the introduction highlight a serious flawn of the draft:
+The first lines of the introduction highlight a serious flaw of the draft:
 the pillars that underpin the Commission’s vision show a fundamental bias:
 
 1. increasing public and private investments in AI to boost its uptake,
@@ -22,21 +22,21 @@ the pillars that underpin the Commission’s vision show a fundamental bias:
 3. ensuring an appropriate ethical and legal framework to strengthen
    European values
 
-Being eager to adopt a largerly misunderstood technology obviously inhibits
+Being eager to adopt a largely misunderstood technology obviously inhibits
 the ability to reason about its limits and risks.
 
 Before trying to boost its uptake, the Commission should try to
-understand to what extent and in which fields of endevour the set of
+understand to what extent and in which fields of endeavour the set of
 techniques that goes under the AI umbrella should be experimented.
 
 As Shoshana Zuboff recently wrote, technology is NOT an unstoppable force
-of nature, but a human artifact serving interests and need of specific
+of nature, but a human artifact serving interests and needs of specific
 humans. In other words, Technology is a prosecution of Politics by other
 means: each advancement can be designed to serve the public interest or
 private and elitarian ones. And just like with Politics, a renounce to
 participate to its course just means to being subject to others' will.
 
-Before talking about "Trustworthing AI", we should have a population able
+Before talking about "Trustworthy AI", we should have a population able
 to understand the topic enough for their trust to be meaningful.
 
 As for today, without a serious investments in schools to foster
@@ -45,11 +45,11 @@ can not be meaningful but just deceptive and ill founded.
 
 It's not a trust on the technology, but in the corporations and the
 "experts" that can exploit such trust and the widespread ignorance of the
-topic to weaken regulations.
+topic to weaken regulations and streghten their handle on society.
 
 
 Having said that, the high level description outlined for the Ethical
-framework is basically sound: it's reasonable to think that when the
+framework is basically sound: it's reasonable to think that when the whole
 population will be able to understand how a neural network's calibration
 differs from a k-mean clustering, a similar framework will emerge.
 
@@ -58,15 +58,15 @@ we are not ready for such framework: despite being written by an high
 level expert group on AI, the definitions still use an antropomorphic
 language to describe what is just software.
 In particular describing software bugs (either intentional or
-unintentional) as "bias" shows a deep misunderstanding of the software in
-question and the statistical processes that define its behaviour.
-Later on, similar concerns emerge when the draft cite "non-determinism"
+unintentional) as "bias" shows a deep misunderstanding about the software
+in question and about the statistical processes that define its behaviour.
+Later on, similar concerns emerge when the draft cites "non-determinism"
 while talking about software that is executed by deterministic machines
 (aka computers).
 
-Such language is worring because it shows a tendency from the HLEG to
-rationalize the risks as inevitable instead of understanding and
-taking them into account.
+Such language is worrying because it shows a tendency from the HLEG to
+rationalize the risks as inevitable instead of understanding them deeply 
+and taking them into account.
 
 # Chapter I: Respecting Fundamental Rights, Principles and Values - Ethical Purpose 
 
@@ -83,7 +83,7 @@ It should be quite evident by looking at such principles:
 
 Even if we hadn't more than two thousands years from the Hippocratic Oath
 and generations of physicians grown with the "Primum non nocere" maxim, we
-can see how the last three principles are just specifications of the more
+can see how the last three principles are just specializations of the more
 general "Do no Harm". In particular the Principle of Autonomy tries to 
 address risks to individuals, the Principle of Justice tries to address the
 risks to weak groups and the Principle of Explicability tries to address
@@ -100,16 +100,17 @@ Beneficience, and underlining its relation with the others:
 - The Principle of Beneficence: "Do Good"
 
 The road to hell is paved with good intentions: just like with medicine,
-whenever safer solutions exists they should be preferred to more risky ones.
+whenever simpler and safer solutions exist they should be preferred to
+more complex and risky ones.
 
 
 
 But there is an even more important omission in the list:
 the Principle of Ultimate Human Accountability.
 
-This is a fundamental principle that underly all European ethical and legal
+This is a fundamental principle that underlie all European ethical and legal
 system: at least a human must always be accountable for the problems caused
-by a thing.
+by a human artifact.
 
 In other terms: what is forbidden to a human can not be allowed through
 an artificial proxy, no matter how "autonomous" (aka expensive to debug)
@@ -134,10 +135,10 @@ based fears that are the flip side of the current hype.
 
 Instead of being concerned about Artificial Consciousness that would be
 way easier to fake than to implement we should be afraid of semi-autonomous
-weapons in the hands of a small group of people holding the majoirity of
+weapons in the hands of a small group of people holding most of
 the planet's wealth. And in the count of such weapons we should obviously
-include every tool that can be used to direct humans attention, manipulate
-feelings or perceptions and to forge mass opinions.
+include every tool that can be used to direct human attention, to 
+manipulate feelings or perceptions and to forge mass opinions.
 
 
 # Chapter II: Realising Trustworthy AI
@@ -145,14 +146,15 @@ feelings or perceptions and to forge mass opinions.
 Even this chapter present several issues:
 
 1. The short paragraph about "Accountability" suggest to design mechanisms
-   that can range from monetary compensation to apology, but forget to 
+   that can range from monetary compensation to apology, but it forgets to 
    include prison: to gain trust it is important to explicitly state that
    an autonomous proxy cannot become a "Get Out of Jail Free" ticket.
 2. The section on "Safety" looks like it was designed to be ineffective:
    it's pointless to assess potential risks associated with the use of
-   AI-based products and services without defining serious
+   AI-based products and services without defining serious punishments when
+   things goes wrong anyway.
 3. The section on "Trasparency" is too vague and forgiving: a simpler
-   approach is to say that no opacity must be allowed in application that
+   approach is to say that no opacity must be allowed in applications that
    consume human data. Such rules would instantly skyrocket private and
    public investments in AI research, looking for new machine learning
    techniques that can be fully explained and debugged.
@@ -169,8 +171,8 @@ Even this chapter present several issues:
    enhancing human wealth as it's  promise to be, a lot of friendly people
    with a lot of free time will be able to nudge us on our request, but
    it's too dangerous to let flawed machines manipulate humans whatever the
-   goal: every software has bugs vulnerabilities and many have actual
-   backdoors.
+   goal: every software has bugs vulnerabilities and many have intentional
+   backdoors: AI won't be different.
 
 Later, in "Architectures for Trustworthy AI", while considering the
 technical means to ensure an ethical behaviour the HLEG suggest to
@@ -185,7 +187,7 @@ This is both naive and weird:
   brain washing project ever conceived.
   Humans naturally adapt to the sorrounding intelligences: put a consumist
   agent in every room, and you will build a population of consumists.
-- HOW MUCH ethics?
+- HOW MUCH ethics?  
   Who will decide the weight of that signal?
   And what when a bug will inhibit it?
   Or what if other inputs overwhelm such signal?
@@ -214,17 +216,18 @@ on an artificial neural network.
 The risk however is that, without a widespread understanding of the AI
 techniques, the Commission will ask to the wolfs how to rule the sheeps:
 we cannot rely on experts that consults large corporations to define
-any assessment of "trust".
+any assessment of "trust" into something that can manipulate people.
 
 Moreover, being able to assess the Ethics of a "Trustworthy AI" cannot
 replace clear regulation establishing the characteristics that an algorithm
 must have before being fed with human data.
 
 In particular we need to extend the right to "meaningful information about
-the logic involved" by each AI processing beyond the individuals: even
-groups, such as families, neightbors, customers and so on
-should have the right to know and understand the exact logic applied to 
-their collective data, when and to which aim the processing occurs.
+the logic involved" by each AI processing beyond the individuals protected
+by the article 13 of the GDPR: even groups, such as families, neightbors,
+customers and so on should have the right to know and understand the exact
+logic applied to their collective data, when and to which aim the
+processing occurs.
 
 
 # General Comments
@@ -246,7 +249,7 @@ mass education plan, with serious investments on teachers and professors
 from the primary school on. We need to raise a generation of people able
 to modify the software that they use and they feed with their own data.
 
-Since Technology is Politics being able to self-host and customize the
+Since Technology is Politics, being able to self-host and customize the
 applications we use is the only way to preserve democracy: it will prevent
 data capitalization and people manipulation.
 
@@ -255,10 +258,11 @@ is totally primitive, but effective to collect and retain Power among
 humans exactly because it is primitive.
 
 We need better systems, better programming languages and people able to
-use software without being used by it.
+use software without being manipulated through it.
 
 Until then, widespread adoption of AI can be useful, but it's irresponsible
 to apply it to human data. We need prudent regulations that err on the side
 of caution, not because computer-aided statistics is dangerous in itself
-but because it's too easy to abuse it and manipulate or hurt people and societies.
+but because it's too easy to abuse it and manipulate or hurt people and
+societies in a context when most people can't understand their working.
 
