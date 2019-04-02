@@ -13,8 +13,9 @@ You won't find everything. Neither here nor elsewhere.
 But here you can read what you need to follow us in your way.
 
 This handbook is organized with a few small introductory texts that
-describe the invariant aspects of our culture followed by a pocket
-dictionary that provide useful definitions.
+describe the invariant aspects of our culture followed by a list of
+hackers whose lifes convey important lessons for all of us and by a
+pocket dictionary that provide useful definitions.
 
 The Vademecum itself is a hack to teach a whole Culture in 2^16 byte.
 
@@ -79,6 +80,20 @@ parenting or whatever.
 This Vademecum uses Informatics to convey our wisdom. But there's more.
 
 
+People
+------
+Archimedes of Syracuse			Heron of Alexandria
+Muḥammad ibn Mūsā al-Khwārizmī		Leonardo da Vinci
+Blaise Pascal				Isaac Newton
+Augusta Ada King-Noel			Phoebe Sarah Hertha Ayrton
+Antonio Santi Giuseppe Meucci		Alan Mathison Turing
+Edsger Wybe Dijkstra			Pier Giorgio Perotto
+Niklaus Emil Wirth			Kenneth Lane Thompson
+Richard Matthew Stallman		William Henry Gates III
+Hans Thomas Reiser			Terrence Andrew Davis
+Linus Benedict Torvalds
+
+
 Glossary
 --------
 As an international movement, hackers are used to adopt the most
@@ -139,6 +154,16 @@ Datum, pl. Data:
 One of the possibile rappresentations of an information that can be
 transferred and interpreted as informations by humans.
 E.g. We will build a model of the climate change from the recorded data.  
+
+Diversion:
+(Latin: dīvertere, "to diverge")
+The act of changing direction, of exploring a different path, for fun.
+Diversions are small hacks: they are fun, challenging and insightful.
+
+Entertainment:
+(Latin: tenere intra, "to keep inside")
+Something that block, bridle or tame people through contents.
+E.g. Panis et Circenses. Few crumbs and entertainment can kill revolutions.
 
 Hacker:
 A person deeply moved by Curiosity. Someone who struggle for knowledge.
@@ -214,6 +239,7 @@ the possibility to create/install/execute/control new programs.
 Program:
 (Latin: programma, "a public notice")
 A sequence of instructions that a agent can perform.
+It tries to represent as Code an Algorithm from the programmer's mind.
 As a verb, to write such sequence of instructions.
 E.g. A computer program. A diet program. She is programming.
 
