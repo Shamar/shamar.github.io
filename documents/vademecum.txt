@@ -90,8 +90,8 @@ Antonio Santi Giuseppe Meucci		Alan Mathison Turing
 Edsger Wybe Dijkstra			Pier Giorgio Perotto
 Niklaus Emil Wirth			Kenneth Lane Thompson
 Richard Matthew Stallman		William Henry Gates III
-Hans Thomas Reiser			Terrence Andrew Davis
-Linus Benedict Torvalds
+Hans Thomas Reiser			Loyd Blankenship
+Terrence Andrew Davis			Linus Benedict Torvalds
 
 
 Glossary
