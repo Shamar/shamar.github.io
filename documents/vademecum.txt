@@ -5,7 +5,7 @@ Don't panic! It's funny! ;-)
 
 Being a hacker is all about Curiosity.
 Knowledge, like Ignorance, is a fundamental step of our journey.
-They're steps: both destinations and new starting points.
+They are steps: both destinations and new starting points.
 
 This is just a minimal reference book about hackers' wisdom that you can
 use to study and teach our way to the Universe and the Human mind.
@@ -14,7 +14,7 @@ But here you can read what you need to follow us in your way.
 
 This handbook is organized with a few small introductory texts that
 describe the invariant aspects of our culture followed by a list of
-hackers whose lifes convey important lessons for all of us and by a
+hackers whose lives convey important lessons for all of us and by a
 pocket dictionary that provide useful definitions.
 
 The Vademecum itself is a hack to teach a whole Culture in 2^16 byte.
@@ -29,7 +29,7 @@ creative Curiosity. Curiosity is our core value, what qualify us as
 hackers. But in our pursuit we also follow other values such as
 
 1. Freedom: we have the right to learn what we want in the way we want
-2. Condivision: the more people know, the more they can learn and share
+2. Communion: the more people know, the more they can learn and share
 3. Intellectual Honesty: we can be wrong but not pretend we are not
 
 As complex persons from cultures all over the world, we often have other
