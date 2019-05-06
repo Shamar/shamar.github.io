@@ -127,7 +127,7 @@ application turns a computer into a specialized (but more useful) tool.
 
 Bit:
 (English: bita, "a bite")
-Smallest possibile size of a datum, usually rappresented as 0 or 1.
+Smallest possibile size of a datum, usually represented as 0 or 1.
 E.g. Please, flip that bit.
 
 Byte:
@@ -152,7 +152,7 @@ E.g. Yes, I am a criminal. My crime is that of curiosity.
 
 Datum, pl. Data:
 (Latin: datum, "given")
-One of the possibile rappresentations of an information that can be
+One of the possibile representations of an information that can be
 transferred and interpreted as informations by humans.
 E.g. We will build a model of the climate change from the recorded data.  
 
