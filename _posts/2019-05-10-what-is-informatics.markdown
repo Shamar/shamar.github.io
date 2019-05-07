@@ -6,7 +6,7 @@ author: giacomo
 ---
 
 What is Informatics? Why some call it "Computer Science"?  
-Why programmers can't get it right as civil engineers do with bridges?  
+Why programmers can't get it right as civil engineers do with bridges?
 
 Given the pervasive presence of computers around us, people usually think
 about Informatics as a pretty advanced field of technology, something that
@@ -96,7 +96,7 @@ But they would not be equivalent.
 
 Information and data have a very complex relation.
 
-By writing these words I'm turning the information to data.
+By writing these words I'm turning the information to data.  
 By reading them, you are turning the data back to information again.
 
 Both of above sentences are properly expressed in present tense, but they
@@ -208,19 +208,49 @@ us much as we can see that Informatics is changing every single field of
 human endeavours, from Medicine to Agriculture, from Reproduction to Finance,
 from Engineering to Cooking, from Democracy to War.
 
-And while no program need Medicine, most Doctors use programs.
-And while no program need to kill, most War need software.
-And so on. 
+And while no program need Medicine, most Doctors use programs.  
+And while no program need to kill, most War need software.  
+And so on.
 
 This weird phenomenon also has a simple explaination: Informatics changes
-everything humans do because it changes how humans collectively think.
-Indeed, if Information belongs to a human mind, when shared in a community
-if stratify as the Culture of such community.
+everything humans do because **it changes how humans collectively think**.
+Indeed, if Information belongs to a human mind, when shared among the
+members of community, it builds the Culture of such community. And such
+Culture goes back into new members' minds as Information in a never
+ending feedback loop.
 
-Informatics is today what Mathematics was at the time of [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras).
+Informatics is today what Mathematics was at the time of [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras).  
 It's Philosophy on disguise. Applied Philosophy, if you will.
 
-## The value of Debugging.
+# A Political field
+
+Many practicioners would refuse this qualification of Informatics
+as a modern form of Philosophy. It's not just because of ignorance
+about Philosophy itself (that is where Logic, so fundamental for
+our craft, was born). It's because of a bad feeling about it.
+After all, if you look at the history, from Confucius to Plato,
+from Kant to Nietzsche, **philosophers have always had this 
+weird habit of messing with Politics** one way or another.
+
+This is annoying. Software Engineers pretends to be Engineers so
+that they can focus their minds on technical stuffs **alone**.
+They feel responsible to create the best possible artifact
+that can serve a purpose, but don't want to accountable for
+the choice of the purpose itself.
+
+Being a philosopher is a call to make clear statements, to take
+position. Being an engineer instead just mean to build stuff, so
+that you can pretend you don't align with the values of your
+customers while you serve their endeavours.
+
+Engineers can pretend to be "neutral", Philosophers cannot.
+
+## Technology is a prosecution of Politics by other means
+
+If you look at History, you can see how technology is the most
+powerful political force at work all over the world.
+
+## The value of Debugging
 
 There is nothing on Earth that can train [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking)
 as a decade or two of [Software Debugging](https://en.wikipedia.org/wiki/Debugging).
@@ -237,11 +267,11 @@ your own life. Exactly like with Math (and with Math too), but on steroids.
 
 
 And yet, the real key to understand the political potential of Informatics is
-**debugging**. Through debugging you look for an error in the collective
-cultural elaboration of hundrends of thousand people from all over the world.
+**debugging**. Through debugging **you look for an error in the collective
+cultural elaboration of thousands of people** from all over the world.
 
 You see a computer executing billions of lines of code and you have to
-understand where somebody did an error that is currently causing a
+understand where somebody did the error that is currently causing a
 misbehaviour. It's such an expensive and complex task, that people and
 corporations try to avoid it as much as possible, usually working around
 the bug. But if you **have** to fix it, it's a very **educative** experience.
