@@ -42,7 +42,7 @@ trademark issues, but to semantic reasons: computers do not deal with
 information, but data.
 
 But as pragmatic as this might look, it's very short-sighted:
-it describes the "how" without considering the "why" of Informatics.
+it loosely describes the "how" without considering the "why" of Informatics.
 
 Indeed, if it's true that data is what computers handle, we turn them on to
 treat information anyway.
@@ -226,8 +226,8 @@ It's Philosophy on disguise. Applied Philosophy, if you will.
 
 Many practicioners would refuse this qualification of Informatics
 as a modern form of Philosophy. It's not just because of ignorance
-about Philosophy itself (that is where Logic, so fundamental for
-our craft, was born). It's because of a bad feeling about it.
+about Philosophy itself (that is where Logic, was born). 
+It's because of a bad feeling about it.
 After all, if you look at the history, from Confucius to Plato,
 from Kant to Nietzsche, **philosophers have always had this 
 weird habit of messing with Politics** one way or another.
@@ -250,6 +250,16 @@ Engineers can pretend to be "neutral", Philosophers cannot.
 If you look at History, you can see how technology is the most
 powerful political force at work all over the world.
 
+From fire to wheels, to sails, to archs, to mills: every new technology
+created new ways of living that in turn enabled the rise of more complex
+human organizations.
+
+Furthermore, each progress in the technology of weapons provided a
+strategic advantage to those who got it. We don't need to go back at the
+stone age to see evidence of this. Not even knowing about Enigma is required.
+A Cyber World War is ongoing right now. A war for the total domination
+of humans though technology.
+
 ## The value of Debugging
 
 There is nothing on Earth that can train [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking)
@@ -261,28 +271,28 @@ Some [techniques](https://en.wikipedia.org/wiki/Domain-driven_design) are
 so similar to Philosophy that practicioners talk way more than they code.
 
 The programming language you use also influence your way of thinking in a
-way that is way deeper than what you feel when learning a human language.
+way that is way deeper than what you eperience when learning a human language.
 The patterns you learn while programming becomes useful in every aspect of
-your own life. Exactly like with Math (and with Math too), but on steroids.
+your own life. Exactly like with Math, but on steroids.
 
 
 And yet, the real key to understand the political potential of Informatics is
-**debugging**. Through debugging **you look for an error in the collective
+**debugging**. While debugging **you look for an error in the collective
 cultural elaboration of thousands of people** from all over the world.
 
 You see a computer executing billions of lines of code and you have to
-understand where somebody did the error that is currently causing a
+guess where somebody did the error that is currently causing a
 misbehaviour. It's such an expensive and complex task, that people and
 corporations try to avoid it as much as possible, usually working around
 the bug. But if you **have** to fix it, it's a very **educative** experience.
 
-First because most of times, it's your fault.
+First because most of times, it's your own fault.
 
 But sometimes it's really the compiler. Sometimes it's really the operating system.
 Sometime it's really the browser's garbage collector.
-Sometimes you physically see the [butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)...
-and you **have** to find (and kill) the right butterfly hundreds of
-miles away to stop the tornado you are in. 
+Sometimes you see the [butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)
+happening: you **have** to find (and kill) the right butterfly hundreds of
+miles away, just to stop the tornado you are in. 
 
 Compared to this, **debunking a Fake News is a kids game**.
 
@@ -293,4 +303,47 @@ thousands of other people have thought before you, to grasp
 their assumptions, to spot not only what they knew or what
 they misunderstood but what they didn't knew at all.
 
-The Unknown is a fundamental element of Informatics.
+The Unknown is a first class citizen of Informatics.
+
+Good programmers [know that they know nothing](https://en.wikipedia.org/wiki/Socratic_method). By experience.  
+And hackers know that **nobody knows anything**. That's why we are so curious!
+
+
+# A Universal Human Right
+
+In the Universal Declaration of Human Rights, three articles talk about
+Informatics without even knowing about it:
+
+12)
+No one shall be subjected to arbitrary interference with his privacy,
+family, home or correspondence, nor to attacks upon his honour and reputation.
+Everyone has the right to the protection of the law against such interference
+or attacks.
+
+19)
+Everyone has the right to freedom of opinion and expression; this right
+includes freedom to hold opinions without interference and to seek, receive
+and impart information and ideas through any media and regardless of frontiers.
+
+27)
+(1) Everyone has the right freely to participate in the cultural life of
+    the community, to enjoy the arts and to share in scientific advancement
+    and its benefits.
+(2) Everyone has the right to the protection of the moral and material
+    interests resulting from any scientific, literary or artistic
+    production of which he is the author.
+
+Even without looking at the large multinational corporations that
+constitute the core of Surveillance Capitalism, we can see that these
+articles are sistematically violated from most computer device that we "own".
+
+People who cannot configure their own mail server, cannot have 12 granted.
+People who cannot program themselves, cannot "impart information and ideas
+through any media" and thus cannot have 19 granted.
+People who cannot debug a cryptographic library, cannot have 19 granted
+Since programs are culture (and theorems, by Curry–Howard correspondence),
+people who cannod program cannot have 27.1 granted.
+
+
+As complex artifacts build on top of the work of several people. software
+are always collective works. They are culture.
