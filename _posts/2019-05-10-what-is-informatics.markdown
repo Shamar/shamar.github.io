@@ -254,11 +254,28 @@ From fire to wheels, to sails, to archs, to mills: every new technology
 created new ways of living that in turn enabled the rise of more complex
 human organizations.
 
-Furthermore, each progress in the technology of weapons provided a
+One might wonder: how something that works with Information can
+impact so deeply the physical world we live in?
+Informations are just insight we can communicate, after all!
+
+While many argue that "software is eating the world", few ask **how** this
+happens.
+
+It turns out that the explaination is a marvel of electronics: the general
+purpose programmable computer. General purpose computers are not designed
+to solve a particular problem but to execute certain sequences of
+instructions fed by a programmer in a binary format.
+
+In itself, a general purpose computer is useless.
+But programs can specialize them to make them useful for a wide variety of problems.
+
+
+As before, each progress in the technology of weapons provided a
 strategic advantage to those who got it. We don't need to go back at the
 stone age to see evidence of this. Not even knowing about Enigma is required.
 A Cyber World War is ongoing right now. A war for the total domination
-of humans though technology.
+of humans through technology.
+
 
 ## The value of Debugging
 
