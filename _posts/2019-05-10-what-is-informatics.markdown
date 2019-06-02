@@ -267,50 +267,57 @@ purpose programmable computer. General purpose computers are not designed
 to solve a particular problem but to execute certain sequences of
 instructions fed by a programmer in a binary format.
 
-This way, what is ultimately a pure act of imagination expressed in a
-certain language is summoned as a sort of [daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
+This way, while computers play the software, what is ultimately a pure
+act of imagination expressed in a certain language is summoned as a sort of [daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
 that acts on the physical world.
 
 As before, each progress in technology provides a
-strategic advantage to those who got it. We don't need to go back at the
+strategic advantage to those who get it. We don't need to go back at the
 stone age to see evidence of this. Not even knowing about
 [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) is required.
 A Cyber World War is ongoing right now. A war for the total domination
 of humans through technology.
 
-## Programming can teach Rationality
+## Programming teach Rationality
 
 In itself, a general purpose computer is useless.
-But programs can specialize them to make them useful for a wide variety
+But programs can specialize it to make it useful for a wide variety
 of specific problems.
 
 Such specialization **contraints** what the computer can do. It **reduces**
 its potential. This might look counter-intuitive to somebody who cannot program
 (and unfortunately to some programmers too), but in fact, all we do with programming
-languages, is to **reduce** what computer can do by deciding what they will do.
+languages, is to **reduce** what computer **can** do by deciding what they **will** do.
 
 But is it just about computers?
 
-If all we had was [Assembly](https://en.wikipedia.org/wiki/Assembly_language) it would probably be.
+If all we had was [Assembly](https://en.wikipedia.org/wiki/Assembly_language) it would be so.
 Programming would be a very time consuming task not much different from circuit design.
 
-However we built [high level programming languages](https://en.wikipedia.org/wiki/High-level_programming_language)
+However we have built [high level programming languages](https://en.wikipedia.org/wiki/High-level_programming_language)
 to speed up software development and, by doing so, we highly reduced
 the [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
 between the hardware and the software. 
 
-High level programming language reduce the cognitive load on programmers
-by constraining how they can express the algorithms they have in mind.
-But as any programmer know very well, this means that it constraints 
-the way programmer can think.
+High level programming language reduce the cognitive load on programmers.
+We don't need to know the quirks of a specific processor or device.
+[Most of times at least](https://meltdownattack.com/).
+But once freed from the limits of machines, programmers faced a new
+enemy: the limits of their own minds.
+
+There are many ways to express a program. Most of them are wrong.
+
+So the practice of programming evolved towards more complex tools that,
+by constraining how programmers can express the insights they have in mind,
+help them to write code that their mind can manage.
 
 However, since the underlying hardware follows strictly logical and mathematical
-rules, any programming language (that aim at predictible behaviour of the
-machine executing it) has to enforce those rules too, sooner or later.
+rules, any programming language has to enforce those rules too, sooner or later.
 
-This means that **to program you need to learn logical thinking.**
+This means that **to program** you need to learn **rational thinking**.
+And to explain it.
 
-Programming is a tool to learn how to describe complex dynamic
+In other words, programming can teach people how to describe complex dynamic
 and ever evolving systems to somebody as **dumb** as a computer is.
 Some [techniques](https://en.wikipedia.org/wiki/Domain-driven_design) are
 so similar to Philosophy that practicioners talk way more than they code.
@@ -325,7 +332,7 @@ And yet, the real key to understand the political potential of Informatics is
 cultural elaboration of thousands of people** from all over the world.
 
 
-## Debugging can teach Critical Thinking
+## Debugging teach Critical Thinking
 
 There is nothing on Earth that can train [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking)
 as a decade or two of [Software Debugging](https://en.wikipedia.org/wiki/Debugging).
@@ -361,22 +368,22 @@ And hackers know that **nobody knows anything**. That's why we are so curious!
 
 # A Universal Human Right
 
-In the Universal Declaration of Human Rights, three articles talk about
-Informatics without even knowing about it:
+In the [Universal Declaration of Human Rights](https://www.un.org/en/universal-declaration-human-rights/index.html),
+three unsuspectable articles talk about Informatics:
 
 ```
-12)
+Article 12.
 No one shall be subjected to arbitrary interference with his privacy,
 family, home or correspondence, nor to attacks upon his honour and reputation.
 Everyone has the right to the protection of the law against such interference
 or attacks.
 
-19)
+Article 19.
 Everyone has the right to freedom of opinion and expression; this right
 includes freedom to hold opinions without interference and to seek, receive
 and impart information and ideas through any media and regardless of frontiers.
 
-27)
+Article 27.
 (1) Everyone has the right freely to participate in the cultural life of
     the community, to enjoy the arts and to share in scientific advancement
     and its benefits.
@@ -409,7 +416,46 @@ and write **your** mails?
 Yeah, let's assume that they are all well trained professionals.  
 Let's assume that they have a Code of Conduct, an Oath and all.
 
-Let's assume it's a **Free** Service. Just like Gmail or Facebook.
+Let's assume it's a **Free** Service. Just like Gmail, Facebook or WeChat.
 All the readers and all the writers have well payed jobs.
 
 What can go wrong?
+
+## Freedom like in... Free Software
+
+We live in a distopy that we are trained to ignore.
+
+We would never accept that a stranger would read all of our mails in front of us. Not even for free.
+
+Yet we let software written by strangers without much oversight to control our own devices.
+They could read what we write. They could listen what we say. 
+They could see what we do. They decide what we should know and what not. 
+
+Somehow Stallman foresaw this coming and started the 
+[Free Software movement](https://www.gnu.org/gnu/initial-announcement.en.html) to fight it. He conceived the 
+[Four Freedoms of Free Software](https://fsfe.org/freesoftware/basics/4freedoms.en.html):
+to use, study, share and improve the software you get.
+
+Later, the Open Source Initiative rebranded these freedoms
+[turning Free Software values to marketing tools](https://thebaffler.com/salvos/the-meme-hustler).
+
+And now even Microsoft distributes GNU/Linux. Did Stallman won?
+
+## Beyond the Freedom of the few
+
+Can we call "Freedom" a right that few can practice?
+Shouldn't we call it "Privilege"?
+
+Since most people can't program and debug, they cannot really 
+read and modify Free Software. They can't practice two of
+the four Freedoms. They **must** trust somebody else.
+And they have no way to know if the people they trust are actually trustwothy.
+
+They **must** trust the system. They have no choice.
+
+We need to go beyond Free Software. We need to turn its freedoms to **universal** rights.
+
+# Information Technology must change
+
+To turn Informatics from a tool of Power to a tool of Freedom,
+we need to drastically change it.
