@@ -96,11 +96,11 @@ But they would not be equivalent.
 
 Information and data have a very complex relation.
 
-By writing these words I'm turning the information to data.  
+By writing these words I'm turning the information in my mind to data.  
 By reading them, you are turning the data back to information again.
 
 Both of above sentences are properly expressed in present tense, but they
-occur at different points in time.
+occur at different points in time and space.
 
 Moreover data always convey much more information than the intended one.
 For example the information about this text itself, its language, its
@@ -111,7 +111,8 @@ as the style of my writings might reveal.
 
 If instead of a text the message was carried through a video
 a whole lot of other informations would be spread together with the
-intended message.
+intended message. My race, my gender, my census, even some deseases 
+could be leaked through a video. And my voice, and much much more.
 
 So we can see that **information can be turned to data** and 
 **data can be turned back to information** by the human mind, but no
@@ -266,23 +267,50 @@ purpose programmable computer. General purpose computers are not designed
 to solve a particular problem but to execute certain sequences of
 instructions fed by a programmer in a binary format.
 
-In itself, a general purpose computer is useless.
-But programs can specialize them to make them useful for a wide variety of problems.
+This way, what is ultimately a pure act of imagination expressed in a
+certain language is summoned as a sort of [daemon](https://en.wikipedia.org/wiki/Daemon_(computing))
+that acts on the physical world.
 
-
-As before, each progress in the technology of weapons provided a
+As before, each progress in technology provides a
 strategic advantage to those who got it. We don't need to go back at the
-stone age to see evidence of this. Not even knowing about Enigma is required.
+stone age to see evidence of this. Not even knowing about
+[Enigma](https://en.wikipedia.org/wiki/Enigma_machine) is required.
 A Cyber World War is ongoing right now. A war for the total domination
 of humans through technology.
 
+## Programming can teach Rationality
 
-## The value of Debugging
+In itself, a general purpose computer is useless.
+But programs can specialize them to make them useful for a wide variety
+of specific problems.
 
-There is nothing on Earth that can train [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking)
-as a decade or two of [Software Debugging](https://en.wikipedia.org/wiki/Debugging).
+Such specialization **contraints** what the computer can do. It **reduces**
+its potential. This might look counter-intuitive to somebody who cannot program
+(and unfortunately to some programmers too), but in fact, all we do with programming
+languages, is to **reduce** what computer can do by deciding what they will do.
 
-Programming in itself is useful to learn how to describe complex dynamic
+But is it just about computers?
+
+If all we had was [Assembly](https://en.wikipedia.org/wiki/Assembly_language) it would probably be.
+Programming would be a very time consuming task not much different from circuit design.
+
+However we built [high level programming languages](https://en.wikipedia.org/wiki/High-level_programming_language)
+to speed up software development and, by doing so, we highly reduced
+the [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
+between the hardware and the software. 
+
+High level programming language reduce the cognitive load on programmers
+by constraining how they can express the algorithms they have in mind.
+But as any programmer know very well, this means that it constraints 
+the way programmer can think.
+
+However, since the underlying hardware follows strictly logical and mathematical
+rules, any programming language (that aim at predictible behaviour of the
+machine executing it) has to enforce those rules too, sooner or later.
+
+This means that **to program you need to learn logical thinking.**
+
+Programming is a tool to learn how to describe complex dynamic
 and ever evolving systems to somebody as **dumb** as a computer is.
 Some [techniques](https://en.wikipedia.org/wiki/Domain-driven_design) are
 so similar to Philosophy that practicioners talk way more than they code.
@@ -292,10 +320,15 @@ way that is way deeper than what you eperience when learning a human language.
 The patterns you learn while programming becomes useful in every aspect of
 your own life. Exactly like with Math, but on steroids.
 
-
 And yet, the real key to understand the political potential of Informatics is
 **debugging**. While debugging **you look for an error in the collective
 cultural elaboration of thousands of people** from all over the world.
+
+
+## Debugging can teach Critical Thinking
+
+There is nothing on Earth that can train [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking)
+as a decade or two of [Software Debugging](https://en.wikipedia.org/wiki/Debugging).
 
 You see a computer executing billions of lines of code and you have to
 guess where somebody did the error that is currently causing a
@@ -303,13 +336,13 @@ misbehaviour. It's such an expensive and complex task, that people and
 corporations try to avoid it as much as possible, usually working around
 the bug. But if you **have** to fix it, it's a very **educative** experience.
 
-First because most of times, it's your own fault.
+First because, most of times, it's your own fault.
 
 But sometimes it's really the compiler. Sometimes it's really the operating system.
 Sometime it's really the browser's garbage collector.
 Sometimes you see the [butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)
-happening: you **have** to find (and kill) the right butterfly hundreds of
-miles away, just to stop the tornado you are in. 
+happening before you: you **have** to find (and kill) the right 
+butterfly hundreds of miles away, just to stop the tornado you are in. 
 
 Compared to this, **debunking a Fake News is a kids game**.
 
@@ -318,7 +351,7 @@ Compared to this, debunking lobbists' claims is a kids game!
 That's because you are trained to get an insight about what
 thousands of other people have thought before you, to grasp
 their assumptions, to spot not only what they knew or what
-they misunderstood but what they didn't knew at all.
+they misunderstood but also what they didn't knew at all.
 
 The Unknown is a first class citizen of Informatics.
 
