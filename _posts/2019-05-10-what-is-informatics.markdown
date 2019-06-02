@@ -278,7 +278,7 @@ stone age to see evidence of this. Not even knowing about
 A Cyber World War is ongoing right now. A war for the total domination
 of humans through technology.
 
-## Programming teach Rationality
+## Programming trains Rationality
 
 In itself, a general purpose computer is useless.
 But programs can specialize it to make it useful for a wide variety
@@ -332,7 +332,7 @@ And yet, the real key to understand the political potential of Informatics is
 cultural elaboration of thousands of people** from all over the world.
 
 
-## Debugging teach Critical Thinking
+## Debugging trains Critical Thinking
 
 There is nothing on Earth that can train [Critical Thinking](https://en.wikipedia.org/wiki/Critical_thinking)
 as a decade or two of [Software Debugging](https://en.wikipedia.org/wiki/Debugging).
