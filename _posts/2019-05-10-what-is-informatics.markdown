@@ -364,6 +364,7 @@ And hackers know that **nobody knows anything**. That's why we are so curious!
 In the Universal Declaration of Human Rights, three articles talk about
 Informatics without even knowing about it:
 
+```
 12)
 No one shall be subjected to arbitrary interference with his privacy,
 family, home or correspondence, nor to attacks upon his honour and reputation.
@@ -382,18 +383,33 @@ and impart information and ideas through any media and regardless of frontiers.
 (2) Everyone has the right to the protection of the moral and material
     interests resulting from any scientific, literary or artistic
     production of which he is the author.
+```
 
 Even without looking at the large multinational corporations that
-constitute the core of Surveillance Capitalism, we can see that these
-articles are sistematically violated from most computer device that we "own".
+constitute the core of [Surveillance Capitalism](https://thebaffler.com/latest/capitalisms-new-clothes-morozov),
+we can see that these articles are sistematically violated from
+most computer device that we "own".
 
 People who cannot configure their own mail server, cannot have 12 granted.
 People who cannot program themselves, cannot "impart information and ideas
 through any media" and thus cannot have 19 granted.
 People who cannot debug a cryptographic library, cannot have 19 granted
-Since programs are culture (and theorems, by Curry–Howard correspondence),
+Since programs are culture (and theorems, by 
+[Curry–Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)),
 people who cannod program cannot have 27.1 granted.
 
+So knowing **Informatics is a Human right**.
 
-As complex artifacts build on top of the work of several people. software
-are always collective works. They are culture.
+## A Fundamental right for humans
+
+Would you like a to live in a world where you need a 
+[scribe](https://en.wikipedia.org/wiki/Scribe) to read
+and write **your** mails?
+
+Yeah, let's assume that they are all well trained professionals.  
+Let's assume that they have a Code of Conduct, an Oath and all.
+
+Let's assume it's a **Free** Service. Just like Gmail or Facebook.
+All the readers and all the writers have well payed jobs.
+
+What can go wrong?
