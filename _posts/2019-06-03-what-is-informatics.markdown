@@ -662,4 +662,4 @@ Whatever we do, Informatics is going to be a [revolution](https://en.wikipedia.o
 >
 > **Morpheus**: That you are a slave, Neo. Like everyone else, you were born into bondage... born into a prison that you cannot smell or taste or touch. A prison for your mind.
 
-**Informatics** is the <b style="color: red">Red pill</b>.
+<b style="color: red">Informatics</b> is the Red pill.
