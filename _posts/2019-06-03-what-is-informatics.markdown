@@ -19,11 +19,11 @@ It's all wrong.
 # A bit of History
 
 In 1957, [Karl Steinbuch](https://en.wikipedia.org/wiki/Karl_Steinbuch) 
-coined the term « *Informatik* » for his essay *Informatik: Automatische 
+coined the term «*Informatik*» for his essay *Informatik: Automatische 
 Informationsverarbeitung*, "Informatics: automatic information processing".
 
 On March 1962, [Philippe Dreyfus](https://en.wikipedia.org/wiki/Philippe_Dreyfus)
-used for the first time the term « *Informatique* » to name his own company
+used for the first time the term «*Informatique*» to name his own company
 *Société d'informatique appliquée*.
 
 On the same month Walter Bauer started the american company «Informatics Inc.»,
@@ -51,10 +51,10 @@ treat information anyway.
 
 As a field apparently built on top of
 [binary values](https://en.wikipedia.org/wiki/Binary_number), Informatics
-is full of interesting dichotomy. The most fundamental but often overlooked
+is full of interesting dichotomies. The most fundamental but often overlooked
 one is that between Information and Data:
 
-> **Information**, from Latin *informo*, "I build in my mind":
+> **Information**, from Latin *informo*, "I build inside (of myself)":
 > An idea, a construct of a human mind that can be shared with other humans.
 >
 > **Datum**, pl. **Data**, from Latin *datum*, "given":
@@ -70,7 +70,7 @@ can be really shared.
 
 However Information is the fundamental building block of human
 [knowledge](https://en.wikipedia.org/wiki/Knowledge).
-For example, whatever belongs to the 
+Indeed whatever belongs to the 
 [field of Mathematics](http://www.tesio.it/2018/10/11/math-science-and-technology.html)
 is Information, so much that no conjecture can be considered as a valid statement
 until other humans can agree on it just by reading the
@@ -79,17 +79,16 @@ that was formed in the author's mind.
 
 Data instead are mere representations.
 
-Any representation of Information is actually a datum.
+Any representation of Information is actually a set of data.
 
 The words you are reading, be them printed on paper or drawn on a raster
 screen, just represent a message I'm trying to convey, an insight built
 over years of practice in the field.
 
-But I could have recorded a video lesson, for example.
-
+But I could have recorded a video lesson, for example.  
 Or recorded a [phonograph](https://en.wikipedia.org/wiki/Phonograph_record).
 
-All of these would have been representation of the same information.
+All of these would have been representation of the same intended information.  
 But they would not be equivalent.
 
 ## A complex relationship
@@ -102,7 +101,7 @@ By reading them, you are turning the data back to information again.
 Both of above sentences are properly expressed in present tense, but they
 occur at different points in time and space.
 
-Moreover data always convey much more information than the intended one.
+Moreover data always convey much more information than the intended message.
 For example the information about this text itself, its language, its
 length and so on, are what is often improperly called
 "[metadata](https://en.wikipedia.org/wiki/Metadata)".
@@ -137,7 +136,8 @@ misunderstanding in Informatics.
 
 Informatics is all about Information.
 
-It's about humans not machines. Computers are mere mirrors for our own minds.
+It's about humans not machines.  
+Computers are mere mirrors for our own minds.
 
 As it often happens, this European perspective is diametrically opposed to
 the American one [attributed to Knuth](https://fr.wikipedia.org/wiki/Informatique#%C3%89tymologie).
@@ -148,7 +148,7 @@ while they are so unrelated to computers that he can also use a game of
 "musical chairs" to describe the inner working of [hash tables](https://en.wikipedia.org/wiki/Hash_table)
 in that same paper.
 
-The problem of naming is not "just" a philsophical one: after
+The problem of naming is not "just" a philosophical one: after
 thousands years of history, we know that the words we use forge
 our understanding of reality. By focusing on computers and what
 we can do through them, we blind ourselves on the wider application
@@ -200,7 +200,7 @@ As a consequence, **Mathematics is a subset of Informatics**.
 One might argue that the opposite is true or that they are more like
 siblings much like Physics and Math. But to a closer look we can see
 how to push such relationship we need to restrict Informatics, artificially
-excluding [cryptography](https://en.wikipedia.org/wiki/Side-channel_attack),
+excluding [Cryptography](https://en.wikipedia.org/wiki/Side-channel_attack),
 [Statistics](https://en.wikipedia.org/wiki/Machine_learning),
 [UX design](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction) and so on.
 
@@ -209,11 +209,11 @@ us much as we can see that Informatics is changing every single field of
 human endeavours, from Medicine to Agriculture, from Reproduction to Finance,
 from Engineering to Cooking, from Democracy to War.
 
-And while no program need Medicine, most Doctors use programs.  
-And while no program need to kill, most War need software.  
+And while no program needs Medicine, most Doctors use programs.  
+And while no program needs to kill, most Wars need software.  
 And so on.
 
-This weird phenomenon also has a simple explaination: Informatics changes
+This weird phenomenon has a simple explaination: Informatics changes
 everything humans do because **it changes how humans collectively think**.
 Indeed, if Information belongs to a human mind, when shared among the
 members of community, it builds the Culture of such community. And such
@@ -407,7 +407,7 @@ people who cannod program cannot have 27.1 granted.
 
 So knowing **Informatics is a Human right**.
 
-## A Fundamental right for humans
+## A Fundamental right
 
 Would you like a to live in a world where you need a 
 [scribe](https://en.wikipedia.org/wiki/Scribe) to read
@@ -456,7 +456,8 @@ Users that use your software **free of charge**, but
 **[in exchange for their own freedom](https://en.wikipedia.org/wiki/Mass_surveillance_industry)
 and [safety](https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c16)**.
 
-And now even [Microsoft](https://www.theregister.co.uk/2001/06/02/ballmer_linux_is_a_cancer/) distributes [GNU/Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+And now even [Microsoft](https://www.theregister.co.uk/2001/06/02/ballmer_linux_is_a_cancer/)
+distributes [GNU/Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 [Did Stallman win](https://abhas.io/open-source-still-misses-the-point/)?
 
@@ -544,14 +545,15 @@ decide what users need to understand and what not.
 What they will probably think and what not.
 
 This goes beyond the issues of Surveillance and is the
-101 of Human-Machine Interaction, the basics of User Interface
+101 of [Human-Machine Interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction),
+the basics of User Interface
 and User Experience design and it is... **unavoidable**.
 
 But instead of thinking to the user from the limited
-perspective of your application scope, you should consider
+perspective of your application's scope, you should consider
 them as humans, as people.
 
-If you think about the software as a letter to another human
+If you think about the software as a letter to another person
 instead of as a tool to gain money, you start to consider
 several trade offs in a different way.
 
@@ -575,22 +577,23 @@ As liberated programmers we should state for each program
 we code the Political goals we want to achieve.
 
 From now on, all my Free Software project will contain a
-new file alongside with LICENSE.txt and README.txt: POLITICS.txt
+new file alongside with LICENSE.txt and README.txt: **POLITICS.txt**
 
 **POLITICS.txt** should be a **short** but **unambiguous** statement
 about the political effects that the authors want to achieve with
 a software.
 
-Such description should **not** include a list of nice ethical
-values that the authors want to follow, to avoid the risk of hypocrisy.
+Such description should **not** include a list of [nice ethical
+principles](https://ai.google/principles) that the authors want to
+try to follow in their own heart. Just to avoid the risk of hypocrisy.
 
 It should be a list of specific **social effects** that the
-authors want to produce in the society. And also social effect
-they want to avoid or minimize.
+authors want to produce **in the society** with **that specific software**.
+And it should also list the social effects that they want to avoid or minimize.
 
 They might be high level ones or very narrow, but
-people should be able to say if the software is a
-**political success or a failure** by just
+people should be able to say if the software is **a
+political success or a failure** by just
 reading these goals and comparing them with the
 actual effects the software produced.
 
@@ -601,7 +604,7 @@ And projects will be forked for disagreements over it.
 And it's all fine.
 
 But **having a POLITICS.txt means that you accept
-to be held accountable for the daemons you summon**.
+to be held accountable** for the daemons you summon.
 
 ## Be Educational
 
