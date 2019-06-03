@@ -641,7 +641,8 @@ It's not just about developers.
 No doctor can cure a sick that refuses the treatment.
 
 If we want to preserve Democracy **we** need to evolve.
-It's not Democracy that should be automated, but people that should be educated.
+It's not Democracy that should be [automated](https://motherboard.vice.com/en_us/article/yw84q7/darpa-is-building-a-dollar10-million-open-source-secure-voting-system
+), but people that should be educated.
 
 People need to realize that they are puppets in the hands of power groups that decide what they should know and think.
 
@@ -650,8 +651,7 @@ Some will refuse to gain awareness, as the oppressed often
 But if we give them a chance, they might leave their children learn their path towards freedom.
 Other will see the reality for what it, is and will fight back... by studying.
 
-You can build your shield, or not.  
-But Informatics is going to be a [revolution](https://en.wikipedia.org/wiki/Revolution) anyway.
+Whatever we do, Informatics is going to be a [revolution](https://en.wikipedia.org/wiki/Revolution) anyway.
 
 > **Morpheus**: The Matrix is everywhere, it is all around us, even now in this very room. You can see it when you look out your window, or you turn on your television. You can feel it when you go to work, when you go to church, when you pay your taxes. It is the world that has been pulled over your eyes to blind you from the truth.
 >
@@ -659,4 +659,4 @@ But Informatics is going to be a [revolution](https://en.wikipedia.org/wiki/Revo
 >
 > **Morpheus**: That you are a slave, Neo. Like everyone else, you were born into bondage... born into a prison that you cannot smell or taste or touch. A prison for your mind.
 
-Informatics is the <b style="color: red">red pill</b>.
+**Informatics** is the <b style="color: red">Red pill</b>.
