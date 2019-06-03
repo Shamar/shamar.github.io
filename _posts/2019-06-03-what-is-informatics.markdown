@@ -503,11 +503,12 @@ Economy.
 
 **Programmers are the first workers that control the 
 [means of production](https://en.wikipedia.org/wiki/Means_of_production)**.  
-It's solidly attached on their neck and it cannot be removed without destroing the Capital.
+They are solidly attached on their neck and it cannot be removed without destroying the Capital.
 
 If you are a programmer, think about it.  
 It's not your IDE that writes program. It's not your desk. It's not your manager.
-They are just tools that "facilitate" what you do. They are useful, but secondary. And yet, who decides what you do?
+They are just tools that "facilitate" what you do. They are useful, but secondary.  
+And yet, who decides what you do?
 
 Now consider what you could do for this world
 [instead of maximizing shareholders' value](https://puri.sm/posts/the-future-of-computing-and-why-you-should-care/).
