@@ -652,7 +652,7 @@ People need to realize that they are puppets in the hands of power groups that d
 
 Some will refuse to gain awareness, as the oppressed often
 [internalize the oppression in their own identity](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed).
-But if we give them a chance, they might leave their children learn their path towards freedom.
+But if we give them a chance, they might leave their children learn their path towards freedom.  
 Other will see the reality for what it, is and will fight back... by studying.
 
 Whatever we do, Informatics is going to be a [revolution](https://en.wikipedia.org/wiki/Revolution) anyway.
