@@ -237,8 +237,8 @@ weird habit of messing with Politics** one way or another.
 This is annoying. Software Engineers pretends to be Engineers so
 that they can focus their minds on technical stuffs **alone**.
 They feel responsible to create the best possible artifact
-that can serve a purpose, but don't want to accountable for
-the choice of the purpose itself.
+that can serve a purpose, but don't want to be held accountable
+for the choice of the purpose itself.
 
 Being a philosopher is a call to make clear statements, to take
 position. Being an engineer instead just mean to build stuff, so
@@ -347,7 +347,7 @@ the bug. But if you **have** to fix it, it's a very **educative** experience.
 First because, most of times, it's your own fault.
 
 But sometimes it's really the compiler. Sometimes it's really the operating system.
-Sometime it's really the browser's garbage collector.
+Sometimes it's really the browser's garbage collector.
 Sometimes you see the [butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)
 happening before you: you **have** to find (and kill) the right 
 butterfly hundreds of miles away, just to stop the tornado you are in. 
