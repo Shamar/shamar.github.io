@@ -317,8 +317,8 @@ rules, any programming language has to enforce those rules too, sooner or later.
 This means that **to program** you need to learn **rational thinking**.
 And to explain it.
 
-In other words, programming can teach people how to describe complex dynamic
-and ever evolving systems to somebody as **dumb** as a computer is.
+In other words, programming force people to learn how to describe complex
+dynamic and ever evolving systems to somebody as **dumb** as a computer is.
 Some [techniques](https://en.wikipedia.org/wiki/Domain-driven_design) are
 so similar to Philosophy that practicioners talk way more than they code.
 
@@ -425,37 +425,116 @@ What can go wrong?
 
 We live in a distopy that we are trained to ignore.
 
-We would never accept that a stranger would read all of our mails in front of us. Not even for free.
+We would never accept that a stranger should read or write all of our mails for us. Not even for free.
 
-Yet we let software written by strangers without much oversight to control our own devices.
+Yet we let software written by strangers without much oversight to control our own devices. To act for us.
 They could read what we write. They could listen what we say. 
 They could see what we do. They decide what we should know and what not. 
 
-Somehow Stallman foresaw this coming and started the 
-[Free Software movement](https://www.gnu.org/gnu/initial-announcement.en.html) to fight it. He conceived the 
+[In early eighty](https://newleftreview.org/issues/II113/articles/richard-stallman-talking-to-the-mailman)
+of the last century. somehow Richard Stallman foresaw this was coming and started the 
+Free Software [political](https://www.gnu.org/gnu/initial-announcement.en.html) movement to fight it.
+He conceived the 
 [Four Freedoms of Free Software](https://fsfe.org/freesoftware/basics/4freedoms.en.html):
-to use, study, share and improve the software you get.
+to use, **study**, share and **improve** the software you get.
 
-Later, the Open Source Initiative rebranded these freedoms
+Later, the Open Source Initiative rebranded these freedoms,
 [turning Free Software values to marketing tools](https://thebaffler.com/salvos/the-meme-hustler).
 
-And now even Microsoft distributes GNU/Linux. Did Stallman won?
+[Emptied of their strong ethical values](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html),
+the four freedoms became a tool to gain market share and maximize shareholders' value.
+
+Google was probably the first to realize that you can
+easily distribute software that **formally** grant the
+four freedoms while preserving the full control of its development.
+The trick is to **raise the technical complexity** so much
+that nobody can really hope to challenge your take on the project.
+
+So you dress yourself of hackers' values while at the same time **marginalizing** them.
+Though those fake values you gain users that trust you.
+Users that use your software **free of charge**, but 
+**[in exchange for their own freedom](https://en.wikipedia.org/wiki/Mass_surveillance_industry)
+and [safety](https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c16)**.
+
+And now even [Microsoft](https://www.theregister.co.uk/2001/06/02/ballmer_linux_is_a_cancer/) distributes [GNU/Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+
+[Did Stallman win](https://abhas.io/open-source-still-misses-the-point/)?
 
 ## Beyond the Freedom of the few
 
 Can we call "Freedom" a right that few can practice?
-Shouldn't we call it "Privilege"?
+Shouldn't we call it "Privilege" instead?
 
 Since most people can't program and debug, they cannot really 
 read and modify Free Software. They can't practice two of
 the four Freedoms. They **must** trust somebody else.
 And they have no way to know if the people they trust are actually trustwothy.
 
-They **must** trust the system. They have no choice.
+The availability of sources make it **theoretically** safer
+than proprietary software, but complexity can counter this
+to a great grade. A malicious piece of code
+[can stay hidden for months](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/) 
+despite [the Open Source rhetorics](http://catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s05.html)
+about the number of eyeballs.
 
-We need to go beyond Free Software. We need to turn its freedoms to **universal** rights.
+But users **must** trust the system. They have no choice. No freedom.
 
-# Information Technology must change
+So we need to go beyond Free Software. We need to turn its freedoms to **universal** rights.
+
+# Information Technology must progress
 
 To turn Informatics from a tool of Power to a tool of Freedom,
-we need to drastically change it.
+we need to drastically improve it.
+
+Just like scribes did with [hieroglyphs](https://en.wikipedia.org/wiki/Egyptian_hieroglyphs) in Ancient Egypt,
+programmers gain their Power by using **primitive** tools that take years to be mastered.
+
+And just like scribes they are so unaware of their
+own Power that they keep serving the
+[Pharaoh](https://en.wikipedia.org/wiki/Capitalism)
+that oppresses most of them.
+
+By understanding that Informatics is about Informations
+and Informations are inside their own head, programmers
+will realize that they are a *unicum* in the history of
+Economy.
+
+**Programmers are the first workers that control the 
+[means of production](https://en.wikipedia.org/wiki/Means_of_production)**.  
+It's solidly attached on their neck and it cannot be removed without destroing the Capital.
+
+If you are a programmer, think about it.  
+It's not your IDE that writes program. It's not your desk. It's not your manager.
+They are just tools that "facilitate" what you do. They are useful, but secondary. And yet, who decides what you do?
+
+Now consider what you could do for this world
+[instead of maximizing shareholders' value](https://puri.sm/posts/the-future-of-computing-and-why-you-should-care/).
+
+
+## Avoid Moralism
+
+Since [years](https://theconversation.com/a-code-of-ethics-in-it-just-lip-service-or-something-with-bite-32807) 
+there is a lot of fuss about ~~Moralism~~ Ethics in Information Technology.
+
+In the field of [Artificial Intelligence](http://www.tesio.it/documents/2018_Milano_The-Delusions-of-Neural-Networks.pdf),
+after several deaths caused by [self driving cars](http://www.tesio.it/2018/10/06/the-intelligent-symbiosis.html)
+unable to solve a [trolley problem](http://moralmachine.mit.edu/) 
+that [shouldn't be there in the first place](https://github.com/daviddao/awful-ai/issues/14),
+[researchers are trying to teach ethics to machines](https://en.wikipedia.org/wiki/Machine_morality).
+
+It's a very smart move, if you think about it.  
+On a practical perspective, it's just like teaching 
+sex to condoms. You should start from people, instead.  
+But from a political point of view, it's a subtle attempt 
+to [reduce the corporate accountability](https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg)
+for the demage produced by their "autonomous" products.
+
+This is not Ethics, but Moralism: a perversion of Morality to serve one's interests.
+
+We should reject this hypocrisy as the smokescreen it actually is.
+
+## Be Political
+
+Since
+
+# Humanity need to evolve
