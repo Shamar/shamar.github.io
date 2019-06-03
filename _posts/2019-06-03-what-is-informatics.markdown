@@ -300,7 +300,7 @@ to speed up software development and, by doing so, we highly reduced
 the [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
 between the hardware and the software. 
 
-High level programming language reduce the cognitive load on programmers.
+High level programming languages reduce the cognitive load on programmers.
 We don't need to know the quirks of a specific processor or device.
 [Most of times at least](https://meltdownattack.com/).
 But once freed from the limits of machines, programmers faced a new
@@ -315,7 +315,7 @@ help them to write code that their mind can manage.
 However, since the underlying hardware follows strictly logical and mathematical
 rules, any programming language has to enforce those rules too, sooner or later.
 
-This means that **to program** you need to learn **rational thinking**.
+This means that **to program** you need to learn **rational thinking**.  
 And to explain it.
 
 In other words, programming force people to learn how to describe complex
