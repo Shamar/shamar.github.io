@@ -578,7 +578,7 @@ consider what sort of responsibility come with them.
 As liberated programmers we should state for each program
 we code the Political goals we want to achieve.
 
-From now on, all my Free Software project will contain a
+From now on, all of my Free Software projects will contain a
 new file alongside with LICENSE.txt and README.txt: **POLITICS.txt**
 
 **POLITICS.txt** should be a **short** but **unambiguous** statement
