@@ -533,8 +533,130 @@ This is not Ethics, but Moralism: a perversion of Morality to serve one's intere
 
 We should reject this hypocrisy as the smokescreen it actually is.
 
+## Be Human
+
+Programmers often looks at users from the limited
+perspective of the application they build.
+
+A programmer decide with a great degree of precision what
+the users can do and what they can not. In this way, programmers
+decide what users need to understand and what not.
+What they will probably think and what not.
+
+This goes beyond the issues of Surveillance and is the
+101 of Human-Machine Interaction, the basics of User Interface
+and User Experience design and it is... **unavoidable**.
+
+But instead of thinking to the user from the limited
+perspective of your application scope, you should consider
+them as humans, as people.
+
+If you think about the software as a letter to another human
+instead of as a tool to gain money, you start to consider
+several trade offs in a different way.
+
+What if the persons on the other end are tired?  
+What if they need to address unespected issues with your program?  
+Do they really understand what they are doing with your software?  
+Do they really understand the security risk it poses?  
+Do they feel scared by the software?  
+Can they really customize it to their need?
+
+**Calling people "users" is a way to use them without remorse.**  
+Don't do that.
+
 ## Be Political
 
-Since
+Since Technology is a prosecution of Politics by means that
+are under **our** own control, we should really
+consider what sort of responsibility come with them.
+
+As liberated programmers we should state for each program
+we code the Political goals we want to achieve.
+
+From now on, all my Free Software project will contain a
+new file alongside with LICENSE.txt and README.txt: POLITICS.txt
+
+**POLITICS.txt** should be a **short** but **unambiguous** statement
+about the political effects that the authors want to achieve with
+a software.
+
+Such description should **not** include a list of nice ethical
+values that the authors want to follow, to avoid the risk of hypocrisy.
+
+It should be a list of specific **social effects** that the
+authors want to produce in the society. And also social effect
+they want to avoid or minimize.
+
+They might be high level ones or very narrow, but
+people should be able to say if the software is a
+**political success or a failure** by just
+reading these goals and comparing them with the
+actual effects the software produced.
+
+A Political success might be a technological failure and vice versa.  
+And the POLITICS.txt might evolve with the project.  
+And projects will be forked for disagreements over it.
+
+And it's all fine.
+
+But **having a POLITICS.txt means that you accept
+to be held accountable for the daemons you summon**.
+
+## Be Educational
+
+The hackers' ethics that underlie Free Software is built on top of Curiosity.
+It's all about the desire to learn new things,
+the desire to explore new solution, and to challenge
+generally accepted assumptions.
+
+But our time is limited. So are our minds.
+
+Thus a very effective strategy to gain new knowledge is to maximize the number of people who search for it.
+
+Writing good code is not as effective as writing
+[simple](http://jehanne.io/2018/11/15/simplicity-awakes.html) code.
+
+Reading source code should not require a degree or years of experience in the field.
+
+We need to reorient research in programming language toward **simplicity**.
+The [lessons](https://miasap.se/obnc/oberon-report.html) of
+Professor Niklaus Wirth are still [waiting for a new life](http://www.projectoberon.com/).
+
+We need simple tools that compose well, instead of
+complex tools that can do everything.
+
+It will not be easy, as **Informatics is still very primitive**.
+Just like [Ancient Egyptian lacked the zero for hundreds years](https://en.wikipedia.org/wiki/Egyptian_numerals),
+we lack many fundamental concepts. But we need to discover them.
+We need to create an alphabet of Informatics.
+
+And with this alphabet we need to free the next
+generation of slaves.
 
 # Humanity need to evolve
+
+It's not just about developers.
+
+No doctor can cure a sick that refuses the treatment.
+
+If we want to preserve Democracy **we** need to evolve.
+It's not Democracy that should be automated, but people that should be educated.
+
+People need to realize that they are puppets in the hands of power groups that decide what they should know and think.
+
+Some will refuse to gain awareness, as the oppressed often
+[internalize the oppression in their own identity](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed).
+But if we give them a chance, they might leave their children learn their path towards freedom.
+Other will see the reality for what it, is and will fight back... by studying.
+
+You can build your shield, or not.  
+But Informatics is going to be a [revolution](https://en.wikipedia.org/wiki/Revolution) anyway.
+
+> **Morpheus**: The Matrix is everywhere, it is all around us, even now in this very room. You can see it when you look out your window, or you turn on your television. You can feel it when you go to work, when you go to church, when you pay your taxes. It is the world that has been pulled over your eyes to blind you from the truth.
+>
+> **Neo**: What truth?
+>
+> **Morpheus**: That you are a slave, Neo. Like everyone else, you were born into bondage... born into a prison that you cannot smell or taste or touch. A prison for your mind.
+
+Informatics is the <b style="color: red">red pill</b>.
