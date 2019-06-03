@@ -2,6 +2,7 @@
 layout: post
 title: What is Informatics?
 public: true
+css: 20190603.css
 author: giacomo
 ---
 
