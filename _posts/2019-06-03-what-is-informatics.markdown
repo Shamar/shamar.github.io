@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is Informatics?
-public: false
+public: true
 author: giacomo
 ---
 
