@@ -32,7 +32,7 @@ registered its trademark and sued universities using such word to
 describe the new field, forcing them to resort to the locution "Computer
 Science", despite the fact that the matter was not restricted to computers
 and the [scientific method](https://en.wikipedia.org/wiki/Scientific_method)
-was not really applied by practicioners.
+was not really applied by practitioners.
 
 [ACM](https://www.acm.org/) even tried to gain permission to use the term from
 [Informatics, Inc](http://informatics-inc.com/), but the company refused.
@@ -65,7 +65,7 @@ one is that between Information and Data:
 Information only exists in a human mind.
 
 Not every construct of a human mind is information, but only
-those that can be precisely comunicated to other humans.
+those that can be precisely communicated to other humans.
 For example, no [mystic experience](https://en.wikipedia.org/wiki/Mysticism)
 can be really shared.
 
@@ -110,7 +110,7 @@ But even a lot of personal information is embedded in these data,
 as the style of my writings might reveal.
 
 If instead of a text the message was carried through a video
-a whole lot of other informations would be spread together with the
+a whole lot of additional information would be spread together with the
 intended message. My race, my gender, my census, even some deseases 
 could be leaked through a video. And my voice, and much much more.
 
@@ -166,7 +166,7 @@ be **played** by a computer, much like a gramophone can play a vinyl.
 
 [As data](http://wiki.c2.com/?DataAndCodeAreTheSameThing), programs
 can be wrong even when they try to represent a correct algorithm
-just because humans are inheritely fallible.
+just because humans are inherently fallible.
 
 Each program is just one of the many possible representations of an
 algorithm and, together with the algorithm itself, it also conveys 
@@ -176,7 +176,7 @@ Moreover, if the programmer does not know the **full** algorithm he is
 trying to implement beforehand, bugs become just another example of the
 more general principle known as "[Garbage In, Garbage Out](https://en.wikipedia.org/wiki/GIGO)".
 
-Bugs are so inheritely tied to the real world of Informatics that
+Bugs are so inherently tied to the real world of Informatics that
 programmers developed a [wide set](https://www.adacore.com/sparkpro/)
 [of tools](https://www.learntla.com/introduction/)
 [and](https://en.wikipedia.org/wiki/Pair_programming) 
@@ -214,7 +214,7 @@ And while no program needs Medicine, most Doctors use programs.
 And while no program needs to kill, most Wars need software.  
 And so on.
 
-This weird phenomenon has a simple explaination: Informatics changes
+This weird phenomenon has a simple explanation: Informatics changes
 everything humans do because **it changes how humans collectively think**.
 Indeed, if Information belongs to a human mind, when shared among the
 members of community, it builds the Culture of such community. And such
@@ -226,7 +226,7 @@ It's Philosophy on disguise. Applied Philosophy, if you will.
 
 # A Political field
 
-Many practicioners would refuse this qualification of Informatics
+Many practitioners would refuse this qualification of Informatics
 as a modern form of Philosophy. It's not just because of ignorance
 about Philosophy itself (that is where Logic, was born). 
 It's because of a bad feeling about it.
@@ -321,7 +321,7 @@ And to explain it.
 In other words, programming force people to learn how to describe complex
 dynamic and ever evolving systems to somebody as **dumb** as a computer is.
 Some [techniques](https://en.wikipedia.org/wiki/Domain-driven_design) are
-so similar to Philosophy that practicioners talk way more than they code.
+so similar to Philosophy that practitioners talk way more than they code.
 
 The programming language you use also influence your way of thinking in a
 way that is way deeper than what you eperience when learning a human language.
@@ -395,7 +395,7 @@ Article 27.
 
 Even without looking at the large multinational corporations that
 constitute the core of [Surveillance Capitalism](https://thebaffler.com/latest/capitalisms-new-clothes-morozov),
-we can see that these articles are sistematically violated from
+we can see that these articles are systematically violated from
 most computer device that we "own".
 
 People who cannot configure their own mail server, cannot have 12 granted.
@@ -404,7 +404,7 @@ through any media" and thus cannot have 19 granted.
 People who cannot debug a cryptographic library, cannot have 19 granted
 Since programs are culture (and theorems, by 
 [Curry–Howard correspondence](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)),
-people who cannod program cannot have 27.1 granted.
+people who cannot program cannot have 27.1 granted.
 
 So knowing **Informatics is a Human right**.
 
@@ -424,7 +424,7 @@ What can go wrong?
 
 ## Freedom like in... Free Software
 
-We live in a distopy that we are trained to ignore.
+We live in a [dystopia](https://en.wikipedia.org/wiki/Dystopia) that we are trained to ignore.
 
 We would never accept that a stranger should read or write all of our mails for us. Not even for free.
 
@@ -470,7 +470,7 @@ Shouldn't we call it "Privilege" instead?
 Since most people can't program and debug, they cannot really 
 read and modify Free Software. They can't practice two of
 the four Freedoms. They **must** trust somebody else.
-And they have no way to know if the people they trust are actually trustwothy.
+And they have no way to know if the people they trust are actually trustworthy.
 
 The availability of sources make it **theoretically** safer
 than proprietary software, but complexity can counter this
@@ -530,7 +530,7 @@ On a practical perspective, it's just like teaching
 sex to condoms. You should start from people, instead.  
 But from a political point of view, it's a subtle attempt 
 to [reduce the corporate accountability](https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg)
-for the demage produced by their "autonomous" products.
+for the damage produced by their "autonomous" products.
 
 This is not Ethics, but Moralism: a perversion of Morality to serve one's interests.
 
@@ -560,7 +560,7 @@ instead of as a tool to gain money, you start to consider
 several trade offs in a different way.
 
 What if the persons on the other end are tired?  
-What if they need to address unespected issues with your program?  
+What if they need to address unexpected issues with your program?  
 Do they really understand what they are doing with your software?  
 Do they really understand the security risk it poses?  
 Do they feel scared by the software?  
