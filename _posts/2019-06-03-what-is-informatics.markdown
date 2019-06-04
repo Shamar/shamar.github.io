@@ -207,7 +207,7 @@ excluding [Cryptography](https://en.wikipedia.org/wiki/Side-channel_attack),
 
 And while this statement might look heretic at first, it shouldn't surprise
 us much as we can see that Informatics is changing every single field of 
-human endeavours, from Medicine to Agriculture, from Reproduction to Finance,
+human endeavour, from Medicine to Agriculture, from Reproduction to Finance,
 from Engineering to Cooking, from Democracy to War.
 
 And while no program needs Medicine, most Doctors use programs.  
