@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scripting for Politics.
+title: Scripting for Politics
 public: true
 author: giacomo
 ---
@@ -22,7 +22,8 @@ don't have access to our knowledge.
 My hope with the Partito Pirata is that [they will accept the challenge](https://forum.partito-pirata.it/t/il-partito-pirata-dal-2020/2661) 
 to spread [Hacker's Curiosity](https://forum.partito-pirata.it/t/chi-sono-i-pirati-sullidentita-di-questo-partito/2423/) through Informatics.
 
-Informatics shouldn't be a weapon to gain Power, but a rock to build Democracy upon.
+**Informatics should not be a weapon** to gain Power!  
+It should be a rock to build Democracy upon.
 
 Enough words. Here is the code:
 
