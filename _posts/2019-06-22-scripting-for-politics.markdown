@@ -13,7 +13,7 @@ on a clean-state [Debian GNU/Linux](https://www.debian.org/).
 Together with the [Project Winston Smith](https://pws.winstonsmith.org) that promised to provide hardware and bandwidth,
 this little work should help all the members of the Partito Pirata to 
 [avoid YouTube](https://forum.partito-pirata.it/t/possiamo-evitare-di-supportare-e-diffondere-la-sorveglianza/2465)
-and to stop sending to Google's server the political interests of the people who visit their forum and website.
+and to stop sending to Google's servers the political interests of the people who visit their forum and website.
 
 In an age where programmers have [so much power](http://www.tesio.it/2019/06/03/what-is-informatics.html)
 to summon daemons that act on the physical world, I think we should always feel responsible for those who
