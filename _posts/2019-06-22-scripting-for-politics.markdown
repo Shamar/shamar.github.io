@@ -136,6 +136,7 @@ configurePeertube() {
 	sudo -u peertube sed -i -e "s/\@Chocobozzz/$TWITTER/" config/production.yaml
 	sudo -u peertube sed -i -e "s/admin\@example.com/$EMAIL/" config/production.yaml
 	sudo -u peertube sed -i -e "s/example.com/$DOMAIN/" config/production.yaml
+	sudo -u peertube sed -i -e "s/password: 'peertube'/password: '$PASSWORD'/" config/production.yaml	
 	
 	cp /var/www/peertube/peertube-latest/support/nginx/peertube /etc/nginx/sites-available/peertube
 	sed -i -e "s/peertube.example.com/$DOMAIN/" /etc/nginx/sites-available/peertube
