@@ -82,17 +82,18 @@ This Vademecum uses Informatics to convey our wisdom. But there's more.
 
 People
 ------
-Archimedes of Syracuse			Heron of Alexandria
-Muḥammad ibn Mūsā al-Khwārizmī		Leonardo da Vinci
-Blaise Pascal				Isaac Newton
-Augusta Ada King-Noel			Phoebe Sarah Hertha Ayrton
-Antonio Santi Giuseppe Meucci		Alan Mathison Turing
-Edsger Wybe Dijkstra			Pier Giorgio Perotto
-Niklaus Emil Wirth			Kenneth Lane Thompson
-Richard Matthew Stallman		William Henry Gates III
-Hans Thomas Reiser			Loyd Blankenship
-Terrence Andrew Davis			Linus Benedict Torvalds
-Aaron Hillel Swartz			Alexandra Asanovna Elbakyan
+Archimedes of Syracuse            Heron of Alexandria
+Muḥammad ibn Mūsā al-Khwārizmī    Leonardo da Vinci
+Blaise Pascal                     Isaac Newton
+Augusta Ada King-Noel             Phoebe Sarah Hertha Ayrton
+Antonio Santi Giuseppe Meucci     Alan Mathison Turing
+Edsger Wybe Dijkstra              Pier Giorgio Perotto
+Niklaus Emil Wirth                Kenneth Lane Thompson
+Richard Matthew Stallman          William Henry Gates III
+Hans Thomas Reiser                Loyd Blankenship
+Terrence Andrew Davis             Linus Benedict Torvalds
+Cinap Lenrek                      Jon Lech Johansen
+Aaron Hillel Swartz               Alexandra Asanovna Elbakyan
 
 
 Glossary
@@ -140,6 +141,12 @@ Computer:
 Who (or what) calculates.
 An extremely handy device for realizing any conceivable mechanism
 by representing computations and without changing a single wire.
+
+Cracker:
+(Middle English: cracker, "an obnoxious person")
+A person who collect and use knowledge to gain some sort of Power.
+Usually poses as a hacker, but just pretend to be curious.
+E.g. Who's the cracker that got fame by poisoning the Jargon File?
 
 Cryptography:
 (Greek: κρυπτός γράφειν, "secret writing")
