@@ -21,7 +21,7 @@ sistema Android (sia esso un tablet o un cellulare) o Chromebook.
 In particolare, permette ai genitori di:
 
 - gestire le App dei figli
-  - scoprendo quali App questi provano ad installare
+  - ricevendo notifiche sulle App che questi installano
   - gestendone gli acquisti in-app
   - nascondendo certe App nello store o sul dispositivo
 - visualizzare report settimanali e mensili sulle attività dei figli
@@ -30,6 +30,24 @@ In particolare, permette ai genitori di:
 - bloccare il dispositivo dei figli da remoto o ad una certa ora
 - seguirli da remoto, tracciandone la posizione
 
+In sostanza, Google condivide con i genitori una minuscola frazione
+dei dati che raccoglie sui ragazzi che gli vengono consegnati.
 
+Che luoghi frequenta vostro figlio? In che orari?  
+Quanto tempo passa davanti ad uno schermo?  
+Che siti internet visita? Dove clicca?  
+Quale è il genitore più apprensivo?  
+Lo preoccupano di più i siti internet che visita o il luoghi che frequenta?
 
+Tutti questi dati, incrociati con quelli raccolti attraverso tutti gli altri
+servizi di Google e su tutti gli utenti, permettono permettono di creare 
+profili molto precisi dei regazzi, dei genitori e della loro famiglia,
+incluse le loro dinamiche famigliari. 
+
+# Il prodotto sei tu?
+
+Le [FAQ]() 
+
+<img src="/graphic/GoogleFamilyLink.jpg" title='Un bimbo che Google "protegge" dai propri errori.' />
+ 
 # Sbagliando si impara
