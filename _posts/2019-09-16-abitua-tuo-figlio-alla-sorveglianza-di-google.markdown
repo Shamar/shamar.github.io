@@ -46,7 +46,21 @@ incluse le loro dinamiche famigliari.
 
 # Il prodotto sei tu?
 
-Le [FAQ]() 
+Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) spiega
+che "I servizi Google sono supportati grazie agli annunci pubblicitari,
+quindi tuo figlio potrebbe vedere annunci pubblicitari".
+
+Si potrebbe pertanto dedurre che il vecchio spot "Se non lo paghi, il 
+prodotto sei tu" andrebbe riadattato per includere nel prodotto anche
+i figli.
+
+Ed in un certo senso è vero: le informazioni raccolte da Google durante l'infanzia
+e l'adolescenza dei nostri novelli [Sam Oliver](https://it.wikipedia.org/wiki/Reaper_-_In_missione_per_il_Diavolo) 
+rimarranno disponibili sui loro server per decenni, permettendogli di
+produrre profili psicologici precisissimi e di prevedere il loro comportamento
+da adulti in modo molto più preciso di quanto non farebbero loro stessi.
+
+
 
 <img src="/graphic/GoogleFamilyLink.jpg" title='Un bimbo che Google "protegge" dai propri errori.' />
  
