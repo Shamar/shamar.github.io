@@ -115,13 +115,13 @@ Perché c’è Google!
 Google Family Link.  
 
 Il padre a cui non vorranno disubbidire.
-</blockquote
+</blockquote>
 
-<br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
 
 _____
 
-Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it) di cui sono membro.  
-Me ne è stata impedita la pubblicazione.
+Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it), a cui sono iscritto.  
+Ne è stata [impedita la pubblicazione](https://forum.partito-pirata.it/t/abitua-tuo-figlio-alla-sorveglianza/3814/21).
 
 Spero almeno che Google ci abbia fatto una copiosa donazione.
