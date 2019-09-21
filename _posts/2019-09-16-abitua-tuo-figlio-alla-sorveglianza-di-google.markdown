@@ -4,64 +4,111 @@ title: Abitua tuo figlio alla Sorveglianza! Gratis, con Google Family Link!
 public: false
 author: giacomo
 ---
-Google Family Link è un sistema di "*parental control*" per Android
-distribuito gratuitamente da Google.
+Google Family Link è un sistema di “ *parental control* ” distribuito gratuitamente da Google.
 
-Si compone di due applicazioni, una da installare
-[sui device dei genitori](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink&hl=it)
-e l'altra [sui device dei figli](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylinkhelper&hl=it).
+Si compone di due applicazioni, una [per i device dei genitori](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink&hl=it) e l’altra [per i device dei figli](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylinkhelper&hl=it).
 
-L'interfaccia di Family Link consente anche di creare un account Google
-per bambini di età inferiore a 13 anni, del tutto analogo a quello degli
-adulti, con cui questi potranno accedere alla maggior parte dei servizi Google.  
-Collegando tale account (o uno esistente) a quello dei genitori, permette loro
-di controllare cosa fanno bambini ed adolescenti mentre utilizzano il loro
-sistema Android (sia esso un tablet o un cellulare) o Chromebook.  
+Family Link consente anche di creare un account Google per bambini  **di età inferiore a 13 anni** , del tutto analogo a quello degli adulti, e con cui questi potranno accedere alla maggior parte dei servizi Google.
+Collegando tale account (o uno esistente) a quello dei genitori, permette loro di controllare cosa fanno bambini ed adolescenti mentre utilizzano il loro sistema Android (sia esso un tablet o un cellulare) o Chromebook.
 
-In particolare, permette ai genitori di:
+![GoogleFamilyLink.jpg (606Ã880)](https://raw.githubusercontent.com/Shamar/shamar.github.io/master/graphic/GoogleFamilyLink.jpg)
 
-- gestire le App dei figli
-  - ricevendo notifiche sulle App che questi installano
-  - gestendone gli acquisti in-app
-  - nascondendo certe App nello store o sul dispositivo
-- visualizzare report settimanali e mensili sulle attività dei figli
-  - siti internet visitati
-  - tempo trascorso usando ogni App 
-- bloccare il dispositivo dei figli da remoto o ad una certa ora
-- seguirli da remoto, tracciandone la posizione
+Un tweet dalla campagna pubblicitaria lanciata da Google Italia
 
-In sostanza, Google condivide con i genitori una minuscola frazione
-dei dati che raccoglie sui ragazzi che gli vengono consegnati.
+Il sistema permette ai genitori di:
 
-Che luoghi frequenta vostro figlio? In che orari?  
-Quanto tempo passa davanti ad uno schermo?  
-Che siti internet visita? Dove clicca?  
-Quale è il genitore più apprensivo?  
+* gestire le App dei figli
+  * ricevendo notifiche sulle App che questi installano
+  * gestendone gli acquisti in-app
+  * nascondendo certe App nello store o sul dispositivo
+* visualizzare report settimanali e mensili sulle attività dei figli
+  * siti internet visitati
+  * tempo trascorso usando ogni App
+* bloccare il dispositivo dei figli da remoto o ad una certa ora
+* seguirli da remoto, tracciandone la posizione geografica
+
+In sostanza, Google condivide con i genitori una  **minuscola frazione**  delle  **informazioni personali**  che raccoglie sui ragazzi che gli vengono affidati.
+Naturalmente tutti i dati raccolti dal device dei vostri figli vengono inviati a Google, che li salva  **sui propri server**  per sempre ed in cambio produce un paio di  **report ansiolitici**  per i genitori.
+
+Che luoghi frequenta vostro figlio? In che orari?
+Quanto tempo passa davanti ad uno schermo?
+Che siti internet visita? Dove clicca?
+Qual’è il genitore più presente?
+Qual’è il genitore più apprensivo?
 Lo preoccupano di più i siti internet che visita o il luoghi che frequenta?
 
-Tutti questi dati, incrociati con quelli raccolti attraverso tutti gli altri
-servizi di Google e su tutti gli utenti, permettono permettono di creare 
-profili molto precisi dei regazzi, dei genitori e della loro famiglia,
-incluse le loro dinamiche famigliari. 
+Tutti questi dati, incrociati con quelli raccolti attraverso tutti gli altri servizi di Google e per tutti gli utenti, permettono di creare profili molto precisi dei ragazzi, dei loro amici e dei genitori.
 
-# Il prodotto sei tu?
+E naturalmente profili psicologici della loro famiglia, incluse le loro dinamiche famigliari.
 
-Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) spiega
-che "I servizi Google sono supportati grazie agli annunci pubblicitari,
-quindi tuo figlio potrebbe vedere annunci pubblicitari".
+## Il prodotto sei tu?
 
-Si potrebbe pertanto dedurre che il vecchio spot "Se non lo paghi, il 
-prodotto sei tu" andrebbe riadattato per includere nel prodotto anche
-i figli.
+Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) del “servizio” spiegano che “I servizi Google sono supportati grazie agli annunci pubblicitari, quindi tuo figlio potrebbe vedere annunci pubblicitari”.
 
-Ed in un certo senso è vero: le informazioni raccolte da Google durante l'infanzia
-e l'adolescenza dei nostri novelli [Sam Oliver](https://it.wikipedia.org/wiki/Reaper_-_In_missione_per_il_Diavolo) 
-rimarranno disponibili sui loro server per decenni, permettendogli di
-produrre profili psicologici precisissimi e di prevedere il loro comportamento
-da adulti in modo molto più preciso di quanto non farebbero loro stessi.
+<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2h5AAt9APc7YGMLEIDfa8wHaOG%26pid%3DApi&f=1" width="237" height="451" style="float:right"/>
+
+Si potrebbe pertanto dedurre che il vecchio spot “Se non lo paghi, il prodotto sei tu” andrebbe riadattato per includere nel prodotto anche la prole  ~~delle vittime~~  degli utenti.
+
+Ed in un certo senso è vero: le informazioni raccolte da Google durante l’infanzia e l’adolescenza dei nostri novelli [Sam Oliver](https://it.wikipedia.org/wiki/Reaper_-_In_missione_per_il_Diavolo) rimarranno disponibili sui loro server per decenni, permettendo agli ingegneri di Google (e di chi lo controlla) di produrre profili psicologici precisissimi.
+
+Grazie a tali profili Google potrà prevedere il loro comportamento da adulti in modo molto più preciso di quanto non saranno in grado di fare loro stessi.
+
+I vostri figli potranno così essere  **manipolati dolcemente** , senza percepire alcun disagio. Conoscendo i loro interessi, le loro esperienze familiari e sociali, le loro preferenze estetiche, i loro bias cognitivi sin dalla più tenerà età, Google potrà personalizzare gli annunci economici e politici come nemmeno [Cambridge Analytica](https://it.wikipedia.org/wiki/Scandalo_Facebook-Cambridge_Analytica) avrebbe mai potuto sperare.
+
+Un singolo click su una qualsiasi pagina Web può diffondere una miriade di informazioni personali preziosissime, dalla vostra fascia di reddito (attraverso l’identificazione del device che usate), fino alle vostre preferenze sessuali. Dai dati raccolti durante poche ore di gioco ad un casual game ben progettato è possibile dedurre malattie oculistiche o neurologiche.
+
+Pensate a quante informazioni potrà acquisire Google tracciando le navigazioni di vostro figlio!
+
+Che valore possono avere questo tipo di informazioni per gli inserzionisti?
+E per i suoi datori di lavoro? E per i politici?
+
+Una volta che i dati sono stati registrati da Google non sarà più possibile eliminarli.
+O meglio, si può chiedere a Google di rimuoverli, ma sarebbe impossibile  **verificare**  se siano stati effettivamente rimossi da tutti i loro innumerevoli data center sparsi nel mondo.
+
+## Noi Pirati rifiutiamo la Sorveglianza!
+
+Sottoscrivendo il [Manifesto del Partito Pirata](https://www.partito-pirata.it/manifesto/), ogni Pirata si impegna a battersi contro la profilazione di massa e la manipolazione delle persone.
+
+Non si tratta semplicemente di un vago desiderio di privacy individuale.
+La profilazione dei cittadini crea [un enorme rischio per la democrazia](https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c16).
+*(attenti a dove cliccate in quel bug report, o le porte del vostro PC verranno [scansionate dal Governo Russo](https://rain-1.github.io/in-browser-localhostdiscovery) via JavaScript)*
+
+Google invece vi offre la possibilità di far aderire liberamente e gratuitamente i vostri figli al suo programma di sorveglianza mondiale: una specie di “ *early bird* “, in attesa che il  **Diritto alla Sorveglianza**  venga ufficialmente [riconosciuto dall’ONU](https://www.un.org/en/universal-declaration-human-rights/index.html).
+
+Alimentando le ansie e le paure dei genitori, Google cerca di sfruttarle.
+Il software di Google non risolve problemi, li strumentalizza.
+E non solo per trarne profitto!
+
+Al di là dei dati personali,  **l’obbiettivo di Google è Politico**  e  **Strategico** .
+**Persuadere i genitori**  che la sorveglianza è utile, che rende le loro vite più “sicure”, ed al contempo  **abituare bambini ed adolescenti**  a darla per scontata, è una mossa politicamente geniale.
+
+Ma è davvero questo che volete per i vostri figli?
+
+## Sbagliando si impara!
+
+I bambini hanno bisogno di fiducia. Esattamente come Google.
+Ma contrariamente a Google, i bambini la meritano!
+
+I bambini hanno anche bisogno di sbagliare, di imparare a confrontarsi con i propri errori, a comprenderne le ragioni e ripartire.
+
+Un bambino cui viene impedito di sbagliare, diventerà un adulto che non sbaglia mai?
+O diventerà piuttosto un adulto incapace di riconoscere i propri errori?
+
+E noi adulti non siamo ciò che siamo anche grazie agli errori che abbiamo commesso?
+Ai giocattoli rotti, alle nasate, alle bevute, alle risse…
+
+Un bambino che non va a dormire per leggere un libro sotto le coperte sarà un bambino stanco tutto il giorno. E capirà  **perché**  i genitori gli ordinano di andare a dormire.
+
+Un bambino con il cellulare, invece,  **non ha**  la possibilità di sbagliare.
+Decide Google. Lo mette a nanna.
+
+Il genitore che si coricherebbe al suo fianco per farlo dormire, può fare altro.
+Può lavorare, produrre e consumare.
+
+Il bambino non ha più bisogno della sua attenzione.
+
+Perché c’è Google!
 
 
-
-<img src="/graphic/GoogleFamilyLink.jpg" title='Un bimbo che Google "protegge" dai propri errori.' />
- 
-# Sbagliando si impara
+> Google Family Link.  
+> Il padre a cui non vorranno disubbidire.
