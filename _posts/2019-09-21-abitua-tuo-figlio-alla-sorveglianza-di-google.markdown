@@ -75,7 +75,7 @@ La profilazione dei cittadini crea [un enorme rischio per la democrazia](https:/
 *(attenti a dove cliccate in quel bug report, o le porte del vostro PC verranno [scansionate dal Governo Russo](https://rain-1.github.io/in-browser-localhostdiscovery) via JavaScript)*
 </span>
 
-Google invece vi offre la possibilità di far aderire liberamente e gratuitamente i vostri figli al suo programma di sorveglianza mondiale: una specie di “ *early bird* “, in attesa che il  **Diritto alla Sorveglianza**  venga ufficialmente [riconosciuto dall’ONU](https://www.un.org/en/universal-declaration-human-rights/index.html).
+Google invece vi offre la possibilità di far aderire liberamente e gratuitamente i vostri figli al suo programma di sorveglianza mondiale: una specie di “*early bird*“, in attesa che il  **Diritto alla Sorveglianza**  venga ufficialmente [riconosciuto dall’ONU](https://www.un.org/en/universal-declaration-human-rights/index.html).
 
 Alimentando le ansie e le paure dei genitori, Google cerca di sfruttarle.
 Il software di Google non risolve problemi, li strumentalizza.
@@ -93,8 +93,10 @@ Ma contrariamente a Google, i bambini la meritano!
 
 I bambini hanno anche bisogno di sbagliare, di imparare a confrontarsi con i propri errori, a comprenderne le ragioni e ripartire.
 
-Un bambino cui viene impedito di sbagliare, diventerà un adulto che non sbaglia mai?  
+Un bambino cui viene impedito di sbagliare, diventerà un adulto infallibile?  
 O diventerà piuttosto un adulto incapace di riconoscere i propri errori?
+
+Un adolescente cui vengono impediti errori piccoli, quali errori compirà?
 
 E noi adulti non siamo ciò che siamo anche grazie agli errori che abbiamo commesso?  
 Ai giocattoli rotti, alle nasate, alle bevute, alle risse…
