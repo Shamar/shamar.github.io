@@ -116,5 +116,7 @@ Perché c’è Google!
 
 _____
 
-Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it) di cui sono membro da qualche mese.  
-Me ne è stata impedita la pubblicazione. Spero almeno che Google abbia fatto una copiosa donazione.
+Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it) di cui sono membro.  
+Me ne è stata impedita la pubblicazione.
+
+Spero almeno che Google ci abbia fatto una copiosa donazione.
