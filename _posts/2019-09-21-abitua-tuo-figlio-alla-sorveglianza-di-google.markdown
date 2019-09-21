@@ -112,7 +112,7 @@ Il bambino non ha più bisogno della sua attenzione.
 Perché c’è Google!
 
 <blockquote style="text-size: large">
-Google Family Link.  
+Google Family Link.<br/><br/>
 
 Il padre a cui non vorranno disubbidire.
 </blockquote>
