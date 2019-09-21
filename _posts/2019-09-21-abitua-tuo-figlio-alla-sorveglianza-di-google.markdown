@@ -111,9 +111,13 @@ Il bambino non ha più bisogno della sua attenzione.
 
 Perché c’è Google!
 
+<div style="text-size: large">
+ 
 > Google Family Link.  
+>
 > Il padre a cui non vorranno disubbidire.
 
+</div>
 _____
 
 Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it) di cui sono membro.  
