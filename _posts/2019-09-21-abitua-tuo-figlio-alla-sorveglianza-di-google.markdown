@@ -11,9 +11,8 @@ Si compone di due applicazioni, una [per i device dei genitori](https://play.goo
 Family Link consente anche di creare un account Google per bambini  **di età inferiore a 13 anni** , del tutto analogo a quello degli adulti, e con cui questi potranno accedere alla maggior parte dei servizi Google.
 Collegando tale account (o uno esistente) a quello dei genitori, permette loro di controllare cosa fanno bambini ed adolescenti mentre utilizzano il loro sistema Android (sia esso un tablet o un cellulare) o Chromebook.
 
-![GoogleFamilyLink.jpg (606Ã880)](https://raw.githubusercontent.com/Shamar/shamar.github.io/master/graphic/GoogleFamilyLink.jpg)
+<img src="https://raw.githubusercontent.com/Shamar/shamar.github.io/master/graphic/GoogleFamilyLink.jpg" title="Un tweet dalla campagna pubblicitaria lanciata da Google Italia"/>
 
-Un tweet dalla campagna pubblicitaria lanciata da Google Italia
 
 Il sistema permette ai genitori di:
 
@@ -45,7 +44,7 @@ E naturalmente profili psicologici della loro famiglia, incluse le loro dinamich
 
 Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) del “servizio” spiegano che “I servizi Google sono supportati grazie agli annunci pubblicitari, quindi tuo figlio potrebbe vedere annunci pubblicitari”.
 
-<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2h5AAt9APc7YGMLEIDfa8wHaOG%26pid%3DApi&f=1" width="237" height="451" style="float:right"/>
+<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2h5AAt9APc7YGMLEIDfa8wHaOG%26pid%3DApi&f=1" width="237" height="451" style="float:right" title="Google dopo che gli avete venduto vostro figlio per qualche report ansiolitico."/>
 
 Si potrebbe pertanto dedurre che il vecchio spot “Se non lo paghi, il prodotto sei tu” andrebbe riadattato per includere nel prodotto anche la prole  ~~delle vittime~~  degli utenti.
 
@@ -59,19 +58,22 @@ Un singolo click su una qualsiasi pagina Web può diffondere una miriade di info
 
 Pensate a quante informazioni potrà acquisire Google tracciando le navigazioni di vostro figlio!
 
-Che valore possono avere questo tipo di informazioni per gli inserzionisti?
+Che valore possono avere questo tipo di informazioni per gli inserzionisti?  
 E per i suoi datori di lavoro? E per i politici?
 
+Conoscere gli interessi, i bias, le idee, le fantasie, le relazioni... la libertà futura dei vostri figli è un prezzo accettabile?
 Una volta che i dati sono stati registrati da Google non sarà più possibile eliminarli.
-O meglio, si può chiedere a Google di rimuoverli, ma sarebbe impossibile  **verificare**  se siano stati effettivamente rimossi da tutti i loro innumerevoli data center sparsi nel mondo.
+O meglio, sarà possibile chiedere a Google di rimuoverli, ma sarebbe impossibile **accertare** che siano stati effettivamente rimossi da tutti i loro innumerevoli data center sparsi nel mondo.
 
 ## Noi Pirati rifiutiamo la Sorveglianza!
 
 Sottoscrivendo il [Manifesto del Partito Pirata](https://www.partito-pirata.it/manifesto/), ogni Pirata si impegna a battersi contro la profilazione di massa e la manipolazione delle persone.
 
 Non si tratta semplicemente di un vago desiderio di privacy individuale.
-La profilazione dei cittadini crea [un enorme rischio per la democrazia](https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c16).
+La profilazione dei cittadini crea [un enorme rischio per la democrazia](https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c16).  
+<span style="text-size: small">
 *(attenti a dove cliccate in quel bug report, o le porte del vostro PC verranno [scansionate dal Governo Russo](https://rain-1.github.io/in-browser-localhostdiscovery) via JavaScript)*
+</span>
 
 Google invece vi offre la possibilità di far aderire liberamente e gratuitamente i vostri figli al suo programma di sorveglianza mondiale: una specie di “ *early bird* “, in attesa che il  **Diritto alla Sorveglianza**  venga ufficialmente [riconosciuto dall’ONU](https://www.un.org/en/universal-declaration-human-rights/index.html).
 
@@ -86,29 +88,33 @@ Ma è davvero questo che volete per i vostri figli?
 
 ## Sbagliando si impara!
 
-I bambini hanno bisogno di fiducia. Esattamente come Google.
+I bambini hanno bisogno di fiducia. Esattamente come Google.  
 Ma contrariamente a Google, i bambini la meritano!
 
 I bambini hanno anche bisogno di sbagliare, di imparare a confrontarsi con i propri errori, a comprenderne le ragioni e ripartire.
 
-Un bambino cui viene impedito di sbagliare, diventerà un adulto che non sbaglia mai?
+Un bambino cui viene impedito di sbagliare, diventerà un adulto che non sbaglia mai?  
 O diventerà piuttosto un adulto incapace di riconoscere i propri errori?
 
-E noi adulti non siamo ciò che siamo anche grazie agli errori che abbiamo commesso?
+E noi adulti non siamo ciò che siamo anche grazie agli errori che abbiamo commesso?  
 Ai giocattoli rotti, alle nasate, alle bevute, alle risse…
 
-Un bambino che non va a dormire per leggere un libro sotto le coperte sarà un bambino stanco tutto il giorno. E capirà  **perché**  i genitori gli ordinano di andare a dormire.
+Un bambino che non va a dormire per leggere un libro sotto le coperte sarà un bambino stanco tutto il giorno. E capirà **perché**  i genitori gli ordinano di andare a dormire.
 
-Un bambino con il cellulare, invece,  **non ha**  la possibilità di sbagliare.
+Un bambino con il cellulare, invece, **non ha** la possibilità di sbagliare.  
 Decide Google. Lo mette a nanna.
 
-Il genitore che si coricherebbe al suo fianco per farlo dormire, può fare altro.
+Il genitore che si coricherebbe al suo fianco per farlo dormire, può fare altro.  
 Può lavorare, produrre e consumare.
 
 Il bambino non ha più bisogno della sua attenzione.
 
 Perché c’è Google!
 
-
 > Google Family Link.  
 > Il padre a cui non vorranno disubbidire.
+
+_____
+
+Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it) di cui sono membro da qualche mese.  
+Me ne è stata impedita la pubblicazione. Spero almeno che Google abbia fatto una copiosa donazione.
