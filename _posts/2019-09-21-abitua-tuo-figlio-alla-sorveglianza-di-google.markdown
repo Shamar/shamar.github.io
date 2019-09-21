@@ -124,4 +124,4 @@ _____
 Questo articolo è stato scritto per il [Partito Pirata](https://www.partito-pirata.it), a cui sono iscritto.  
 Ne è stata [impedita la pubblicazione](https://forum.partito-pirata.it/t/abitua-tuo-figlio-alla-sorveglianza/3814/21).
 
-Spero almeno che Google ci abbia fatto una copiosa donazione.
+Spero almeno che Google abbia fatto [una copiosa donazione](https://forum.partito-pirata.it/t/siamo-pirati-o-pagliacci/3241).
