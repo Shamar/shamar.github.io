@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Abitua tuo figlio alla Sorveglianza! Gratis, con Google Family Link!
-public: false
+public: true
 author: giacomo
 ---
 Google Family Link è un sistema di “ *parental control* ” distribuito gratuitamente da Google.
