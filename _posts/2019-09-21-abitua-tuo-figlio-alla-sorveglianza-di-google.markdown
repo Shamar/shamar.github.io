@@ -44,7 +44,7 @@ E naturalmente profili psicologici della loro famiglia, incluse le loro dinamich
 
 Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) del “servizio” spiegano che “I servizi Google sono supportati grazie agli annunci pubblicitari, quindi tuo figlio potrebbe vedere annunci pubblicitari”.
 
-<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2h5AAt9APc7YGMLEIDfa8wHaOG%26pid%3DApi&f=1" style="width: 50%; max-width: 237px; float:right" title="Google dopo che gli avete venduto vostro figlio per qualche report ansiolitico."/>
+<img src="http://www.tesio.it/graphic/ReaperDevil.jpeg" style="width: 50%; max-width: 237px; float:right" title="Google dopo che gli avete venduto vostro figlio per qualche report ansiolitico."/>
 
 Si potrebbe pertanto dedurre che il vecchio spot “Se non lo paghi, il prodotto sei tu” andrebbe riadattato per includere nel prodotto anche la prole  ~~delle vittime~~  degli utenti.
 
