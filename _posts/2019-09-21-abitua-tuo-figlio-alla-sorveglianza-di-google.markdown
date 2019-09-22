@@ -111,8 +111,9 @@ Può lavorare, produrre e consumare.
 Il bambino non ha più bisogno della sua attenzione.
 
 Perché c’è Google!
+<br/><br/><br/>
 
-<blockquote style="font-size: large">
+<blockquote style="font-size: x-large">
 Google Family Link.<br/><br/>
 
 Il padre a cui non vorranno disubbidire.
