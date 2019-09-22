@@ -40,7 +40,7 @@ Tutti questi dati, incrociati con quelli raccolti attraverso tutti gli altri ser
 
 E naturalmente profili psicologici della loro famiglia, incluse le loro dinamiche famigliari.
 
-## Il prodotto sei tu?
+# Il prodotto sei tu?
 
 Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) del “servizio” spiegano che “I servizi Google sono supportati grazie agli annunci pubblicitari, quindi tuo figlio potrebbe vedere annunci pubblicitari”.
 
@@ -65,7 +65,7 @@ Conoscere gli interessi, i bias, le idee, le fantasie, le relazioni... la libert
 Una volta che i dati sono stati registrati da Google non sarà più possibile eliminarli.
 O meglio, sarà possibile chiedere a Google di rimuoverli, ma sarebbe impossibile **accertare** che siano stati effettivamente rimossi da tutti i loro innumerevoli data center sparsi nel mondo.
 
-## Noi Pirati rifiutiamo la Sorveglianza!
+# Noi Pirati rifiutiamo la Sorveglianza!
 
 Sottoscrivendo il [Manifesto del Partito Pirata](https://www.partito-pirata.it/manifesto/), ogni Pirata si impegna a battersi contro la profilazione di massa e la manipolazione delle persone.
 
@@ -86,7 +86,7 @@ Al di là dei dati personali,  **l’obbiettivo di Google è Politico**  e  **St
 
 Ma è davvero questo che volete per i vostri figli?
 
-## Sbagliando si impara!
+# Sbagliando si impara!
 
 I bambini hanno bisogno di fiducia. Esattamente come Google.  
 Ma contrariamente a Google, i bambini la meritano!
