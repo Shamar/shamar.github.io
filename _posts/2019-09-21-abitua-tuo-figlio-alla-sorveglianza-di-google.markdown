@@ -11,7 +11,7 @@ Si compone di due applicazioni, una [per i device dei genitori](https://play.goo
 Family Link consente anche di creare un account Google per bambini  **di età inferiore a 13 anni**, del tutto analogo a quello degli adulti, e con cui questi potranno accedere alla maggior parte dei servizi Google.
 Collegando tale account (o uno esistente) a quello dei genitori, permette loro di controllare cosa fanno bambini ed adolescenti mentre utilizzano il loro sistema Android (sia esso un tablet o un cellulare) o Chromebook.
 
-<img src="http://www.tesio.it/graphic/GoogleFamilyLink.jpg" title="Un tweet dalla campagna pubblicitaria lanciata da Google Italia" style="width=100%; max-width: 606px;"/>
+<img src="http://www.tesio.it/graphic/GoogleFamilyLink.jpg" title="Un tweet dalla campagna pubblicitaria lanciata da Google Italia" style="width: 100%; max-width: 606px;"/>
 
 
 Il sistema permette ai genitori di:
@@ -29,11 +29,11 @@ Il sistema permette ai genitori di:
 In sostanza, Google condivide con i genitori una  **minuscola frazione**  delle  **informazioni personali**  che raccoglie sui ragazzi che gli vengono affidati.
 Naturalmente tutti i dati raccolti dal device dei vostri figli vengono inviati a Google, che li salva  **sui propri server**  per sempre ed in cambio produce un paio di  **report ansiolitici**  per i genitori.
 
-Che luoghi frequenta vostro figlio? In che orari?
-Quanto tempo passa davanti ad uno schermo?
-Che siti internet visita? Dove clicca?
-Qual’è il genitore più presente?
-Qual’è il genitore più apprensivo?
+Che luoghi frequenta vostro figlio? In che orari?  
+Quanto tempo passa davanti ad uno schermo?  
+Che siti internet visita? Dove clicca?  
+Qual’è il genitore più presente?  
+Qual’è il genitore più apprensivo?  
 Lo preoccupano di più i siti internet che visita o il luoghi che frequenta?
 
 Tutti questi dati, incrociati con quelli raccolti attraverso tutti gli altri servizi di Google e per tutti gli utenti, permettono di creare profili molto precisi dei ragazzi, dei loro amici e dei genitori.
