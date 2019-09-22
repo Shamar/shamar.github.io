@@ -71,7 +71,7 @@ Sottoscrivendo il [Manifesto del Partito Pirata](https://www.partito-pirata.it/m
 
 Non si tratta semplicemente di un vago desiderio di privacy individuale.
 La profilazione dei cittadini crea [un enorme rischio per la democrazia](https://bugzilla.mozilla.org/show_bug.cgi?id=1487081#c16).  
-<span style="text-size: small">
+<span style="font-size: small">
 *(attenti a dove cliccate in quel bug report, o le porte del vostro PC verranno [scansionate dal Governo Russo](https://rain-1.github.io/in-browser-localhostdiscovery) via JavaScript)*
 </span>
 
