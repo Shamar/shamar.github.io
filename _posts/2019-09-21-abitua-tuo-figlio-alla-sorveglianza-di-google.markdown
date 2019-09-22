@@ -4,14 +4,14 @@ title: Abitua tuo figlio alla Sorveglianza! Gratis, con Google Family Link!
 public: true
 author: giacomo
 ---
-Google Family Link è un sistema di “ *parental control* ” distribuito gratuitamente da Google.
+Google Family Link è un sistema di “*parental control*” distribuito gratuitamente da Google.
 
 Si compone di due applicazioni, una [per i device dei genitori](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylink&hl=it) e l’altra [per i device dei figli](https://play.google.com/store/apps/details?id=com.google.android.apps.kids.familylinkhelper&hl=it).
 
-Family Link consente anche di creare un account Google per bambini  **di età inferiore a 13 anni** , del tutto analogo a quello degli adulti, e con cui questi potranno accedere alla maggior parte dei servizi Google.
+Family Link consente anche di creare un account Google per bambini  **di età inferiore a 13 anni**, del tutto analogo a quello degli adulti, e con cui questi potranno accedere alla maggior parte dei servizi Google.
 Collegando tale account (o uno esistente) a quello dei genitori, permette loro di controllare cosa fanno bambini ed adolescenti mentre utilizzano il loro sistema Android (sia esso un tablet o un cellulare) o Chromebook.
 
-<img src="https://raw.githubusercontent.com/Shamar/shamar.github.io/master/graphic/GoogleFamilyLink.jpg" title="Un tweet dalla campagna pubblicitaria lanciata da Google Italia"/>
+<img src="http://www.tesio.it/graphic/GoogleFamilyLink.jpg" title="Un tweet dalla campagna pubblicitaria lanciata da Google Italia" style="width=100%; max-width: 606px;"/>
 
 
 Il sistema permette ai genitori di:
