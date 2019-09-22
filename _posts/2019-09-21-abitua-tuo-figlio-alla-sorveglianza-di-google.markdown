@@ -26,7 +26,7 @@ Il sistema permette ai genitori di:
 * bloccare il dispositivo dei figli da remoto o ad una certa ora
 * seguirli da remoto, tracciandone la posizione geografica
 
-In sostanza, Google condivide con i genitori una  **minuscola frazione**  delle  **informazioni personali**  che raccoglie sui ragazzi che gli vengono affidati.
+In sostanza, Google condivide con i genitori una **minuscola frazione** delle **informazioni personali** che raccoglie e del **potere di cui dispone** sui ragazzi che gli vengono affidati.
 Naturalmente tutti i dati raccolti dal device dei vostri figli vengono inviati a Google, che li salva  **sui propri server**  per sempre ed in cambio produce un paio di  **report ansiolitici**  per i genitori.
 
 Che luoghi frequenta vostro figlio? In che orari?  
@@ -44,7 +44,7 @@ E naturalmente profili psicologici della loro famiglia, incluse le loro dinamich
 
 Le [FAQ](https://families.google.com/intl/it_ALL/familylink/faq/) del “servizio” spiegano che “I servizi Google sono supportati grazie agli annunci pubblicitari, quindi tuo figlio potrebbe vedere annunci pubblicitari”.
 
-<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2h5AAt9APc7YGMLEIDfa8wHaOG%26pid%3DApi&f=1" width="237" height="451" style="float:right" title="Google dopo che gli avete venduto vostro figlio per qualche report ansiolitico."/>
+<img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2h5AAt9APc7YGMLEIDfa8wHaOG%26pid%3DApi&f=1" style="width: 50%; max-width: 237px; float:right" title="Google dopo che gli avete venduto vostro figlio per qualche report ansiolitico."/>
 
 Si potrebbe pertanto dedurre che il vecchio spot “Se non lo paghi, il prodotto sei tu” andrebbe riadattato per includere nel prodotto anche la prole  ~~delle vittime~~  degli utenti.
 
@@ -77,8 +77,8 @@ La profilazione dei cittadini crea [un enorme rischio per la democrazia](https:/
 
 Google invece vi offre la possibilità di far aderire liberamente e gratuitamente i vostri figli al suo programma di sorveglianza mondiale: una specie di “*early bird*“, in attesa che il  **Diritto alla Sorveglianza**  venga ufficialmente [riconosciuto dall’ONU](https://www.un.org/en/universal-declaration-human-rights/index.html).
 
-Alimentando le ansie e le paure dei genitori, Google cerca di sfruttarle.
-Il software di Google non risolve problemi, li strumentalizza.
+Alimentando le ansie e le paure dei genitori, Google cerca di sfruttarle.  
+Il software di Google non risolve problemi, li strumentalizza.  
 E non solo per trarne profitto!
 
 Al di là dei dati personali,  **l’obbiettivo di Google è Politico**  e  **Strategico** .
@@ -98,8 +98,7 @@ O diventerà piuttosto un adulto incapace di riconoscere i propri errori?
 
 Un adolescente cui vengono impediti errori piccoli, quali errori compirà?
 
-E noi adulti non siamo ciò che siamo anche grazie agli errori che abbiamo commesso?  
-Ai giocattoli rotti, alle nasate, alle bevute, alle risse…
+E noi adulti non siamo ciò che siamo anche grazie agli errori che abbiamo commesso? Ai giocattoli rotti, alle nasate, alle bevute, alle risse…
 
 Un bambino che non va a dormire per leggere un libro sotto le coperte sarà un bambino stanco tutto il giorno. E capirà **perché**  i genitori gli ordinano di andare a dormire.
 
@@ -113,7 +112,7 @@ Il bambino non ha più bisogno della sua attenzione.
 
 Perché c’è Google!
 
-<blockquote style="text-size: large">
+<blockquote style="font-size: large">
 Google Family Link.<br/><br/>
 
 Il padre a cui non vorranno disubbidire.
