@@ -2,36 +2,19 @@
 
 /* Dark overrides */
 body {
-	background: #0d0208;
-	color: #008f11;
-}
-
-.info {
-	color: #BDE5F8;
-	background-color: #00529B;
-	background-image: url('/graphic/info.png');
-}
-.success {
-	color: #DFF2BF;
-	background-color: #4F8A10;
-	background-image:url('/graphic/success.png');
-}
-.warning {
-	color: #FEEFB3;
-	background-color: #9F6000;
-	background-image: url('/graphic/warning.png');
-}
-.error {
-	color: #FFBABA;
-	background-color: #D8000C;
-	background-image: url('/graphic/error.png');
+	background: #000;
+	color: #CC9;
 }
 
 a {
-	color: #00ff41;
+	color: #ff6;
+}
+a:hover {
+	background: #CC9;
+	color: #000;
 }
 a:visited {
-	color: #008f11;
+	color: #ee6;
 }
 
 #home-contents h1 {
@@ -58,4 +41,12 @@ a.setcss.light {
 }
 a.setcss.dark {
 	display: none;
+}
+
+img {
+	opacity: .75;
+	transition: opacity .5s ease-in-out;
+}
+img:hover {
+	opacity: 1;
 }
