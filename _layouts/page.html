@@ -23,8 +23,10 @@
     <meta property="og:video" content="{{ page.video }}"/>
 {% endif %}
 
-	<link rel="stylesheet" type="text/css" href="/graphic/screen.css" />
-	<link rel="stylesheet" type="text/css" href="https://giacomo.tilde.team/css.php?{{ page.url }}" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/graphic/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: light)" href="/graphic/screen.css"/> 
+	<link rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: dark)" href="/graphic/screen-dark.css"/> 
+	<link rel="alternate stylesheet" title="Dark mode" href="/graphic/screen-dark.css"/>
 {% if page.css %}
 	<link rel="stylesheet" type="text/css" href="/graphic/{{ page.css }}" />
 {% endif %}

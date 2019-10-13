@@ -1,4 +1,6 @@
-/*MAIN*/
+@import url("screen.css");
+
+/* Dark overrides */
 body {
 	background: #0d0208;
 	color: #008f11;
