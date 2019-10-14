@@ -36,7 +36,9 @@ Ok, it's pretty funny actually... but it wasn't so funny back then.
 
 # I work for YOU!
 
-I coudn't understand much more than this from the last screen: "I work for YOU!". 
+I coudn't understand much more than this from the last screen: 
+
+> I work for YOU!
 
 That was reassuring. After the pure terror I felt, it was [**cathartic**](https://en.wikipedia.org/wiki/Catharsis).
 
