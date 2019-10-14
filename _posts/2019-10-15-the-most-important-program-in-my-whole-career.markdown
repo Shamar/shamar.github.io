@@ -3,6 +3,7 @@ layout: post
 title: The most important program in my whole career.
 public: true
 author: giacomo
+image: http://www.tesio.it/cache/1992/wordstar.gif
 ---
 The most important program in my whole career as a programmer was a [word processor](https://en.wikipedia.org/wiki/WordStar).
 
