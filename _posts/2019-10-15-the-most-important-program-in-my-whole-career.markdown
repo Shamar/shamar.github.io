@@ -18,12 +18,12 @@ I was scared as hell!
 
 Now I see, you laugh too.
 
-I was 11 years old, my precious 286 had been overly expensive for my poor mom.  
+I was 11 years old, my 286 had been very expensive for my poor mom.  
 And I was going to make it **explode**!
 
 I couldn't conceive that a computer could make fun of a human.
 
-Yet I had no alternative.
+Yet, I had no alternative.
 
 So I pressed that fucking key. `Esc` probably.
 
@@ -34,7 +34,7 @@ Yeah, you are still laughing at me. >:-(
 That's not funny.   
 Ok, it's pretty funny actually... but it wasn't so funny back then.
 
-## I work for YOU!
+# I work for YOU!
 
 I coudn't understand much more than this from the last screen: "I work for YOU!". 
 
@@ -45,7 +45,7 @@ WordStar Tutor teached me to **fear not**.
 
 I wouldn't be a hacker, without it.
 
-____
+# The smartest AI (and most humble one)
 
 Most of software today pretends to work for you, but it serves somebody else.  
 Advertisers. Governments. Politicians.
