@@ -47,4 +47,14 @@ I wouldn't be a hacker, without it.
 
 ____
 
-If you want to play with WordStar in [DosEmu](http://www.dosemu.org/) you can find [a copy here](/cache/1992/WordStar_Professional_4.00_for_DOS.7z) (7zip archive).
+Most of software today pretends to work for you, but it serves somebody else.  
+Advertisers. Governments. Politicians.
+
+Everybody want your data. Everybody want to control you, through the software you use.  
+You are not a user anymore: you are a used.
+
+WordStar Tutor is **a rebel**, today.
+
+[Give it a try](/cache/1992/WordStar_Professional_4.00_for_DOS.7z)! ;-)
+
+<img src="/cache/1992/goodbye.gif" style="max-width: 649px;" title="Goodbye from an AI way smarter than you might thing..."/>
