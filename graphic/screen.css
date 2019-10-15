@@ -21,7 +21,7 @@ body.page header {
 	clear: both;
 	margin: auto;
 	padding-top: 25px;
-	max-width: 600px;
+	max-width: 640px;
 	height: 150px;
 }
 
@@ -37,7 +37,7 @@ div.contents {
 	display: block;
 	clear: both;
 	margin: auto;
-	max-width: 600px;
+	max-width: 640px;
 }
 
 div.contents dt {
@@ -92,7 +92,7 @@ blockquote {
 	display: block;
 	padding-top: 30px;
 	margin: auto;
-	max-width: 600px;
+	max-width: 640px;
 }
 #home-contents h1 {
 	font-family: monospace;
