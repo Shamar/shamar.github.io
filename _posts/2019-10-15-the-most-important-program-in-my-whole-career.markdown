@@ -60,4 +60,4 @@ WordStar Tutor is **a rebel**, today.
 
 [Give it a try](/cache/1992/WordStar_Professional_4.00_for_DOS.7z)! ;-)
 
-<img src="/cache/1992/goodbye.gif" style="max-width: 649px;" title="Goodbye from an AI way smarter than you might thing..."/>
+<img src="/cache/1992/goodbye.gif" style="width:100%; max-width: 640px;" title="Goodbye from an AI way smarter than you might thing..."/>
