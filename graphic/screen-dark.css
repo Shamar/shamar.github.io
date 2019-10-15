@@ -29,6 +29,11 @@ a#home:hover {
 	color: #CC9;
 	text-decoration: none;
 }
+a#home:hover span {
+	background: #000;
+	color: #CC9;
+	text-decoration: none;
+}
 a#home:visited  span {
 	color: #00ff41;
 }
