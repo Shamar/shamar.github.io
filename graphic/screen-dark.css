@@ -24,6 +24,11 @@ a:visited {
 a#home span {
 	color: #00ff41;
 }
+a#home:hover {
+	background: #000;
+	color: #CC9;
+	text-decoration: none;
+}
 a#home:visited  span {
 	color: #00ff41;
 }
