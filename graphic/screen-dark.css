@@ -12,6 +12,7 @@ a {
 a:hover {
 	background: #CC9;
 	color: #000;
+	text-decoration: none;
 }
 a:visited {
 	color: #ee6;
@@ -29,6 +30,12 @@ a#home:visited  span {
 
 a#atom {
 	color: #008f11;
+	text-decoration: none;
+}
+a#atom:hover {
+	background: #000;
+	color: #CC9;
+	text-decoration: none;
 }
 a.external:before {
 	padding-right: 5px;
@@ -44,7 +51,7 @@ a.setcss.dark {
 }
 
 img {
-	opacity: .75;
+	opacity: .80;
 	transition: opacity .5s ease-in-out;
 }
 img:hover {
