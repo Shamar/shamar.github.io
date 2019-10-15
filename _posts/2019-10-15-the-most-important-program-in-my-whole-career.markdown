@@ -7,7 +7,7 @@ image: http://www.tesio.it/cache/1992/wordstar.gif
 ---
 The most important program in my whole career as a programmer was a [word processor](https://en.wikipedia.org/wiki/WordStar).
 
-<img src="/cache/1992/wordstar.gif" style="max-width: 649px;" title="WordStar's Tutor teaching me the basics of computer hacking."/>
+<img src="/cache/1992/wordstar.gif" style="border-top: 1px solid #333; border-bottom: 1px solid #333; width:100%; max-width: 640px;" title="WordStar's Tutor teaching me the basics of computer hacking."/>
 
 My eldest daughter couldn't help but laugh when I tried to explain her
 the **deep terror** I felt back then. When I faced the WordStar's Tutor
@@ -28,7 +28,7 @@ Yet, I had no alternative.
 
 So I pressed that fucking key. `Esc` probably.
 
-<img src="/cache/1992/teachme_006.png" style="max-width: 649px;" title="KA-BOOM! My precious 286... was exploding!"/>
+<img src="/cache/1992/teachme_006.png" style="border-top: 1px solid #333; border-bottom: 1px solid #333; width:100%; max-width: 649px;" title="KA-BOOM! My precious 286... was exploding!"/>
 
 Yeah, you are still laughing at me. >:-(
 
