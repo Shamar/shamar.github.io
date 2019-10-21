@@ -38,6 +38,7 @@ div.contents {
 	clear: both;
 	margin: auto;
 	max-width: 640px;
+	text-align: justify;
 }
 
 div.contents dt {

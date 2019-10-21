@@ -119,8 +119,9 @@ per assuefarsene e considerarla inevitabile, smettendo di usarle con
 competenza e spirito critico e finendo dunque per venire usati
 attraverso di esse.
 
+<br/><br/>
 
-Non posso dunque registrare mia figlia ad Edmodo.
+Non **posso** dunque registrare mia figlia ad Edmodo.
 
 Come informatico mi sento anche in dovere di consigliarle l'abbandono
 della piattaforma stessa per l'intera classe, a sua propria tutela 
@@ -132,15 +133,17 @@ canale di comunicazione diverso. Ad esempio sarò felice di dotare la
 bambina di una chiavetta USB su cui potrà caricare i materiali che
 Lei intende utilizzare.
 
+<br/><br/>
 
 Rimango naturalmente a disposizione per **qualsiasi** chiarimento.  
 Se lei o altri insegnanti fossero interessati ad approfondire queste
 problematiche, sarò felice di mettere a disposizione vostra e della
 scuola le mie competenze, in modo assolutamente gratuito.
 
+<br/><br/>
 
 La prego però di non fraintendere la mia decisione in merito ad Edmodo.  
-Apprezzo l'apertura alle nuove tecnologie nell'insegnamento della
+Apprezzo moltissimo l'apertura alle nuove tecnologie nell'insegnamento della
 musica ed ho assoluta fiducia nella sua competenza e professionalità.  
 
 In questo caso però non posso ignorare le mie conoscenze in materia,
@@ -150,6 +153,6 @@ considera poco più di un topo da laboratorio.
 
 
 
-In Fede,
+Cordialmente,
 
 Giacomo Tesio
