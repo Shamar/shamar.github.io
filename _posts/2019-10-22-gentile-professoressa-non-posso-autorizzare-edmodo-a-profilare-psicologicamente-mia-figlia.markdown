@@ -19,10 +19,10 @@ piattaforma fornisce.
 
 Edmodo è una di quelle società statunitensi che la [Professoressa Zuboff](https://shoshanazuboff.com/), 
 della [Harvard Business School](https://en.wikipedia.org/wiki/Shoshana_Zuboff), descrive nel suo libro "The Age of
-[Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)". Il loro business model si basa sulla
-creazione di modelli previsionali (detti *behavioural futures*) del
-comportamento degli utenti (in questo caso insegnanti, genitori e 
-ragazzi) attraverso i quali influenzare il loro comportamento attraverso 
+[Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism)". Il loro *business model* si basa sulla
+creazione e la vendita di modelli previsionali (detti *behavioral futures*) del
+comportamento degli utenti (in questo caso insegnanti, genitori **e 
+ragazzi**) attraverso i quali influenzare il loro comportamento attraverso 
 stimoli specificatamente studiati sulla base dei loro [bias cognitivi](https://en.wikipedia.org/wiki/Cognitive_bias).
 
 Questi modelli previsionali, realizzati attraverso quella serie
