@@ -26,8 +26,8 @@ ragazzi**) attraverso i quali influenzare il loro comportamento attraverso
 stimoli specificatamente studiati sulla base dei loro [bias cognitivi](https://en.wikipedia.org/wiki/Cognitive_bias).
 
 Questi modelli previsionali, realizzati attraverso quella serie
-di tecniche statistiche generalmente noto con il nome di machine
-learning o (più recentemente) intelligenza artificiale, hanno un valore
+di tecniche statistiche generalmente note con il nome di [*machine learning*](https://en.wikipedia.org/wiki/Machine_learning) o (più recentemente) 
+[intelligenza artificiale](https://en.wikipedia.org/wiki/Artificial_intelligence), hanno un valore
 enorme per coloro che intendono influenzare per qualsivoglia ragione una
 persona specifica, un gruppo o una comunità, per ragioni commerciali,
 sociali o politiche.
