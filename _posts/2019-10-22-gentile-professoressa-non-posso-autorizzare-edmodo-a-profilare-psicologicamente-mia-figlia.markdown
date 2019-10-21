@@ -62,7 +62,7 @@ parità di competenza.
 Nel caso specifico di Edmodo, poi, va sottolineato che si tratta di una
 società **statunitense** che mantiene i dati acquisiti su server collocati
 negli USA e che **non risponde alle leggi europee** sulla privacy.
-In caso di un data breach, i costi di una causa a San Francisco
+In caso di un [*data breach*](https://gdpr-info.eu/art-4-gdpr/), i costi di una causa a San Francisco
 sarebbero insostenibili per le famiglie degli studenti ed avrebbero
 scarsissime possibilità di successo.
 
