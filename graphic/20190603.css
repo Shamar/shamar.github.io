@@ -1,3 +1,9 @@
+@media (screen and (prefers-color-scheme: light)) {
+  div.contents h1 { color: black; }
+  div.contents h2 { color: black; }
+}
 
-div.contents h1 { color: black; }
-div.contents h2 { color: black; }
+@media (screen and (prefers-color-scheme: dark)) {
+  div.contents h1 { color: #EE9; }
+  div.contents h2 { color: #EE9; }
+}
