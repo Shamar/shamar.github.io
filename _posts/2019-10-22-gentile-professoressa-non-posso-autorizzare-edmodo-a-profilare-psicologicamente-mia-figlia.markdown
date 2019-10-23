@@ -143,10 +143,11 @@ scuola le mie competenze, in modo assolutamente gratuito.
 <br/><br/>
 
 La prego però di non fraintendere la mia decisione in merito ad Edmodo.  
-Apprezzo moltissimo l'apertura alle nuove tecnologie nell'insegnamento della
-musica ed ho assoluta fiducia nella sua competenza e professionalità.  
+Apprezzo moltissimo l'apertura alle nuove tecnologie nell'insegnamento
+della sua disciplina ed ho assoluta fiducia nella sua competenza
+e professionalità.  
 
-In questo caso però non posso ignorare le mie conoscenze in materia,
+In questo caso però non posso ignorare la mia esperienza in materia,
 mettendo a rischio la libertà e l'autonomia di mia figlia per
 alimentare un business che, al di là della retorica commerciale, la
 considera poco più di un topo da laboratorio.
