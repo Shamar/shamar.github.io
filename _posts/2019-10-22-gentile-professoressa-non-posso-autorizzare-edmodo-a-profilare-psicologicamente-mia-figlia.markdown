@@ -23,7 +23,7 @@ della [Harvard Business School](https://en.wikipedia.org/wiki/Shoshana_Zuboff), 
 creazione e la vendita di modelli previsionali (detti *behavioral futures*) del
 comportamento degli utenti (in questo caso insegnanti, genitori **e 
 ragazzi**) attraverso i quali influenzare il loro comportamento attraverso 
-stimoli specificatamente studiati sulla base dei loro [bias cognitivi](https://en.wikipedia.org/wiki/Cognitive_bias).
+stimoli specificatamente studiati sulla base dei loro [personali bias cognitivi](https://en.wikipedia.org/wiki/Cognitive_bias).
 
 Questi modelli previsionali, realizzati attraverso quella serie
 di tecniche statistiche generalmente note con il nome di [*machine learning*](https://en.wikipedia.org/wiki/Machine_learning) o (più recentemente) 
@@ -131,7 +131,10 @@ Ma se ritiene di voler continuare ad usare comunque Edmodo, le devo
 chiedere di fornire a mia figlia materiali didattici equivalenti su un
 canale di comunicazione diverso. Ad esempio sarò felice di dotare la
 bambina di una chiavetta USB su cui potrà caricare i materiali che
-Lei intende utilizzare.
+Lei intende utilizzare. A tal riguardo le posso garantire l'adozione
+dei più elevati standard di sicurezza da parte nostra e se necessario
+posso spiegare alla classe ed alla scuola come difendersi
+professionalmente dai virus informatici.
 
 <br/><br/>
 
