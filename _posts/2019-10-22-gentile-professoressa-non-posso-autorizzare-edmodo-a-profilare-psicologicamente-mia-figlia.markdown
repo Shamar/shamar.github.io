@@ -136,12 +136,20 @@ dei più elevati standard di sicurezza da parte nostra e se necessario
 posso spiegare alla classe ed alla scuola come difendersi
 professionalmente dai virus informatici.
 
+In alternativa, se preferisce, può utilizzare gli strumenti Ministeriali
+come il Calendario del Diario Online di Regel.
+
 <br/><br/>
 
 Rimango naturalmente a disposizione per **qualsiasi** chiarimento.  
 Se lei o altri insegnanti fossero interessati ad approfondire queste
 problematiche, sarò felice di mettere a disposizione vostra e della
 scuola le mie competenze, in modo assolutamente gratuito.
+
+Potremmo per esempio valutare, insieme al Dirigente Scolastico il 
+Professor **OMISSIS** che ha ricevuto copia di questa missiva, 
+l'installazione di un software come [Moodle](https://moodle.org/)
+presso un server sotto il controllo fisico della scuola.
 
 <br/><br/>
 
