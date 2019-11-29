@@ -3,6 +3,7 @@ layout: post
 title: Google's Privacy Oath
 public: true
 author: giacomo
+image: http://www.tesio.it/graphic/Pinguicula.jpg
 ---
 
 <div style="white-space: pre; display: block; line-height: 1.5; margin-bottom: 4em; padding: 4em;">
