@@ -5,22 +5,22 @@ public: true
 author: giacomo
 ---
 
-<div style="white-space: pre;">
-You will not  
-   and will not assist
+<div style="white-space: pre; display: block; line-height: 1.5; margin-bottom: 4em; padding: 4em;">
+You will not
+         and will not assist
 or permit
-   any third party
+         any third party
 to, pass information
-   to Google
+         to Google
 
 that Google could
-   use or recognize as
+         use or recognize as
 
 personally
 
-  identifiable
+         identifiable
 
-    information.
+                   information.
 </div>
 
 I don't know who created this little piece of poetry, this wise mantra.
