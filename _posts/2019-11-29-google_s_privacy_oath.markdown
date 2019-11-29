@@ -5,7 +5,7 @@ public: true
 author: giacomo
 ---
 
-```
+<div style="white-space: pre;">
 You will not  
    and will not assist
 or permit
@@ -21,7 +21,7 @@ personally
   identifiable
 
     information.
-```
+</div>
 
 I don't know who created this little piece of poetry, this wise mantra.
 
