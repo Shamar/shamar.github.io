@@ -30,5 +30,6 @@ It was brought to me like this, hidden in plain sight, like a gem in a [gorgeous
 
 I don't know if the author was a hacker, a lawyer... or something in between.
 
-But given WHERE (and HOW!!!) s?he managed to write this wonderful **Privacy Oath**...   
-I don't think Google will be able to **hack back**.
+But given WHERE (and HOW!!!) s?he managed to publish this wonderful **Privacy Oath**... I don't think Google will be able to **hack back**.
+
+;-)
