@@ -639,7 +639,7 @@ We need to create an alphabet of Informatics.
 And with this alphabet we need to free the next
 generation of slaves.
 
-# Humanity need to evolve
+# Humanity needs to evolve
 
 It's not just about developers.
 
