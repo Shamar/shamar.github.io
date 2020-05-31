@@ -19,4 +19,15 @@ But it's also showing many hypocrisies, injustices and issues that most people a
 countries that accepted the American cultural hegemony over the world would prefer
 to ignore and forget.
 
-The United States
+The United States are always on war.  
+They are built on unfair competition sold as meritocracy and "greatness".  
+They are built on a continous **fight for power**, both internally 
+(through hate, fear and discrimination) and externally (through 
+economical and military imperialism).
+
+Such fight for power takes several forms and occurs on a variety of ground.  
+Now it's turning into violence in the streets, and while everybody can 
+see how some people on both sides are using this civil war to gain 
+visibility and influence, nobody can really predict what will come then.
+
+Right now we can only pray for them.
