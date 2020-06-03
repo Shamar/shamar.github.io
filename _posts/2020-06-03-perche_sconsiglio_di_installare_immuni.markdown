@@ -11,7 +11,7 @@ author: giacomo
 Dopo mesi in cui [molti si sono battuti](https://www.lemonde.fr/idees/article/2020/04/25/stopcovid-est-un-projet-desastreux-pilote-par-des-apprentis-sorciers_6037721_3232.html)
 per riportare un po' di lucidità nella grottesca gestione della pandemia,
 ancora incontro persone in buona fede (sui social network, **solo** sui
-social network) che mi chiedono perché io sconsigli caldamente di installare [Immuni](https://www.immuni.italia.it/).
+social network) che mi chiedono perché io sconsigli caldamente di installare [`Immuni`](https://www.immuni.italia.it/).
 
 Le ragioni sono così tante che è impossibile elencarle tutte, ma vale forse la pena
 provare ad elencare quelle più spesso dimenticate nella speranza di
@@ -112,17 +112,17 @@ spoofer in grado di ricostruire la rete di contatti di una città come Roma, Mil
 
 # ... è un problema di Libertà.
 
-Dal punto di vista politico, il danno maggiore prodotto da Immuni è culturale.
+Dal punto di vista politico, il danno maggiore prodotto da `Immuni` è culturale.
 
 Anche se non può funzionare, anche se sarà **dannosa** per i cittadini più fragili
 (anziani, disabili, malati cronici...) che si ritroveranno circondati da persone
-convinte di non costituire un pericolo per loro, Immuni stabilirà un precedente pericolosissimo.
+convinte di non costituire un pericolo per loro, `Immuni` stabilirà un precedente pericolosissimo.
 
 L'idea che un App su un cellulare possa risolvere semplicemente problemi complessi di scala globale come una pandemia.
 E [non si potrà tornare indietro](https://www.latimes.com/opinion/story/2020-05-12/coronavirus-tracing-app-apple-google): 
 la **sorveglianza di massa** [verrà giustificata continuamente](https://www.nytimes.com/interactive/2019/12/21/opinion/location-data-democracy-protests.html)), sempre in nome di nuovi pericoli.
 
-Qualsiasi informatico competente **riderebbe** di fronte a questo 
+Qualsiasi informatico competente **riderebbe** di questo 
 [soluzionismo tecnologico](https://www.open.online/2020/06/02/app-contact-tracing-bruce-schneier-intervista/).
 
-Putroppo gli informatici competenti sono ancora pochi.
+Per questo vi **S**consiglio caldamente `Immuni`.
