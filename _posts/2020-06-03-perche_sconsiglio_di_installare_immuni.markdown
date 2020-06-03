@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Sconsiglio di installare Immuni
+title: Perché sconsiglio di installare Immuni?
 public: true
+image: https://www.commitstrip.com/wp-content/uploads/2020/05/Strip-Appli-stop-Covid-650-finalenglish.jpg
 author: giacomo
 ---
 
@@ -100,7 +101,7 @@ Ma vi sono **anche** moltissimi problemi "di privacy" bellamente ignorati da chi
 Uno tra tanti: mentre l'applicazione, di per sé, è tanto sicura quanto è sicuro il sistema operativo
 su cui gira ([molto poco](https://francozappa.github.io/about-bias/), ma questo costituisce un'altro ordine di problemi),
 [gli sviluppatori si rifiutano di considerare](https://github.com/immuni-app/immuni-documentation/issues/12) 
-che con meno di 5000 €, qualsiasi organizzazione
+che con meno di 5000 €, [qualsiasi organizzazione](https://www.nytimes.com/interactive/2019/12/21/opinion/location-data-democracy-protests.html)
 criminale potrà utilizzare la propria rete di estorsione per installare centinaia bluetooth
 spoofer in grado di ricostruire la rete di contatti di una città come Roma, Milano o Palermo.
 
