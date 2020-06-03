@@ -52,8 +52,8 @@ E queste persone, **in buona fede e legittimamente**, continueranno a diffondere
 In fondo hanno installato *Immuni*! Le avvertirebbe se fossero a rischio!
 
 Ed a settembre, quando il decorso della malattia tenderà ad aggravarsi, molti moriranno
-proprio grazie ad *Immuni*. E a Google ed Apple, naturalmente. Ed all'incapacità di
-chi ha finanziato questo soluzionismo tecnologico.
+proprio grazie ad *Immuni*. E a Google ed Apple, naturalmente.   
+Ed all'ignoranza di chi ha finanziato questo soluzionismo tecnologico.
 
 # Immuni aumenterà il carico della Sanità
 
