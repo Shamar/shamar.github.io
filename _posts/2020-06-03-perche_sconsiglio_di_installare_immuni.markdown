@@ -69,8 +69,8 @@ Ma un sistema che ha bisogno di eroi e martiri è un sistema che non funziona.
 Perché così tanti medici sono risultati positivi ai sierologici per le IgG?  
 Perché hanno chiesto per mesi dei tamponi ottenendo solo vane promesse?
 
-Semplicemnete perché **tutti** sapevano che testarli avrebbe significato
-trovarne moltissimi positivi e dunque doverli isolare nelle loro case.
+Semplicemente perché **tutti** sapevano che testarli avrebbe significato
+trovarne moltissimi positivi e dunque doverli isolare nelle loro case per settimane.
 
 Se tutti i medici Piemontesi, Lombardi, Emiliani o Veneti installassero *Immuni*, sarebbero
 bombardati da continue notifiche. Così gli infermieri e gli OS.
