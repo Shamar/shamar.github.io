@@ -120,7 +120,7 @@ convinte di non costituire un pericolo per loro, *Immuni* stabilirà un preceden
 
 L'idea che un App su un cellulare possa risolvere semplicemente problemi complessi di scala globale come una pandemia.
 E [non si potrà tornare indietro](https://www.latimes.com/opinion/story/2020-05-12/coronavirus-tracing-app-apple-google): 
-la **sorveglianza di massa** [verrà giustificata continuamente](https://www.nytimes.com/interactive/2019/12/21/opinion/location-data-democracy-protests.html)), sempre in nome di nuovi pericoli.
+la **sorveglianza di massa** [verrà giustificata continuamente](https://www.nytimes.com/interactive/2019/12/21/opinion/location-data-democracy-protests.html), sempre in nome di nuovi pericoli.
 
 Qualsiasi informatico competente **riderebbe** di questo 
 [soluzionismo tecnologico](https://www.open.online/2020/06/02/app-contact-tracing-bruce-schneier-intervista/).
