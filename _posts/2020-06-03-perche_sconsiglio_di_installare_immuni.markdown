@@ -40,7 +40,7 @@ ritornando alla normalità.
 Purtroppo, se non verrà garantito un test diagnostico entro 24 ore
 dalla ricezione della notifica di contatto con un infetto, i contatti che riceveranno
 la notifica NON avranno ragione (e modo) di informare gli altri propri contatti del pericolo.
-Si metteranno in quarantena, riducendo i contatti futuri, ma NON aviseranno (tramite *Immuni*)
+Si metteranno in quarantena, riducendo i contatti futuri, ma NON avviseranno (tramite *Immuni*)
 tutti coloro che hanno infettato nel frattempo.
 
 E queste persone, quelle che all'inizio dell'epidemia venivano definiti "contatti di secondo
@@ -51,7 +51,7 @@ verranno avvisati o testati.
 E queste persone, **in buona fede e legittimamente**, continueranno a diffondere il virus.  
 In fondo hanno installato *Immuni*! Le avvertirebbe se fossero a rischio!
 
-E a settembre, quando il decorso della malattia tenderà ad aggravarsi, molti moriranno
+Ed a settembre, quando il decorso della malattia tenderà ad aggravarsi, molti moriranno
 proprio grazie ad *Immuni*. E a Google ed Apple, naturalmente. Ed all'incapacità di
 chi ha finanziato questo soluzionismo tecnologico.
 
