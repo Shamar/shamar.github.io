@@ -23,7 +23,7 @@ Partiamo dai problemi medici che durante un'epidemia dovrebbero essere prevalent
 
 Assumiamo, per semplicità di ragionamento, che la totalità della popolazione installi
 questa app di "contact tracing". Considerato che WhatsApp (l'app più installata al mondo)
-è presente sui cellulari di meno del 40% della popolazione italiana, si tratta di una
+è presente sui cellulari di [meno del 60% della popolazione italiana](https://timgate.it/news/tecnologia/whatsapp-quanti-utenti.vum), si tratta di una
 assunzione estremamente improbabile nella nostra penisola. Purtuttavia è possibile che
 in determinate zone del territorio nazionale, le popolazioni locali aderiscano in massa
 a questo surreale piano di contenimento del virus.
