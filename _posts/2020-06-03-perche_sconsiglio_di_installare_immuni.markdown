@@ -19,7 +19,7 @@ non doverle ripetere continuamente.
 
 # Immuni aumenterà i morti a settembre
 
-Partiamo dagli problemi medici, che durante un'epidemia dovrebbero essere prevalenti.
+Partiamo dai problemi medici che durante un'epidemia dovrebbero essere prevalenti.
 
 Assumiamo, per semplicità di ragionamento, che la totalità della popolazione installi
 questa app di "contact tracing". Considerato che WhatsApp (l'app più installata al mondo)
