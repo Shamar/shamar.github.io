@@ -63,7 +63,7 @@ Limiti di cui nessuno voleva parlare prima e di cui nessuno vuole parlare ora.
 I medici mandati sul territorio senza mascherine, senza dispositivi di protezione, con
 indicazioni contradditorie, hanno fatto tutto il possibile per tamponare l'emergenza.
 Così il personale ospedaliero, medici, infermieri, operatori sanitari che, ormai in burn-out,
-continua a lavorare alacremente.
+continuano a lavorare alacremente.
 
 Ma un sistema che ha bisogno di eroi e martiri è un sistema che non funziona.  
 Perché così tanti medici sono risultati positivi ai sierologici per le IgG?  
