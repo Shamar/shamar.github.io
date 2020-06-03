@@ -62,7 +62,7 @@ Limiti di cui nessuno voleva parlare prima e di cui nessuno vuole parlare ora.
 
 I medici mandati sul territorio senza mascherine, senza dispositivi di protezione, con
 indicazioni contradditorie, hanno fatto tutto il possibile per tamponare l'emergenza.
-Così il personale ospedaliero, medici, infermieri, operatori sanitari, che ormai in burn-out
+Così il personale ospedaliero, medici, infermieri, operatori sanitari che, ormai in burn-out,
 continua a lavorare alacremente.
 
 Ma un sistema che ha bisogno di eroi e martiri è un sistema che non funziona.  
@@ -70,9 +70,9 @@ Perché così tanti medici sono risultati positivi ai sierologici per le IgG?
 Perché hanno chiesto per mesi dei tamponi ottenendo solo vane promesse?
 
 Semplicemnete perché **tutti** sapevano che testarli avrebbe significato
-trovarne moltissimi positivi e dunque doverne assumere altri.
+trovarne moltissimi positivi e dunque doverli isolare nelle loro case.
 
-Se tutti i medici Piemontesi, Lombardi o Veneti installassero *Immuni*, sarebbero
+Se tutti i medici Piemontesi, Lombardi, Emiliani o Veneti installassero *Immuni*, sarebbero
 bombardati da continue notifiche. Così gli infermieri e gli OS.
 
 Inoltre, se venisse installata da tutti (come stiamo assumendo), *Immuni* produrrebbe
