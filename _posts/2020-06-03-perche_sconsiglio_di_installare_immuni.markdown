@@ -6,8 +6,6 @@ image: https://www.commitstrip.com/wp-content/uploads/2020/05/Strip-Appli-stop-C
 author: giacomo
 ---
 
-![A parte il fatto che non può funzionare...](https://www.commitstrip.com/wp-content/uploads/2020/05/Strip-Appli-stop-Covid-650-finalenglish.jpg)
-
 Dopo mesi in cui [molti si sono battuti](https://www.lemonde.fr/idees/article/2020/04/25/stopcovid-est-un-projet-desastreux-pilote-par-des-apprentis-sorciers_6037721_3232.html)
 per riportare un po' di lucidità nella grottesca gestione della pandemia,
 ancora incontro persone in buona fede (sui social network, **solo** sui
@@ -16,6 +14,8 @@ social network) che mi chiedono perché io sconsigli caldamente di installare [*
 Le ragioni sono così tante che è impossibile elencarle tutte, ma vale forse la pena
 provare ad elencare quelle più spesso dimenticate nella speranza di
 non doverle ripetere continuamente.
+
+![A parte il fatto che non può funzionare...](https://www.commitstrip.com/wp-content/uploads/2020/05/Strip-Appli-stop-Covid-650-finalenglish.jpg)
 
 # Immuni aumenterà i morti a settembre
 
@@ -101,7 +101,7 @@ di dispositivi prima che il favore dei governi cessi, hanno dovuto
 [ridefinire il concetto stesso di contact tracing](https://medium.com/personaldata-io/inferring-distance-from-bluetooth-signal-strength-a-deep-dive-fe7badc2bb6d)
 per adattarlo ai cellulari.
 
-Ma vi sono **anche** moltissimi problemi "di privacy" bellamente ignorati da chi sviluppa *Immuni*.
+Ma vi sono **anche** moltissimi problemi "di privacy" ignorati da chi sviluppa *Immuni*.
 
 Uno tra tanti: mentre l'applicazione, di per sé, è tanto sicura quanto è sicuro il sistema operativo
 su cui gira ([molto poco](https://francozappa.github.io/about-bias/), ma questo costituisce un'altro ordine di problemi),
