@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Perché sconsiglio di installare Immuni?
-public: true
+public: false
 author: giacomo
 ---
 
