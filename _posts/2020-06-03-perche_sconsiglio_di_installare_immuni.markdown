@@ -76,8 +76,31 @@ Se tutti i medici Piemontesi, Lombardi, Emiliani o Veneti installassero *Immuni*
 bombardati da continue notifiche. Così gli infermieri e gli OS.
 
 Inoltre, se venisse installata da tutti (come stiamo assumendo), *Immuni* produrrebbe
-una enorme quantità di falsi positivi. Persone che ragionevolmente chiameranno
-il proprio medico di famiglia, già oberato dai malati veri.
+una enorme quantità di falsi positivi. Persone che ragionevolmente **chiameranno
+il proprio medico di famiglia**, già oberato dai malati veri.
+
+Infatti le [F.A.Q. di *Immuni*](https://www.immuni.italia.it/faq.html) declinano
+qualsiasi responsabilità, scaricandola sui medici di famiglia:
+
+<blockquote>
+  <h3>L’app fa diagnosi mediche o fornisce consigli medici?</h3>
+  <p>
+  Immuni non fa e <b>non può fare diagnosi</b>. Sulla base dello storico della tua esposizione a utenti potenzialmente contagiosi, Immuni elabora alcune raccomandazioni su come è necessario comportarsi. Ma l'app non è un dispositivo medico e <b>non può in alcun caso sostituire un medico</b>.
+  </p>
+</blockquote>
+
+<blockquote>
+  <h3>Le istruzioni fornite dall’app sono attendibili?</h3>
+  <p>
+  Le raccomandazioni fornite dall'app dipendono dalla durata della tua esposizione a utenti potenzialmente contagiosi e dalla distanza fra il tuo smartphone e quello di questi utenti durante l'esposizione.
+  </p>
+  <p>
+Si tratta di un <b>numero limitato di informazioni, peraltro mai perfette</b>, in quanto il segnale Bluetooth Low Energy è influenzato da vari fattori di disturbo. Quindi, la valutazione non sarà sempre impeccabile. Per esempio, se l'app ti raccomanda di isolarti, non significa che sicuramente hai il SARS-CoV-2. Significa piuttosto che, sulla base delle informazioni a disposizione dell'app, l'isolamento è la cosa più sicura da fare per te e per chi ti sta accanto.
+  </p>
+  <p>
+È quindi importante che tu segua le indicazioni fornite dall'app, per il bene tuo, dei tuoi cari e della comunità. <b>Non esitare a consultare il tuo medico di medicina generale</b> in caso l'app ti avverta di un possibile contagio.
+  </p>
+</blockquote>
 
 Infine, a causa dei [limiti specifici della tecnologia Bluetooth utilizzata](https://medium.com/personaldata-io/inferring-distance-from-bluetooth-signal-strength-a-deep-dive-fe7badc2bb6d), molti contatti non verranno registrati.
 
