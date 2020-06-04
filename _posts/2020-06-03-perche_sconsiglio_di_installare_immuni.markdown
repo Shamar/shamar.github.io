@@ -89,6 +89,9 @@ qualsiasi responsabilità, scaricandola sui medici di famiglia:
   </p>
 </blockquote>
 
+Dunque nessun "consiglio medico", solo "raccomandazioni", "istruzioni da seguire".  
+E sono attendibili?
+
 <blockquote>
   <h3>Le istruzioni fornite dall’app sono attendibili?</h3>
   <p>
@@ -101,6 +104,8 @@ Si tratta di un <b>numero limitato di informazioni, peraltro mai perfette</b>, i
 È quindi importante che tu segua le indicazioni fornite dall'app, per il bene tuo, dei tuoi cari e della comunità. <b>Non esitare a consultare il tuo medico di medicina generale</b> in caso l'app ti avverta di un possibile contagio.
   </p>
 </blockquote>
+
+11 righe di supercazzola per non rispondere chiaramente "No".
 
 Infine, a causa dei [limiti specifici della tecnologia Bluetooth utilizzata](https://medium.com/personaldata-io/inferring-distance-from-bluetooth-signal-strength-a-deep-dive-fe7badc2bb6d), molti contatti non verranno registrati.
 
